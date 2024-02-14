@@ -1,0 +1,9 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navList {
+  display: flex;
+  justify-content: flex-end;
+}
