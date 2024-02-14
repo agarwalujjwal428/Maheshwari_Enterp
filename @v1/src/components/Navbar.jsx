@@ -17,7 +17,7 @@ const Navbar = () => {
           <ul className="nav ">
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Home
+                Ho
               </a>
             </li>
             <li className="nav-item">
@@ -27,7 +27,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Blog
+                Bl
               </a>
             </li>
             <li className="nav-item">
