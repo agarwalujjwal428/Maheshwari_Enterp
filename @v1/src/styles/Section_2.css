@@ -1,0 +1,42 @@
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  #specialization {
+    background-color: #f4f4f4;
+    padding: 40px;
+    margin-top: 50px;
+  }
+  
+  #specialization h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(159, 159, 21);
+    font-weight: bolder;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .service {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .service h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .service p {
+    color: #666;
+  }
+  
