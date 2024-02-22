@@ -1,4 +1,4 @@
-import "../styles/Navbar.css";
+import "../styles/Footer.css";
 import { RiFacebookBoxLine } from "react-icons/ri";
 import { LiaTwitterSquare } from "react-icons/lia";
 import { FaInstagram } from "react-icons/fa6";
