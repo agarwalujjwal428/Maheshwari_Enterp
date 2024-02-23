@@ -9,28 +9,79 @@ ul{
     color: white;
     margin-top: 50px;
 }
-.footer-logocontainer
+.footer-top
 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-left: 30px;
+    
 }
 .footerlogotext
 {
-    padding-left: 30px;
+    padding-left: 35px;
     padding-right: 30px;
-    color: white;
+    color: #919191;
+    display: block;
+    overflow: hidden;
+    padding-top: 53px;
+}
+.footerlogotext p{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-right: 15%;
 }
 .footer-container
 {
     margin-top: 100px;
-    background-color: black;
-    height: 500px;
+    background-color:#202020;
+    min-height: 300px;
+    overflow-x: hidden;
 }
+
 a{
     color: white;
     text-decoration: none;
 }
 .handlecontact{
     display: flex;
+}
+.logocontainer{
+    align-items: center;
+    justify-content: center;
+}
+.footercolumn2,.footercolumn3{
+    line-height: 2.0em;
+}
+.footer-linkcontainer li,span,a{
+    color: #919191;
+    
+}
+.footercolumn2{
+    display: flex;
+    flex-direction: column;
+}
+.footercolumn3 a:hover
+{
+    color: #FFC400;
+
+}
+.footer-linkcontainer h3{
+    color: #FFC400;
+}
+.footercolumn1 h3{
+    padding-left: 33px;
+}
+.footercolumn2 span:hover{
+    cursor: pointer;
+    color: #FFC400;
+
+}
+.footercolumn2 span{
+    margin-left: 4px;
+}
+.footercolumn3 h3{
+    padding-left: 29px;
 }
