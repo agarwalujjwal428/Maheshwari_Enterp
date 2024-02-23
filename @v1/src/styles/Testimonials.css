@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+.bg-2 {
+  /* background: url(https://template.hasthemes.com/raees/raees/img/bg/2.png)
+    repeat scroll 0 0 / cover; */
+}
+.ptb-85 {
+  padding: 60px 45px;
+}
+.bg-overlay-1 {
+  background: rgba(255, 196, 0, 0.9);
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+.bg-overlay-1::before {
+  background: url(https://template.hasthemes.com/raees/raees/img/bg/2.png)
+  repeat scroll 0 0 / cover;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -99;
+}
+.testimonial_container {
+  max-width: 1170px;
+}
+.funfact-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.funfact-single {
+  max-width: 20%;
+  flex-basis: 20%;
+  border: 1.5px dotted rgb(136, 175, 166);
+  border-collapse: collapse;
+}
+
+.text-center {
+  text-align: center !important;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.funfact-count h3 {
+  color: #474747;
+  font-family: oswald;
+  font-size: 34px;
+  font-weight: 900;
+  margin: 10px 0;
+}
+.funfact-count h5 {
+  color: #303030;
+  font-size: 16px;
+  font-weight: 550;
+  margin: 0;
+}
+
+.stat-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.stat-title {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #6c63ff;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+}
