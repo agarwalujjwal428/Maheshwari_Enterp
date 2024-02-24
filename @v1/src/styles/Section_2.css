@@ -3,10 +3,11 @@
     padding-top: 70px;
     padding-bottom: 55px;
     background-image: url(https://template.hasthemes.com/raees/raees/img/bg/1.png);
+    overflow-x: hidden;
   }
   .spec-container{
     max-width:1170px;
-    padding:0 12px;
+    padding:0 120px;
     margin:0 50px;
   }
   .specialization-title{
