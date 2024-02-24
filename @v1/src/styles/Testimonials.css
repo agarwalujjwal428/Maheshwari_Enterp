@@ -15,7 +15,7 @@
 }
 .bg-overlay-1::before {
   background: url(https://template.hasthemes.com/raees/raees/img/bg/2.png)
-  repeat scroll 0 0 / cover;
+    repeat scroll 0 0 / cover;
   content: "";
   height: 100%;
   left: 0;
@@ -46,7 +46,7 @@
 .text-uppercase {
   text-transform: uppercase !important;
 }
-.funfact-count h3 {
+.funfact-count span {
   color: #474747;
   font-family: oswald;
   font-size: 34px;
@@ -76,3 +76,4 @@
   font-size: 2rem;
   font-weight: bold;
 }
+

@@ -1,49 +1,49 @@
- #specialization {
-    
-    padding-top: 70px;
-    padding-bottom: 55px;
-    background-image: url(https://template.hasthemes.com/raees/raees/img/bg/1.png);
-    overflow-x: hidden;
-  }
-  .spec-container{
-    max-width:1170px;
-    padding:0 120px;
-    margin:0 50px;
-  }
-  .specialization-title{
-    padding-bottom: 55px;
-  }
-  .specialization-title h2{
-    color: #ffc400;
-    margin: 0 0 25px;
-    font-size: 40px;
-    font-weight: 700;
-    font-family: 'oswald',sans-serif;
-  }
-  .specialization-title p{
-    margin: 0;
-    padding-right: 40%;
-  }
-  p{
-    color: #606060;
-    font-family: "Lato",sans-serif;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 0 0 15px;
-  }
-  .specialization-single{
-    padding-bottom: 35px;
-  }
- 
-  .service-title img{
-    float: left;
-    max-width: 100%;
-  }
-  .service-title h3{
-    color: #303030;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 25px;
-    padding-left: 48px;
-  }
-  
+
+#specialization {
+  padding-top: 70px;
+  padding-bottom: 55px;
+  background-image: url(https://template.hasthemes.com/raees/raees/img/bg/1.png);
+  overflow-x: hidden;
+}
+.spec-container {
+  max-width: 1170px;
+  padding: 0 120px;
+  margin: 0 50px;
+}
+.specialization-title {
+  padding-bottom: 55px;
+}
+.specialization-title h2 {
+  color: #ffc400;
+  margin: 0 0 25px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "oswald", sans-serif;
+}
+.specialization-title p {
+  margin: 0;
+  padding-right: 40%;
+}
+p {
+  color: #606060;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 15px;
+}
+.specialization-single {
+  padding-bottom: 35px;
+}
+
+.service-title img {
+  float: left;
+  max-width: 100%;
+}
+.service-title h3 {
+  color: #303030;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  padding-left: 48px;
+}
+
