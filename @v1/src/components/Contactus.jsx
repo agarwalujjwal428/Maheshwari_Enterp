@@ -1,11 +1,8 @@
 import "../styles/Contactus.css";
 
 const Contactus = () => {
-    return (
-        <>
-        
-        </>
-    );
+  return <>
+  </>;
 };
 
 export default Contactus;

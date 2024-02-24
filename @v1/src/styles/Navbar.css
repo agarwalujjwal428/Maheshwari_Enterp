@@ -1,9 +1,21 @@
 .navContainer {
   display: flex;
   justify-content: space-between;
+  background-color: #202020;
+}
+.nav-link {
+  color: white;
+}
+
+.navContainer a:hover {
+  color: #ffc400;
 }
 
 .navList {
   display: flex;
   justify-content: flex-end;
+}
+
+.active {
+  color: #ffc400;
 }
