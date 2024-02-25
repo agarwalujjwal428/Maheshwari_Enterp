@@ -1,43 +1,50 @@
-ul {
-  list-style-type: none;
+ul{
+    list-style-type: none;
 }
-.footer-linkcontainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  color: white;
-  margin-top: 50px;
+.footer-linkcontainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 50px;
 }
-.footer-top {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-left: 30px;
+.footer-top
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    
 }
-.footerlogotext {
-  padding-left: 35px;
-  padding-right: 30px;
-  color: #919191;
-  display: block;
-  overflow: hidden;
-  padding-top: 53px;
+.footerlogotext
+{
+    padding-left: 35px;
+    padding-right: 30px;
+    color: #6c757d;
+    display: block;
+    overflow: hidden;
+    padding-top: 53px;
 }
-.footerlogotext p {
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  padding-right: 15%;
+.footerlogotext p{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6c757d;
+    padding-right: 15%;
 }
-.footer-container {
-  background: linear-gradient(#131730, #2e4675,#1040a1);
-  min-height: 300px;
-  overflow-x: hidden;
+.footer-container
+{
+    
+    background: linear-gradient(#131730, #2e4675,#1040a1);
+    min-height: 300px;
+    overflow-x: hidden;
 }
 
-a {
-  color: white;
-  text-decoration: none;
+a{
+    color: #6c757d;
+    text-decoration: none;
 }
 .handlecontact {
   display: flex;
@@ -50,11 +57,10 @@ a {
 .footercolumn3 {
   line-height: 2em;
 }
-.footer-linkcontainer li,
-span,
-a {
-  color: #919191;
-  font-size: 13px;
+
+.footer-linkcontainer li,span,a{
+    color: #6c757d;
+        font-size: 13px;
 }
 .footercolumn2 {
   display: flex;
@@ -109,4 +115,44 @@ a {
 .ent {
   padding-left: 36px;
   margin-top: -12px;
+}
+.footercolumn2 span{
+    margin-left: 4px;
+}
+.footercolumn3 h3{
+    padding-left: 29px;
+}
+.blog-single p{
+    color: #6c757d;
+        font-size: 13px;
+    margin:8px 0 5px;
+}
+.blog-single a{
+    color: #ffc400;
+    font-size: 12px;
+    font-family: lato;
+    text-decoration: none;
+}
+.footercolumn4{
+    width: 25%;
+}
+.footer-image h4
+{
+    font-weight: 700;
+    padding-left: 14px;
+}
+.footer-image span
+{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 400;
+  
+}
+.footer-image 
+{
+   background-color: #ffc400;
+}
+.ent{
+    padding-left: 36px;
+    margin-top: -12px;
 }
