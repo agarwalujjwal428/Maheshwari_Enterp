@@ -14,9 +14,20 @@ const Footer = () => {
             <div className="footer-image">
               <img
                 src="https://static.wixstatic.com/media/b9782c_cac6b56e882744ffad78d25a4a42e2e7~mv2.png/v1/crop/x_56,y_156,w_478,h_274/fill/w_275,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png"
-                style={{ height: "164px", backgroundColor: "yellow" }}
+                style={{
+                  height: "79px",
+                  paddingLeft: "15px",
+                  marginTop: "15px",
+                  paddingRight: "10px",
+                }}
                 alt="logo"
               ></img>
+              <div>
+                <h4>Maheshwari </h4>
+              </div>
+              <div className="ent">
+                <span>Enterprises</span>
+              </div>
             </div>
 
             <div className="footerlogotext">
@@ -28,13 +39,13 @@ const Footer = () => {
               </p>
               <div className="logocontainer">
                 <a href="#">
-                  <RiFacebookBoxLine size={50} style={{ color: "#919191" }} />
+                  <RiFacebookBoxLine size={43} style={{ color: "#919191" }} />
                 </a>
                 <a href="#">
-                  <LiaTwitterSquare size={53} style={{ color: "#919191" }} />
+                  <LiaTwitterSquare size={46} style={{ color: "#919191" }} />
                 </a>
                 <a href="#">
-                  <CiInstagram size={49} style={{ color: "#919191" }} />
+                  <CiInstagram size={42} style={{ color: "#919191" }} />
                 </a>
               </div>
             </div>
@@ -70,11 +81,10 @@ const Footer = () => {
 
         <div className="footercolumn2">
           <h3>Our Services</h3>
-            <span>Architecture</span>
-            <span>Planning</span>
-            <span>Interior Design</span>
-            <span>Exterior Design</span>
-          
+          <span>Architecture</span>
+          <span>Planning</span>
+          <span>Interior Design</span>
+          <span>Exterior Design</span>
         </div>
         <div className="footercolumn3">
           <h3>Site Link</h3>
@@ -92,6 +102,24 @@ const Footer = () => {
               <a href="#">Project</a>
             </li>
           </ul>
+        </div>
+
+        <div className="footercolumn4">
+          <h3>Recent Blog</h3>
+          <div className="blog-single">
+            <p>
+              Raees the best Architect agency perspiciatis unde omnis iste natus
+              error sit volutatem
+            </p>
+            <a href="#">By Nawaz Sharif, 3rd March, 12.30 pm</a>
+          </div>
+          <div className="blog-single">
+            <p>
+              Raees the best Architect agency perspiciatis unde omnis iste natus
+              error sit volutatem
+            </p>
+            <a href="#">By Nawaz Sharif, 3rd March, 12.30 pm</a>
+          </div>
         </div>
       </div>
     </div>
