@@ -1,21 +1,30 @@
-.navContainer {
-  display: flex;
-  justify-content: space-between;
-  background-color: #202020;
+.nav-section {
+  padding: 8px 0;
+  background: #202020;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
+
 .nav-link {
   color: white;
 }
-
-.navContainer a:hover {
-  color: #ffc400;
+.navbar-logo {
+  height: 40px;
+  margin-left: -25px;
+}
+.navList a {
+  text-transform: uppercase;
 }
 
-.navList {
-  display: flex;
-  justify-content: flex-end;
+.navList a:hover {
+  color: #ffc400;
 }
 
 .active {
   color: #ffc400;
+}
+
+.navList {
+  margin-right: -30px;
 }

@@ -12,7 +12,6 @@ const App = () => {
       <Section_2 />
       <Testimonials />
       <Contactus/>
-     
       <Footer />
     </>
   );
