@@ -22,7 +22,7 @@ const Client_slide = ({ slides }) => {
           style={{ transform: `translateX(-${slideIndex * (100 / 2)}%)` }}
         >
           {slides.map((slide, index) => (
-            <div className="slide" key={index}>
+            <div className="slide-client" key={index}>
               <div className="slide-text">{slide.text}</div>
               <div className="slide-name text-right">{slide.name}</div>
               <div className="slide-designation text-right">
