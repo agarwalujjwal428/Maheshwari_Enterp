@@ -23,6 +23,10 @@ const Contactus = () => {
               <input type="text" id="subject" name="subject" required placeholder="Subject"></input>
             </div>
             <div class="form-group">
+              <label className="contact-lbl" for="number">PHONE NUMBER:</label>
+              <input type="text" id="number" name="number" required placeholder="Phone Number"></input>
+            </div>
+            <div class="form-group">
               <label className="contact-lbl" for="message">MESSAGE:</label>
               <textarea id="message" name="message" required placeholder="Message"></textarea>
             </div>
