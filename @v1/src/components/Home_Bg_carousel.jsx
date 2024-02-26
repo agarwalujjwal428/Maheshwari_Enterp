@@ -16,7 +16,7 @@ const Home_Bg_carousel = ({ slides }) => {
       {slides.map((slide, index) => (
         <div
           key={index}
-          className={`slide ${currentSlide === index ? "active" : ""}`}
+          className={`slide-bg ${currentSlide === index ? "active" : ""}`}
         >
           <img src={slide.image} alt={slide.alt} />
           {/* <div className="caption">{slide.caption}</div> */}
