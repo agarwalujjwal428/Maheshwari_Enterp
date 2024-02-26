@@ -6,17 +6,19 @@ import Testimonials from "./components/Testimonials";
 import Contactus from "./components/Contactus";
 import Aboutus from "./components/Aboutus";
 import Client_review from "./components/Client_review";
+import Home_Bg from "./components/Home_Bg";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Aboutus/>
+      <Home_Bg />
+      <Aboutus />
       <Section_2 />
       <Client_review/>
       <Testimonials />
-      <Contactus/>
-    
+      <Contactus />
+
       <Footer />
     </>
   );
