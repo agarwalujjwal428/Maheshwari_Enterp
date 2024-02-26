@@ -39,13 +39,13 @@ const Footer = () => {
               </p>
               <div className="logocontainer">
                 <a href="#">
-                  <RiFacebookBoxLine size={43} style={{ color: "#919191" }} />
+                  <RiFacebookBoxLine size={43} style={{ color: "#fafafa" }} />
                 </a>
                 <a href="#">
-                  <LiaTwitterSquare size={46} style={{ color: "#919191" }} />
+                  <LiaTwitterSquare size={46} style={{ color: "#fafafa" }} />
                 </a>
                 <a href="#">
-                  <CiInstagram size={42} style={{ color: "#919191" }} />
+                  <CiInstagram size={42} style={{ color: "#fafafa" }} />
                 </a>
               </div>
             </div>
@@ -58,7 +58,7 @@ const Footer = () => {
           <ul>
             <li className="handlecontact">
               <IoLocationOutline
-                style={{ marginRight: "13px", marginTop: "6px" }}
+                style={{ marginRight: "13px", marginTop: "6px",color:"#fafafa" }}
               />
               <p>
                 {" "}
@@ -67,14 +67,14 @@ const Footer = () => {
               </p>
             </li>
             <li className="handlecontact">
-              <BsTelephone style={{ marginRight: "13px", marginTop: "6px" }} />
+              <BsTelephone style={{ marginRight: "13px", marginTop: "6px",color:"#fafafa" }} />
               <p>
                 Mobile : +91-94141-30505 <br></br> Telephone : +0291-3551427
               </p>
             </li>
-            <li>
-              <FaEarthAmericas style={{ marginRight: "13px" }} />
-              Email : maheshwari9@hotmail.com
+            <li className="handlecontact">
+              <FaEarthAmericas style={{ marginRight: "13px", marginTop: "4px",color:"#fafafa" }} />
+              <p>Email : maheshwari9@hotmail.com</p>
             </li>
           </ul>
         </div>
@@ -111,14 +111,14 @@ const Footer = () => {
               Raees the best Architect agency perspiciatis unde omnis iste natus
               error sit volutatem
             </p>
-            <a href="#">By Nawaz Sharif, 3rd March, 12.30 pm</a>
+            <a href="#">By Devang Maheshwari, 3rd March, 12.30 pm</a>
           </div>
           <div className="blog-single">
             <p>
               Raees the best Architect agency perspiciatis unde omnis iste natus
               error sit volutatem
             </p>
-            <a href="#">By Nawaz Sharif, 3rd March, 12.30 pm</a>
+            <a href="#">By Devang Maheshwari, 3rd March, 12.30 pm</a>
           </div>
         </div>
       </div>

@@ -30,3 +30,25 @@ p {
     padding-right: 8px;
 
 }
+.founder{
+    text-align: end;
+    font-weight: bold;
+    padding-right: 6px;
+}
+.about-us-text{
+    padding:10px;
+    font-style: italic;
+    border:0.1px #131730;
+    border-radius: 15px;
+    text-align: justify;
+    margin:18px 0;
+    background-color: #fafafa;
+}
+.about-first-para{
+    text-align: justify;
+   
+}
+.img-fluid{
+height: 430px;
+margin-top: 20px;
+}

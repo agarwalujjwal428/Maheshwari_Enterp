@@ -26,8 +26,8 @@ const Aboutus = () => {
                   years of Experience
                 </h2>
                 <h4>About Us</h4>
-                <p>
-                  "Established in 1990 by Mr. Shailesh Maheshwari, Maheshwari
+                <p className="about-first-para">
+                  Established in 1990 by Mr. Shailesh Maheshwari, Maheshwari
                   Enterprises has become a leading name in the construction and
                   waterproofing products industry over the past three decades.
                   With a remarkable growth trajectory, we stand as a
@@ -35,14 +35,16 @@ const Aboutus = () => {
                   extensive range of top-quality products, all under one roof.
                   Our expertise in the field, spanning 30 years, sets us apart
                   from competitors, making us pioneers in introducing
-                  cutting-edge technologies in Jodhpur and neighboring areas.In
-                  the words of our founder, Mr. Shailesh Maheshwari, 'I started
-                  the business as a one-man show, handling everything from
-                  marketing to management. Over the years, we have expanded our
-                  product range and are proud distributors for 8 renowned
-                  companiesToday, Maheshwari Enterprises covers around 7
-                  districts, a testament to our commitment to excellence in the
-                  construction industry.'"
+                  cutting-edge technologies in Jodhpur and neighboring areas.
+                  <div className="about-us-text">
+                    "I started the business as a one-man show, handling
+                    everything from marketing to management. Over the years, we
+                    have expanded our product range and are proud distributors
+                    for 8 renowned companies. Today, Maheshwari Enterprises
+                    covers around 7 districts, a testament to our commitment to
+                    excellence in the construction industry."
+                    <div className="founder">-Shailesh Maheshwari</div>
+                  </div>
                 </p>
               </div>
             </div>
