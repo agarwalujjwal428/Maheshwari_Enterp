@@ -4,8 +4,8 @@
   align-items: center;
   justify-content: center;
   margin: 2em;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  margin-top: 100px;
+  margin-bottom: 120px;
   padding: 2em;
   box-sizing: border-box;
   width: 95%;
@@ -18,7 +18,6 @@
   height: 100%;
   margin-top: 10px;
   margin-right: 20px;
-  
 }
 .contact-form h2 {
   color: #ffc400;
@@ -77,19 +76,6 @@ textarea {
   min-height: 20px;
 }
 
-button {
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 18px;
-}
-
-button:hover {
-  background-color: #45a049;
-}
 .map {
   width: 40%;
   height: 100%;
@@ -101,12 +87,17 @@ button:hover {
 }
 
 #contact-btn {
-  color: #ffc400;
-  background: linear-gradient(#112137,#0c3f7b,#0274CA);
   font-weight: 700;
-}
-#contact-btn:hover{
+  color: #ffc400;
   background: transparent;
-  border:2px solid #ffc400;
-  color:#606060;
+  border: 1px solid #131730;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+#contact-btn:hover {
+  background: linear-gradient(#112137, #0c3f7b, #0274ca);
+  color: #fafafa;
 }
