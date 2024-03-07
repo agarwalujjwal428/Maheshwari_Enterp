@@ -32,7 +32,7 @@ const Client_slide = ({ slides }) => {
           ))}
         </div>
         <button className="client-slide-btn prev" onClick={handlePrev}>
-        <FontAwesomeIcon icon={faAngleLeft} />
+          <FontAwesomeIcon icon={faAngleLeft} />
         </button>
         <button className="client-slide-btn next" onClick={handleNext}>
           <FontAwesomeIcon icon={faAngleRight} /> {/* Use the imported icon */}
