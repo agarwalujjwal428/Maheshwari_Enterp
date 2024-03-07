@@ -5,17 +5,22 @@ import "../styles/Home_Bg.css";
 const Home_Bg = () => {
   const slides = [
     {
-      image: "/src/assets/images/3.jpg",
+      image: "/src/assets/images/F_1.jpg",
       alt: "Slide 1",
       caption: "This is slide 1",
     },
     {
-      image: "/src/assets/images/4.jpg",
-      alt: "Slide 2",
-      caption: "This is slide 2",
+      image: "/src/assets/images/F_3.jpg",
+      alt: "Slide 3",
+      caption: "This is slide 3",
     },
     {
-      image: "/src/assets/images/5.jpg",
+      image: "/src/assets/images/F_4.jpg",
+      alt: "Slide 3",
+      caption: "This is slide 3",
+    },
+    {
+      image: "/src/assets/images/F_5.jpg",
       alt: "Slide 3",
       caption: "This is slide 3",
     },
