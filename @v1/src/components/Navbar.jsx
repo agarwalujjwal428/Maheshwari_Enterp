@@ -1,9 +1,33 @@
 import "../styles/Navbar.css";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      <div className="nav-section">
+      <div
+        className={`nav-section ${
+          scrolling ? "nav-scrolled" : "nav-not-scrolled"
+        }`}
+        style={{ transition: "all 1s ease-out" }}
+      >
         <div className="container navContainer">
           <div className="row">
             <div className="main-menu navbar navbar-expand-md justify-content-between">

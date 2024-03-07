@@ -14,6 +14,7 @@ const Footer = () => {
             <div className="footer-image">
               <img
                 src="https://static.wixstatic.com/media/b9782c_cac6b56e882744ffad78d25a4a42e2e7~mv2.png/v1/crop/x_56,y_156,w_478,h_274/fill/w_275,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png"
+                // src="/src/assets/images/E_6.png"
                 style={{
                   height: "79px",
                   paddingLeft: "15px",
@@ -58,7 +59,11 @@ const Footer = () => {
           <ul>
             <li className="handlecontact">
               <IoLocationOutline
-                style={{ marginRight: "13px", marginTop: "6px",color:"#fafafa" }}
+                style={{
+                  marginRight: "13px",
+                  marginTop: "6px",
+                  color: "#fafafa",
+                }}
               />
               <p>
                 {" "}
@@ -67,13 +72,25 @@ const Footer = () => {
               </p>
             </li>
             <li className="handlecontact">
-              <BsTelephone style={{ marginRight: "13px", marginTop: "6px",color:"#fafafa" }} />
+              <BsTelephone
+                style={{
+                  marginRight: "13px",
+                  marginTop: "6px",
+                  color: "#fafafa",
+                }}
+              />
               <p>
                 Mobile : +91-94141-30505 <br></br> Telephone : +0291-3551427
               </p>
             </li>
             <li className="handlecontact">
-              <FaEarthAmericas style={{ marginRight: "13px", marginTop: "4px",color:"#fafafa" }} />
+              <FaEarthAmericas
+                style={{
+                  marginRight: "13px",
+                  marginTop: "4px",
+                  color: "#fafafa",
+                }}
+              />
               <p>Email : maheshwari9@hotmail.com</p>
             </li>
           </ul>

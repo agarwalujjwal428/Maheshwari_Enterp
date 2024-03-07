@@ -1,9 +1,20 @@
 .nav-section {
   padding: 8px 0;
-  background: linear-gradient(#112137,#0c3f7b,#0274CA);
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+.nav-scrolled {
+  /* background: linear-gradient(#112137, #0c3f7b, #0274ca); */
+  /* background-color: #777777; */
+  background-color: #000000;
+  opacity: 0.8;
+}
+.nav-not-scrolled {
+  /* background: #777777; */
+  background-color: #000000;
+  opacity: 0.5;
 }
 
 .nav-link {

@@ -17,8 +17,13 @@ const Home_Bg_carousel = ({ slides }) => {
         <div
           key={index}
           className={`slide-bg ${currentSlide === index ? "active" : ""}`}
+          style={{
+            backgroundImage: `url(${slide.image})`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat"
+          }}
         >
-          <img src={slide.image} alt={slide.alt} />
           {/* <div className="caption">{slide.caption}</div> */}
         </div>
       ))}
