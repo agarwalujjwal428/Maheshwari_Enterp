@@ -7,7 +7,7 @@ import Contactus from "./components/Contactus";
 import Aboutus from "./components/Aboutus";
 import Client_review from "./components/Client_review";
 import Home_Bg from "./components/Home_Bg";
-
+import AllProductService from "./components/AllProductService";
 const App = () => {
   return (
     <>
@@ -15,11 +15,12 @@ const App = () => {
       <Home_Bg />
       <Aboutus />
       <Section_2 />
-      <Client_review/>
+      <Client_review />
       <Testimonials />
       <Contactus />
 
       <Footer />
+      <AllProductService />
     </>
   );
 };
