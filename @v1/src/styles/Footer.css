@@ -106,13 +106,7 @@ a {
   color: black;
   font-weight: 400;
 }
-/* .footer-image {
-background-color: #ffc400;
-} */
-.ent {
-  padding-left: 36px;
-  margin-top: -12px;
-}
+
 .footercolumn2 span {
   margin-left: 4px;
 }
@@ -137,15 +131,17 @@ background-color: #ffc400;
   font-weight: 700;
   padding-left: 14px;
 }
+
+.ent{
+    padding-left: 36px;
+    margin-top: -12px;
+=======
 .footer-image span {
   font-size: 1.2rem;
   color: black;
   font-weight: 400;
 }
 
-.ent {
-  padding-left: 36px;
-  margin-top: -12px;
 }
 .handlecontact p,
 li {

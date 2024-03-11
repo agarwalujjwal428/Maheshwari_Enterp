@@ -9,7 +9,7 @@
   padding: 2em;
   box-sizing: border-box;
   width: 95%;
-  height: 600px;
+  height: 650px;
   background-color: #fafafa;
 }
 
@@ -86,7 +86,7 @@ textarea {
   width: 100%;
 }
 
-#contact-btn {
+/* #contact-btn {
   font-weight: 700;
   color: #ffc400;
   background: transparent;
@@ -100,4 +100,69 @@ textarea {
 #contact-btn:hover {
   background: linear-gradient(#112137, #0c3f7b, #0274ca);
   color: #fafafa;
+} */
+.send-button {
+  font-family: inherit;
+  font-size: 15px;
+  background: transparent;
+  border: 1px solid #131730;
+  color: #ffc400;
+  padding: 0.7em 1em;
+  padding-left: 2.1em;
+  display: flex;
+  align-items: center;
+  width: 155px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+ margin-left: 3.8px;
+ margin-top: 20px;
+}
+
+.send-button span {
+  display: block;
+  font-size: 15px;
+
+  margin-left: 0.8em;
+  color: #303030;
+  font-weight: 700;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.send-button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+.send-button:hover{
+  background: #1a1a1a
+
+}
+.send-button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.send-button:hover svg {
+  transform: translateX(2.1em) rotate(45deg) scale(1.1);
+  color: #fafafa;
+}
+
+.send-button:hover span {
+  transform: translateX(10em);
+}
+
+.send-button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
 }
