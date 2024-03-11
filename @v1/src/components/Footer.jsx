@@ -13,22 +13,15 @@ const Footer = () => {
           <div className="footer-top">
             <div className="footer-image">
               <img
-                src="https://static.wixstatic.com/media/b9782c_cac6b56e882744ffad78d25a4a42e2e7~mv2.png/v1/crop/x_56,y_156,w_478,h_274/fill/w_275,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png"
-                // src="/src/assets/images/E_6.png"
+                src="/src/assets/images/E_6.1.png"
                 style={{
                   height: "79px",
                   paddingLeft: "15px",
-                  marginTop: "15px",
+                  marginTop: "52px",
                   paddingRight: "10px",
                 }}
                 alt="logo"
               ></img>
-              <div>
-                <h4>Maheshwari </h4>
-              </div>
-              <div className="ent">
-                <span>Enterprises</span>
-              </div>
             </div>
 
             <div className="footerlogotext">
