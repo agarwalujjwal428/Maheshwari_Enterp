@@ -10,7 +10,6 @@ const Home_Bg = () => {
       caption: "This is slide 1",
     },
     {
-
       image: "/src/assets/images/F_3.jpg",
       alt: "Slide 3",
       caption: "This is slide 3",
@@ -20,16 +19,11 @@ const Home_Bg = () => {
       alt: "Slide 3",
       caption: "This is slide 3",
     },
-    {
-      image: "/src/assets/images/F_5.jpg",
-      alt: "Slide 3",
-      caption: "This is slide 3",
-    },
-    {
-      image: "/src/assets/images/pic2.jpg",
-      alt: "Slide 2",
-      caption: "This is slide 2",
-    },
+    // {
+    //   image: "/src/assets/images/F_5.jpg",
+    //   alt: "Slide 3",
+    //   caption: "This is slide 3",
+    // },
     // {
     //   image: "/src/assets/images/pic3.webp",
     //   alt: "Slide 3",
@@ -40,7 +34,12 @@ const Home_Bg = () => {
   return (
     <div className="home_bg_container">
       <Home_Bg_carousel slides={slides} />
-      <div className="home_bg_header">Maheshwari Enterprises</div>
+      <div className="home_bg_header">
+        <img
+          src="/src/assets/images/E_B2.png"
+          style={{ height: "400px ", width: "400px"}}
+        ></img>
+      </div>
     </div>
   );
 };

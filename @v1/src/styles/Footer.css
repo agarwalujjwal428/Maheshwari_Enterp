@@ -109,9 +109,9 @@ a{
   color: black;
   font-weight: 400;
 }
-.footer-image {
+/* .footer-image {
   background-color: #ffc400;
-}
+} */
 .ent {
   padding-left: 36px;
   margin-top: -12px;
@@ -148,10 +148,7 @@ a{
     font-weight: 400;
   
 }
-.footer-image 
-{
-   background-color: #ffc400;
-}
+
 .ent{
     padding-left: 36px;
     margin-top: -12px;

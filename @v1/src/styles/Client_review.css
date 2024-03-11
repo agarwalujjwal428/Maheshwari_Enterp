@@ -48,7 +48,7 @@
     cursor: pointer;
   }
   .client-slide-btn:hover{
-    background: linear-gradient(#112137,#0c3f7b,#0274CA);
+    background: #1a1a1a;
     color: #fafafa;
   }
   .prev {
