@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="row">
             <div className="main-menu navbar navbar-expand-md justify-content-between">
               <div className="navbar-header">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="/">
                   <img
                     className="navbar-logo"
                     src="/src/assets/images/E_6.1.png"
@@ -43,12 +43,12 @@ const Navbar = () => {
               <div className="navList">
                 <ul className="nav">
                   <li className="nav-item">
-                    <a className="nav-link active" href="#">
+                    <a className="nav-link active" href="/">
                       Home
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="/products&services">
                       Products & Services
                     </a>
                   </li>

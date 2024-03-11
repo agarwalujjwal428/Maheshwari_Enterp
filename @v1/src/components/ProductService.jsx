@@ -1,7 +1,7 @@
 import React from "react";
 // import { useHistory } from "react-router-dom";
 
-const ProductService = ({ id, product }) => {
+const ProductService = ({ id, data }) => {
   //   const history = useHistory();
 
   //   const handleReadMore = () => {
@@ -10,10 +10,15 @@ const ProductService = ({ id, product }) => {
 
   return (
     <div className="product-service" id={id}>
-      <h3>{product.title}</h3>
-      <p>{product.description}</p>
-      <button >Read More</button>
-    </div>
+      <img src={data.img} style={{ width: "200px", height: "200px" }}></img>
+      <h3>{data.title}</h3>
+      <p>{data.description}</p>
+      <button class="read-more">
+  <span class="circle" aria-hidden="true">
+  <span class="icon arrow"></span>
+  </span>
+  <span class="read-btn-text">Read More</span>
+</button>    </div>
   );
 };
 

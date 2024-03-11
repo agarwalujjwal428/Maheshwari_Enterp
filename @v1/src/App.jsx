@@ -1,25 +1,20 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Section_2 from "./components/Section_2";
-import Testimonials from "./components/Testimonials";
-import Contactus from "./components/Contactus";
-import Aboutus from "./components/Aboutus";
-import Client_review from "./components/Client_review";
-import Home_Bg from "./components/Home_Bg";
 import AllProductService from "./components/AllProductService";
+import Home from "./components/Home";
+
 const App = () => {
   return (
-    <>
+    <Router>
       <Navbar />
-      <Home_Bg />
-      <Aboutus />
-      <Section_2 />
-      <Client_review />
-      <Testimonials />
-      <Contactus />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/products&services" element={<AllProductService />}></Route>
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 };
 

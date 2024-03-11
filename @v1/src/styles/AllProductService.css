@@ -1,0 +1,228 @@
+/* 
+.prod-serv-btn {
+  position: relative;
+  padding: 1rem 2rem 0.5rem 2.5rem;
+  color: #ffc400;
+  font-size: 18px;
+  font-weight: 700;
+  border: 1px solid #131730;
+  background-color: #fafafa;
+  -webkit-transition: padding 0.3s ease-in-out;
+  transition: padding 0.3s ease-in-out;
+  font-family: "Lato", sans-serif;
+}
+
+.prod-serv-btn:before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#112137, #0c3f7b, #0274ca);
+  border-right: 1px solid #131730;
+  border-bottom: 1px solid #131730;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.prod-serv-btn:hover {
+  padding: 0.75rem 2.25rem;
+  background: linear-gradient(#112137, #0c3f7b, #0274ca);
+  color: #fafafa;
+}
+
+.prod-serv-btn:hover:before {
+  top: 0;
+  left: 0;
+}
+
+.prod-active {
+  padding: 0.75rem 2.25rem;
+  background: linear-gradient(#112137, #0c3f7b, #0274ca);
+  color: #fafafa;
+}
+.prod-active:before {
+  top: 0;
+  left: 0;
+}
+.product-service {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  text-align: justify;
+}
+*/
+.prod-data,
+.serv-data {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* Container */
+.prod-serv-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1em;
+  background-color: #fafafa;
+  margin-bottom: 100px;
+}
+
+/* Buttons Container */
+.prod-serv-btn-container {
+  margin: 2em;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+/* Product/Service Card */
+.product-service {
+  width: calc(33.33% - 20px);
+  text-align: justify;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding and border do not affect the width */
+}
+
+.product-service img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product-service h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.product-service p {
+  margin-top: 5px;
+}
+
+.prod-serv-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #1a1a1a;
+  margin: 0 10px;
+  color: #fafafa;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.prod-serv-btn:hover {
+  background-color: #0c3f7b;
+}
+
+.prod-active {
+  box-shadow: 0 0.2em 0.1em 0.2em rgba(255, 196, 0, 0.5);
+}
+
+.prod-serv-head {
+  color: #ffc400;
+  margin: 0 0 25px 15px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "oswald", sans-serif;
+}
+.prod-border {
+  content: "";
+  border-bottom: 3px solid grey;
+  width: 110px;
+  margin: 6px 0 0 2.5px;
+}
+.read-more {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  width: 12rem;
+  height: auto;
+}
+
+.read-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #1a1a1a;
+  border-radius: 1.625rem;
+}
+
+.read-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+.read-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+.read-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+.read-more .read-btn-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.65rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #1a1a1a;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  font-size: 15px;
+}
+
+.read-more:hover .circle {
+  width: 100%;
+}
+
+.read-more:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+.read-more:hover .read-btn-text {
+  color: #fff;
+}

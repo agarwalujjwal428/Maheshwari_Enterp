@@ -6,7 +6,7 @@ const Home_Bg_carousel = ({ slides }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((currentSlide + 1) % slides.length);
-    }, 10000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [currentSlide, slides.length]);
