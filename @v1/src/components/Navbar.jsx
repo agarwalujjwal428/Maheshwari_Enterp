@@ -58,11 +58,11 @@ const Navbar = () => {
                   <li className="nav-item">
                     <a
                       className={`nav-link ${
-                        location.pathname === "/products&services"
+                        location.pathname.startsWith("/products-and-services")
                           ? "active"
                           : ""
                       }`}
-                      href="/products&services"
+                      href="/products-and-services"
                     >
                       Products & Services
                     </a>
