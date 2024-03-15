@@ -68,12 +68,22 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a
+                      className={`nav-link ${
+                        location.pathname === "/blog" ? "active" : ""
+                      }`}
+                      href="/blog"
+                    >
                       Blog
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a
+                      className={`nav-link ${
+                        location.pathname === "/recentproject" ? "active" : ""
+                      }`}
+                      href="/recentproject"
+                    >
                       Projects
                     </a>
                   </li>

@@ -91,6 +91,7 @@
   border: 1px solid #131730;
   border-radius: 5px;
   box-sizing: border-box; /* Ensure padding and border do not affect the width */
+ 
 }
 
 .product-service img {
