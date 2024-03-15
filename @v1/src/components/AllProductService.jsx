@@ -45,23 +45,33 @@ const AllProductService = () => {
           </h2>
           <div className="prod-data">
             {prodData.products.map((product) => (
-              <ProductService key={product.id} data={product} />
+              <ProductService
+                key={product.id}
+                prodId={product.id}
+                data={product}
+              />
             ))}
           </div>
         </div>
       ) : (
-        <>
-          <div className="serv-container">
-            <h2 className="prod-serv-head">
-              Our Services<div className="prod-border"></div>
-            </h2>
-            <div className="serv-data">
-              {prodData.services.map((service) => (
-                <ProductService key={service.id} data={service} />
-              ))}
-            </div>
+        <div className="serv-container">
+          <h2 className="prod-serv-head">
+            Our Services
+            <div className="prod-border"></div>
+          </h2>
+          <div className="serv-data">
+            {prodData.services.map((service) => {
+              console.log("****", service.id); // Log prodId for each service
+              return (
+                <ProductService
+                  key={service.id}
+                  prodId={service.id}
+                  data={service}
+                />
+              );
+            })}
           </div>
-        </>
+        </div>
       )}
     </div>
   );
