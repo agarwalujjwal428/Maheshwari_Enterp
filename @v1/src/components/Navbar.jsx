@@ -1,7 +1,9 @@
 import "../styles/Navbar.css";
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  const location = useLocation();
   const [scrolling, setScrolling] = useState(false);
 
   useEffect(() => {
@@ -20,6 +22,7 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <>
       <div
@@ -43,22 +46,44 @@ const Navbar = () => {
               <div className="navList">
                 <ul className="nav">
                   <li className="nav-item">
-                    <a className="nav-link active" href="/">
+                    <a
+                      className={`nav-link ${
+                        location.pathname === "/" ? "active" : ""
+                      }`}
+                      href="/"
+                    >
                       Home
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/products&services">
+                    <a
+                      className={`nav-link ${
+                        location.pathname === "/products&services"
+                          ? "active"
+                          : ""
+                      }`}
+                      href="/products&services"
+                    >
                       Products & Services
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a
+                      className={`nav-link ${
+                        location.pathname === "/blog" ? "active" : ""
+                      }`}
+                      href="/blog"
+                    >
                       Blog
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a
+                      className={`nav-link ${
+                        location.pathname === "/recentproject" ? "active" : ""
+                      }`}
+                      href="/recentproject"
+                    >
                       Projects
                     </a>
                   </li>

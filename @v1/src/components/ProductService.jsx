@@ -14,11 +14,12 @@ const ProductService = ({ id, data }) => {
       <h3>{data.title}</h3>
       <p>{data.description}</p>
       <button class="read-more">
-  <span class="circle" aria-hidden="true">
-  <span class="icon arrow"></span>
-  </span>
-  <span class="read-btn-text">Read More</span>
-</button>    </div>
+        <span class="circle" aria-hidden="true">
+          <span class="icon arrow"></span>
+        </span>
+        <span class="read-btn-text">Read More</span>
+      </button>{" "}
+    </div>
   );
 };
 

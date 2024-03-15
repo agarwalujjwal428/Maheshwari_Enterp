@@ -1,16 +1,16 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-const ProductServiceDetails = () => {
+const BlogDetails = () => {
   const { id } = useParams();
-  const product = products[id];
+  const blog = blogs[id];
 
   return (
     <div className="product-service-details">
-      <h3>{product.title}</h3>
-      <p>{product.fullDescription}</p>
+      <h3>{blog.title}</h3>
+      <p>{blog.fullDescription}</p>
     </div>
   );
 };
 
-export default ProductServiceDetails;
+export default BlogDetails;
