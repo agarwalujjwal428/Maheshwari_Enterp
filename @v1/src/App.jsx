@@ -14,8 +14,9 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Home />} 
-         <Route exact
+        <Route exact path="/" element={<Home />} />
+        <Route
+          exact
           path="/products-and-services"
           element={<AllProductService />}
         />
@@ -29,9 +30,13 @@ const App = () => {
           path="/products-and-services/:title/:prodId/:category/:itemTitle"
           element={<ProductServiceItem />}
         />
-            
+
         <Route exact path="/blog" element={<AllBlog />}></Route>
-        <Route exact path="/recentproject" element={<RecentProjectsPage />}></Route>
+        <Route
+          exact
+          path="/recentproject"
+          element={<RecentProjectsPage />}
+        ></Route>
       </Routes>
       <Footer />
     </Router>

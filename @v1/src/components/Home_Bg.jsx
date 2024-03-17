@@ -52,7 +52,7 @@ const Home_Bg = () => {
   return (
     <div className="home_bg_container">
       <Home_Bg_carousel slides={slides} />
-      <div className={`home_bg_pic ${fade ? "fadeOutRight" : ""}`}>
+      <div className={`home_bg_pic ${fade ? "fadeOut" : ""}`}>
         <img
           src="/src/assets/images/E_B2.png"
           style={{ height: "250px", width: "250px" }}
@@ -61,18 +61,18 @@ const Home_Bg = () => {
       </div>
       <div
         className={`home_bg_first animate__animated  ${
-          fade ? "animate__lightSpeedOutRight" : "animate__lightSpeedInLeft"
-        } animate__duration-2s`}
+          fade ? "animate__fadeOut" : "animate_fadeIn"
+        } animate__duration-5s`}
       >
         Creating Quality Construction
       </div>
-      <div
+      {/* <div
         className={`home_bg_second animate__animated ${
-          fade ? "animate__lightSpeedOutRight" : "animate__lightSpeedInLeft"
+          fade ? "animate__fadeOut" : "animate_fadeIn"
         } animate__duration-2s animate__delay-0.5s`}
       >
         Since 1990
-      </div>
+      </div> */}
     </div>
   );
 };
