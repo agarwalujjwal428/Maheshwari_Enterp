@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import AllBlog from "./components/AllBlog";
 import RecentProjectsPage from "./components/RecentProjectsPage";
 import ProductServiceItem from "./components/ProductServiceItem";
+import BlogDetails from "./components/BlogDetails";
 
 const App = () => {
   return (
@@ -32,6 +33,12 @@ const App = () => {
         />
 
         <Route exact path="/blog" element={<AllBlog />}></Route>
+<<<<<<< HEAD
+=======
+
+        <Route exact path="/blog/:title/:blogId" element={<BlogDetails />}></Route>
+
+>>>>>>> 763c90844ea5b41c4228bf97403d7829711c5558
         <Route
           exact
           path="/recentproject"

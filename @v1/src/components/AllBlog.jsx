@@ -14,7 +14,7 @@ const AllBlog = () => {
           </h2>
       <div className="blog-data">
         {blogData.blogs.map((blog) => (
-          <Blog key={blog.id} data={blog} />
+          <Blog key={blog.id} blogId={blog.id} data={blog} />
         ))}
       </div>
     </div>

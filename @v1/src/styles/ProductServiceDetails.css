@@ -73,6 +73,9 @@
   font-weight: 600;
   margin: 0 0 1rem;
   text-transform: capitalize;
+  height: 48px;
+  display: flex;
+  align-items: center;
 }
 .buttonDownload {
   background-color: transparent;
