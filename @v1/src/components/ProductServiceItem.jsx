@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import prodData from "../products_services.json";
-import "../styles/ProductServiceItem.css"
+import "../styles/ProductServiceItem.css";
 
 const ProductServiceItem = () => {
   const { title, prodId, category, itemTitle } = useParams();
@@ -22,22 +22,22 @@ const ProductServiceItem = () => {
 
   console.log("Company Item:", companyItem);
 
-  return ( 
+  return (
     <div className="pro-serv-item-details">
       <div className="pro-serv-card">
         <h2 className="pro-serv-item-head">{itemTitle}</h2>
         <div className="product-detail">
           <div className="product-header">
-          {companyItem.itemImage !== "" && (
-                  <div className="pro-serv-item-image">
-                    <img
-                      src={companyItem.itemImage}
-                      alt={companyItem.itemTitle}
-                      style={{ height: "180px", width: "260px" }}
-                    />
-                  </div>
-                )}
-                <div className="product-description">{companyItem.itemDesc}</div>
+            {companyItem.itemImage !== "" && (
+              <div className="pro-serv-item-image">
+                <img
+                  src={companyItem.itemImage}
+                  alt={companyItem.itemTitle}
+                  style={{ height: "180px", width: "260px" }}
+                />
+              </div>
+            )}
+            <div className="product-description">{companyItem.itemDesc}</div>
           </div>
           <div>
             <h4 id="ps-item-size-head">Sizes</h4>
@@ -52,7 +52,7 @@ const ProductServiceItem = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  {companyItem.itemDetails.itemSizes.map((item)=>(
+                  {companyItem.itemDetails.itemSizes.map((item) => (
                     <tr>
                       <td>{item.size}</td>
                       <td>{item.suitableFor}</td>
@@ -69,7 +69,7 @@ const ProductServiceItem = () => {
             <div className="table-wrapper">
               <table>
                 <tbody>
-                  {companyItem.itemDetails.itemOc.map((item)=>(
+                  {companyItem.itemDetails.itemOc.map((item) => (
                     <tr>
                       <td>{item.ocName}</td>
                       <td>{item.ocValue}</td>
@@ -79,34 +79,30 @@ const ProductServiceItem = () => {
               </table>
             </div>
           </div>
-
         </div>
         <div>
           <h2>Product Specification</h2>
           <table>
-                <thead>
-                  <tr>
-                    <th>S.No</th>
-                    <th>Part</th>
-                    <th>Material</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {companyItem.itemDetails.itemSpec.map((item)=>(
-                    <tr>
-                      <td>{item.specId}</td>
-                      <td>{item.specPart}</td>
-                      <td>{item.specMaterial}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-
+            <thead>
+              <tr>
+                <th>S.No</th>
+                <th>Part</th>
+                <th>Material</th>
+              </tr>
+            </thead>
+            <tbody>
+              {companyItem.itemDetails.itemSpec.map((item) => (
+                <tr>
+                  <td>{item.specId}</td>
+                  <td>{item.specPart}</td>
+                  <td>{item.specMaterial}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
-
       </div>
     </div>
-
   );
 };
 

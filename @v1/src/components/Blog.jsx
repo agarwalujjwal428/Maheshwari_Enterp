@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons"; // Import the solid version
+import { Link } from "react-router-dom";
 
-const Blog = ({ id, data }) => {
+const Blog = ({ blogId, data }) => {
   const [likes, setLikes] = useState(10); // Initial like count is 10
   const [liked, setLiked] = useState(false); // Initial state of like button
 
@@ -16,7 +17,7 @@ const Blog = ({ id, data }) => {
   };
 
   return (
-    <div className="blog" id={id}>
+    <div className="blog" id={blogId}>
       <img
         src={data.img}
         style={{ width: "200px", height: "200px" }}
@@ -37,12 +38,14 @@ const Blog = ({ id, data }) => {
         </button>
         <span className="like-count">{likes}</span>
       </div>
-      <button className="blog-read-more">
-        <span className="circle" aria-hidden="true">
-          <span className="icon arrow"></span>
-        </span>
-        <span className="read-btn-text">Read More</span>
-      </button>
+      <Link to={`/blog/${data.title}/${blogId}`}>
+        <button className="blog-read-more">
+          <span className="circle" aria-hidden="true">
+            <span className="icon arrow"></span>
+          </span>
+          <span className="read-btn-text">Read More</span>
+        </button>
+      </Link>
     </div>
   );
 };

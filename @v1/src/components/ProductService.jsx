@@ -12,7 +12,9 @@ const ProductService = ({ prodId, data }) => {
       />
       <h3>{data.title}</h3>
       <p>{data.description}</p>
-      <Link to={`/products-and-services/${data.title}/${prodId}/${data.category}`}>
+      <Link
+        to={`/products-and-services/${data.title}/${prodId}/${data.category}`}
+      >
         <button className="read-more">
           <span className="circle" aria-hidden="true">
             <span className="icon arrow"></span>

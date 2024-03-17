@@ -12,8 +12,8 @@ const ProductServiceDetails = () => {
   } else if (category === "services") {
     companyItem = prodData.services.find((service) => service.id === prodId);
   }
-  console.log("****comapny",companyItem);
-    
+  console.log("****comapny", companyItem);
+
   return (
     <div className="product-service-details">
       <div className="product-service-card">
