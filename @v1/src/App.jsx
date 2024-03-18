@@ -33,12 +33,11 @@ const App = () => {
         />
 
         <Route exact path="/blog" element={<AllBlog />}></Route>
-<<<<<<< HEAD
-=======
-
-        <Route exact path="/blog/:title/:blogId" element={<BlogDetails />}></Route>
-
->>>>>>> 763c90844ea5b41c4228bf97403d7829711c5558
+        <Route
+          exact
+          path="/blog/:title/:blogId"
+          element={<BlogDetails />}
+        ></Route>
         <Route
           exact
           path="/recentproject"
