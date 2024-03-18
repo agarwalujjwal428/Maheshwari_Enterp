@@ -32,7 +32,7 @@ const Footer = () => {
                 voluptatem accusantium doloremque laudan
               </p>
               <div className="logocontainer">
-                <a href="#">
+                <a href="https://www.facebook.com/maheshwarienterprisesjodhpur" target="_blank">
                   <RiFacebookBoxLine size={43} style={{ color: "#fafafa" }} />
                 </a>
                 <a href="#">
@@ -100,16 +100,16 @@ const Footer = () => {
           <h3>Site Link</h3>
           <ul>
             <li>
-              <a href="#"> Home</a>
+              <a href="/"> Home</a>
             </li>
             <li>
-              <a href="#">Products & Services</a>
+              <a href="/products-and-services">Products & Services</a>
             </li>
             <li>
-              <a href="#">Blog</a>
+              <a href="/blog">Blog</a>
             </li>
             <li>
-              <a href="#">Project</a>
+              <a href="/recentproject">Project</a>
             </li>
           </ul>
         </div>
