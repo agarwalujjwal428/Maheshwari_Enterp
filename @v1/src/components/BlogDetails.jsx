@@ -21,7 +21,10 @@ const BlogDetails = () => {
     <div>
       <div>{title}</div>
       <div>
-        <img src={blogItem.img} style={{ width: "200px", height: "200px" }}></img>
+        <img
+          src={blogItem.img}
+          style={{ width: "200px", height: "200px" }}
+        ></img>
       </div>
       <div>
         {blogItem.blogItems.map((blog_item) => (
@@ -29,7 +32,6 @@ const BlogDetails = () => {
         ))}
       </div>
       <div>{blogItem.description}</div>
-
     </div>
   );
 };
