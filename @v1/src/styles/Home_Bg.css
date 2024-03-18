@@ -9,7 +9,7 @@
 .home_bg_pic {
   position: absolute;
   top: 94px;
-  left: 499px;
+  left: 440px;
 }
 
 .slide-bg {
@@ -35,7 +35,7 @@
 .home_bg_first,
 .home_bg_second {
   position: absolute;
-  font-size: 2.8em;
+  font-size: 2.3em;
   letter-spacing: -1.5px;
   color: #112137;
   font-family: "Futura Display BQ", sans-serif;
@@ -44,8 +44,8 @@
   transition: all 2s ease;
 }
 .home_bg_first {
-  top: 327px;
-  left: 365px;
+  top: 412px;
+  left: 406px;
 }
 
 .home_bg_second {

@@ -18,17 +18,13 @@ const Blog = ({ blogId, data }) => {
 
   return (
     <div className="blog" id={blogId}>
-      <img
-        src={data.img}
-        style={{ width: "200px", height: "200px" }}
-        alt="Blog"
-      />
+      <img src={data.img} alt="Blog" />
       <h3>{data.title}</h3>
-      <div className="bolg-owner-details">
-        <div className="owner-name">by vaibhav gupta</div>
+      <div className="blog-owner-details">
+        <div className="owner-name">By Vaibhav Gupta</div>
         <div className="publish-date">18/07/2001</div>
       </div>
-      <p>{data.description}</p>
+      <p className="blog-desc">{data.description}</p>
       <div>
         <button
           className={`like-btn ${liked ? "liked" : ""}`}

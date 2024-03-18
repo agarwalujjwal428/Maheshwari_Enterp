@@ -33,9 +33,11 @@ const App = () => {
         />
 
         <Route exact path="/blog" element={<AllBlog />}></Route>
-
-        <Route exact path="/blog/:title/:blogId" element={<BlogDetails />}></Route>
-
+        <Route
+          exact
+          path="/blog/:title/:blogId"
+          element={<BlogDetails />}
+        ></Route>
         <Route
           exact
           path="/recentproject"
