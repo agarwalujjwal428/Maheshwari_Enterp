@@ -127,6 +127,5 @@ const RecentProjectsPage = () => {
       </div>
     </>
   );
-};
 
 export default RecentProjectsPage;

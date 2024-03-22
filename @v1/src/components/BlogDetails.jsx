@@ -14,6 +14,11 @@ const BlogDetails = () => {
   // Find the blog item with matching id
   const blogItem = blogData.blogs.find((blog) => blog.id === numericBlogId);
 
+  const like = parseInt(blogItem.likes);
+  console.log(like + 1);
+  const [likes, setLikes] = useState(like); // Initial like count is 10
+  const [liked, setLiked] = useState(false); // Initial state of like button
+  
   // Sort blogs by date
   const sortedBlogs = [...blogData.blogs].sort((a, b) => {
     const dateA = new Date(a.publish_date.split("/").reverse().join("/"));
