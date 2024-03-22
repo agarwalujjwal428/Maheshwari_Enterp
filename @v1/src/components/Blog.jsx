@@ -4,7 +4,8 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons"; // Import the solid
 import { Link } from "react-router-dom";
 
 const Blog = ({ blogId, data }) => {
-  const [likes, setLikes] = useState(10); // Initial like count is 10
+  const like = parseInt(data.likes);
+  const [likes, setLikes] = useState(like); // Initial like count is 10
   const [liked, setLiked] = useState(false); // Initial state of like button
 
   const handleLike = () => {
@@ -21,8 +22,8 @@ const Blog = ({ blogId, data }) => {
       <img src={data.img} alt="Blog" />
       <h3>{data.title}</h3>
       <div className="blog-owner-details">
-        <div className="owner-name">By Vaibhav Gupta</div>
-        <div className="publish-date">18/07/2001</div>
+        <div className="owner-name">{`By ${data.author}`}</div>
+        <div className="publish-date">{data.publish_date}</div>
       </div>
       <p className="blog-desc">{data.description}</p>
       <div>
