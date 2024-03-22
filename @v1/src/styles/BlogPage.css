@@ -119,6 +119,7 @@
   margin-top: -60px;
   padding: 15px 25px 15px 25px;
 }
+
 .blog {
   /* border-right: 1.5px solid #1a1a1a; */
   border-radius: 15px;
@@ -135,6 +136,7 @@
 
   margin-right: 50px;
 }
+
 .blog-rightSide {
   width: 25%;
   background-color: rgb(225, 225, 225, 0.27);
@@ -142,6 +144,7 @@
   height: 600px;
   top: 90px;
 }
+
 blog-rightSide p {
   margin: 0 0 10px;
   color: #252525;

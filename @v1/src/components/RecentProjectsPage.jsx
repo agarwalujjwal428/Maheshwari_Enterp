@@ -1,43 +1,50 @@
-import React from "react";
-import "../styles/RecentPage.css";
+import React, { useState } from 'react';
+import '../styles/RecentPage.css';
 
-const projects = [
-  {
-    id: 1,
-    title: "Project 1",
-    description: "Description of Project 1",
-    image: "https://via.placeholder.com/150",
-  },
-  {
-    id: 2,
-    title: "Project 2",
-    description: "Description of Project 2",
-    image: "https://via.placeholder.com/150",
-  },
-  {
-    id: 3,
-    title: "Project 3",
-    description: "Description of Project 3",
-    image: "https://via.placeholder.com/150",
-  },
-];
+function RecentProjectPage() {
+  const [activeProject, setActiveProject] = useState(null);
 
-const RecentProjectsPage = () => {
+  const showProjectDetails = (projectId) => {
+    setActiveProject(projectId);
+  };
+
   return (
-    <div>
-      <h1 className="project-head">Recent Projects</h1>
-      <div className="projectContainer">
-        {projects.map((project) => (
-          <div key={project.id} className="projectCard">
-            <img src={project.image} alt={project.title} className="projectImage"/>
-            <h2 className="projectTitle">{project.title}</h2>
-            <p className="projectDescription">{project.description}</p>
+    <div className="app-container">
+      <div className="sidebar">
+        <button onClick={() => showProjectDetails('project1')}>Project 1</button>
+        <button onClick={() => showProjectDetails('project2')}>Project 2</button>
+        <button onClick={() => showProjectDetails('project3')}>Project 3</button>
+        <button onClick={() => showProjectDetails('project4')}>Project 4</button>
+      </div>
+
+      <div className="content">
+        {activeProject === 'project1' && (
+          <div className="project-details">
+            <h2>Project 1 Details</h2>
+            <p>This is the details of Project 1.</p>
           </div>
-        ))}
+        )}
+        {activeProject === 'project2' && (
+          <div className="project-details">
+            <h2>Project 2 Details</h2>
+            <p>This is the details of Project 2.</p>
+          </div>
+        )}
+        {activeProject === 'project3' && (
+          <div className="project-details">
+            <h2>Project 3 Details</h2>
+            <p>This is the details of Project 3.</p>
+          </div>
+        )}
+        {activeProject === 'project4' && (
+          <div className="project-details">
+            <h2>Project 4 Details</h2>
+            <p>This is the details of Project 4.</p>
+          </div>
+        )}
       </div>
     </div>
   );
-};
+}
 
-
-export default RecentProjectsPage;
+export default RecentProjectPage;
