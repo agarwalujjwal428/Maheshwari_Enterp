@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Blog from "./Blog";
 import blogData from "../blog.json";
 import "../styles/BlogPage.css";
+import { Link } from "react-router-dom";
 
 const AllBlog = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -19,7 +20,7 @@ const AllBlog = () => {
   const blogContainerRef = useRef(null);
 
   useEffect(() => {
-    blogContainerRef.current.scrollIntoView({ behaviour: "smooth" });
+    blogContainerRef.current.scrollIntoView({ behavior: "smooth" });
   }, [currentPage]);
 
   // Logic to display page numbers
@@ -28,13 +29,23 @@ const AllBlog = () => {
     pageNumbers.push(i);
   }
 
+  // Sort blogs by date
+  const sortedBlogs = [...blogData.blogs].sort((a, b) => {
+    const dateA = new Date(a.publish_date.split("/").reverse().join("/"));
+    const dateB = new Date(b.publish_date.split("/").reverse().join("/"));
+    return dateB - dateA;
+  });
+
+  console.log("*latest blogs", sortedBlogs);
+
+  // Get the latest 4 blogs
+  const latestBlogs = sortedBlogs.slice(0, 4);
+  console.log(latestBlogs);
+
   return (
     <>
       <div className="blog-bg">
-        <img
-          src="/src/assets/images/blog_background.jpg"
-          alt="Blog Background"
-        ></img>
+        <img src="/src/assets/images/7.jpg" alt="Blog Background" />
         <h2 className="blog-head">Blogs/</h2>
       </div>
       <div className="blog-container" ref={blogContainerRef}>
@@ -47,6 +58,19 @@ const AllBlog = () => {
         </div>
         <div className="blog-rightSide">
           <h2>Recent Blogs</h2>
+          <ul>
+            {latestBlogs.map((blog) => (
+              <Link to={`/blog/${blog.title}/${blog.id}`}>
+                <li key={blog.id}>
+                  <span>{blog.title}</span>
+                  <div className="latestBlog_author">
+                    <div>By {blog.author},</div>
+                    <div>On {blog.publish_date}</div>
+                  </div>
+                </li>
+              </Link>
+            ))}
+          </ul>
         </div>
       </div>
       {/* Pagination */}

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons"; // Import the solid version
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import blogData from "../blog.json";
 import "../styles/BlogDetails.css";
 
@@ -13,6 +13,24 @@ const BlogDetails = () => {
 
   // Find the blog item with matching id
   const blogItem = blogData.blogs.find((blog) => blog.id === numericBlogId);
+
+  const like = parseInt(blogItem.likes);
+  console.log(like + 1);
+  const [likes, setLikes] = useState(like); // Initial like count is 10
+  const [liked, setLiked] = useState(false); // Initial state of like button
+  
+  // Sort blogs by date
+  const sortedBlogs = [...blogData.blogs].sort((a, b) => {
+    const dateA = new Date(a.publish_date.split("/").reverse().join("/"));
+    const dateB = new Date(b.publish_date.split("/").reverse().join("/"));
+    return dateB - dateA;
+  });
+
+  console.log("*latest blogs", sortedBlogs);
+
+  // Get the latest 4 blogs
+  const latestBlogs = sortedBlogs.slice(0, 4);
+  console.log(latestBlogs);
 
   const like = parseInt(blogItem.likes);
   console.log(like + 1);
@@ -32,10 +50,7 @@ const BlogDetails = () => {
   return (
     <>
       <div className="blog-bg">
-        <img
-          src="/src/assets/images/blog_background.jpg"
-          alt="Blog Background"
-        ></img>
+        <img src="/src/assets/images/7.jpg" alt="Blog Background"></img>
         <h2 className="blog-head">Blogs/</h2>
       </div>
       <div className="blog-details-container">
@@ -76,6 +91,19 @@ const BlogDetails = () => {
         </div>
         <div className="blog-details-rightSide">
           <h2>Recent Blogs</h2>
+          <ul>
+            {latestBlogs.map((blog) => (
+              <Link to={`/blog/${blog.title}/${blog.id}`}>
+                <li key={blog.id}>
+                  <span>{blog.title}</span>
+                  <div className="bd_latestBlog_author">
+                    <div>By {blog.author},</div>
+                    <div>On {blog.publish_date}</div>
+                  </div>
+                </li>
+              </Link>
+            ))}
+          </ul>
         </div>
       </div>
     </>
