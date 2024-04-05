@@ -1,5 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import AllProductService from "./components/AllProductService";
@@ -9,6 +15,38 @@ import AllBlog from "./components/AllBlog";
 import RecentProjectsPage from "./components/RecentProjectsPage";
 import ProductServiceItem from "./components/ProductServiceItem";
 import BlogDetails from "./components/BlogDetails";
+
+// Higher-order component to check if the user's IP address is allowed
+const withAdminAccess = (Component) => (props) => {
+  const [userIP, setUserIP] = useState("192.168.20.1");
+
+  useEffect(() => {
+    const fetchIP = async () => {
+      try {
+        const response = await fetch("https://api64.ipify.org?format=json");
+        const data = await response.json();
+        // setUserIP(data.ip);
+        console.log(data);
+      } catch (error) {
+        console.error("Error fetching IP address:", error);
+      }
+    };
+
+    fetchIP();
+  }, []);
+
+  const allowedIPs = ["192.168.20.1", "192.168.44.1", "192.168.29.51"];
+
+  if (allowedIPs.includes(userIP)) {
+    return <Component {...props} />;
+  } else {
+    return <Navigate to="/" />;
+  }
+};
+
+const AdminDashboard = withAdminAccess(() => {
+  return <div>Hello Admin!!</div>;
+});
 
 const App = () => {
   return (
@@ -31,18 +69,12 @@ const App = () => {
           path="/products-and-services/:title/:prodId/:category/:itemTitle"
           element={<ProductServiceItem />}
         />
+        <Route exact path="/blog" element={<AllBlog />} />
+        <Route exact path="/blog/:title/:blogId" element={<BlogDetails />} />
+        <Route exact path="/recentproject" element={<RecentProjectsPage />} />
 
-        <Route exact path="/blog" element={<AllBlog />}></Route>
-        <Route
-          exact
-          path="/blog/:title/:blogId"
-          element={<BlogDetails />}
-        ></Route>
-        <Route
-          exact
-          path="/recentproject"
-          element={<RecentProjectsPage />}
-        ></Route>
+        {/* Admin routes */}
+        <Route exact path="/admin" element={<AdminDashboard />} />
       </Routes>
       <Footer />
     </Router>

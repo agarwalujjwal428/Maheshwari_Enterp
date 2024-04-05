@@ -25,7 +25,7 @@ const RecentProjectsPage = () => {
       <div className="rp-container">
         {sidebarVisible && (
           <div className="rp-sidebar">
-            {/* <button onClick={toggleSidebar}>Toggle Sidebar</button> */}
+{/* <button onClick={toggleSidebar}>Toggle Sidebar</button> */}
             <button
               onClick={() => showProjectDetails("Tile Adhesives")}
               className={activeProject === "Tile Adhesives" ? "btn-active" : ""}
@@ -71,7 +71,7 @@ const RecentProjectsPage = () => {
                   <img
                     src={item.img}
                     style={{ height: "200px", width: "200px" }}
-                  ></img>
+                    ></img>
                   <p>{item.title}</p>
                   <p>{item.description}</p>
                 </>
@@ -86,7 +86,7 @@ const RecentProjectsPage = () => {
                   <img
                     src={item.img}
                     style={{ height: "200px", width: "200px" }}
-                  ></img>
+                    ></img>
                   <p>{item.title}</p>
                   <p>{item.description}</p>
                 </>
@@ -101,7 +101,7 @@ const RecentProjectsPage = () => {
                   <img
                     src={item.img}
                     style={{ height: "200px", width: "200px" }}
-                  ></img>
+                    ></img>
                   <p>{item.title}</p>
                   <p>{item.description}</p>
                 </>
@@ -116,16 +116,18 @@ const RecentProjectsPage = () => {
                   <img
                     src={item.img}
                     style={{ height: "200px", width: "200px" }}
-                  ></img>
+                    ></img>
                   <p>{item.title}</p>
                   <p>{item.description}</p>
                 </>
               ))}
+
             </div>
           )}
         </div>
       </div>
     </>
   );
+};
 
 export default RecentProjectsPage;
