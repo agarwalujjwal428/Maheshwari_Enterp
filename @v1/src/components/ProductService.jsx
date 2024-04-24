@@ -7,7 +7,7 @@ const ProductService = ({ prodId, data }) => {
     <div className="product-service" id={prodId}>
       <img
         src={data.img}
-        style={{ width: "200px", height: "200px" }}
+        style={{ width: "100%", height: "200px" }}
         alt={data.title}
       />
       <h3>{data.title}</h3>
