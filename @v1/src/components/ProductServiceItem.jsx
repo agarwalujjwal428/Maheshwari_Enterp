@@ -45,10 +45,11 @@ const ProductServiceItem = () => {
               <table>
                 <thead>
                   <tr>
-                    <th>Size</th>
-                    <th>Suitable For</th>
-                    <th>X</th>
-                    <th>XX</th>
+                    <th>Product</th>
+                    <th>Pack Size / Details</th>
+                    {companyItem.itemDetails.itemSizes[0]?.extra1 && (
+                      <th>Shipper Pack</th>
+                    )}
                   </tr>
                 </thead>
                 <tbody>
@@ -56,50 +57,13 @@ const ProductServiceItem = () => {
                     <tr>
                       <td>{item.size}</td>
                       <td>{item.suitableFor}</td>
-                      <td>{item.extra1}</td>
-                      <td>{item.extra2}</td>
+                      {item?.extra1 && <td>{item.extra1}</td>}
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
           </div>
-          <div>
-            <h4>Operating Condition</h4>
-            <div className="table-wrapper">
-              <table>
-                <tbody>
-                  {companyItem.itemDetails.itemOc.map((item) => (
-                    <tr>
-                      <td>{item.ocName}</td>
-                      <td>{item.ocValue}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-        <div>
-          <h2>Product Specification</h2>
-          <table>
-            <thead>
-              <tr>
-                <th>S.No</th>
-                <th>Part</th>
-                <th>Material</th>
-              </tr>
-            </thead>
-            <tbody>
-              {companyItem.itemDetails.itemSpec.map((item) => (
-                <tr>
-                  <td>{item.specId}</td>
-                  <td>{item.specPart}</td>
-                  <td>{item.specMaterial}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
         </div>
       </div>
     </div>

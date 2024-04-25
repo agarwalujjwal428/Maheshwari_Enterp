@@ -27,9 +27,8 @@
   justify-content: center;
   align-items: flex-start;
   padding: 50px 20px;
-  width:100%;
+  width: 100%;
   position: relative;
-  
 }
 
 .rp-sidebar {
@@ -37,7 +36,7 @@
   flex: 0 0 200px;
   padding: 20px;
   top: 150px;
-  width:20%;
+  width: 20%;
   background-color: #f4f4f4;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -57,7 +56,7 @@
 
 .rp-content {
   flex: 1;
-  width:75%;
+  width: 75%;
   margin-left: 20px;
 }
 
@@ -66,9 +65,8 @@
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width:100%;
+  width: 100%;
   background-color: rgb(225, 225, 225, 0.27);
-
 }
 
 .project-details h2 {
@@ -79,36 +77,34 @@
 .btn-active {
   color: #ffc400;
 }
-.rp-project-details{
+.rp-project-details {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width:100%;
-  gap: 30px;
+  width: 100%;
+  gap: 12px;
 }
-.rp-project-details div{
-  width: 31%;
-text-align: justify;
-border: 1px solid #131730;
-border-radius: 5px;
-padding: 15px;
-
+.rp-project-details div {
+  width: 32.5%;
+  text-align: justify;
+  border: 1px solid #131730;
+  border-radius: 5px;
+  padding: 15px;
 }
-.rp-project-details div img{
+.rp-project-details div img {
   width: 100%;
   height: 235px;
 }
-.rp-pd-desc{
-    color: #606060;
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    margin: 0 0 15px;
-
+.rp-pd-desc {
+  color: #606060;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0 0 15px;
 }
 
-.rp-pd-title{
+.rp-pd-title {
   font-size: 1.2rem;
   margin-top: 20px;
   color: #1a1a1a;

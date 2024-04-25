@@ -19,8 +19,12 @@ const AllProductService = () => {
   return (
     <>
       <div className="product-bg">
-        <img src="/src/assets/images/3.jpg" alt="Product Background" />
-        <h2 className="product-head">Products & Services/</h2>
+        <img src="/src/assets/images/j.jpg" alt="Product Background" />
+        <div className="product-head">
+          <h2 id="ph-first">Products</h2>
+           <h2 id="ph-second">&</h2> 
+           <h2 id="ph-third">Services</h2>
+           </div>
       </div>
 
       <div className="prod-serv-container">
