@@ -53,6 +53,14 @@
   text-align: left;
   cursor: pointer;
 }
+.recent-cross-btn {
+  cursor: pointer;
+  border: 4px dotted  #f4f4f4;
+  display: inline;
+  padding: 2px;
+  border-radius: 3px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+}
 
 .rp-content {
   flex: 1;
@@ -107,5 +115,5 @@
 .rp-pd-title {
   font-size: 1.2rem;
   margin-top: 20px;
-  color:#1a1a1a;
+  color: #1a1a1a;
 }

@@ -8,6 +8,11 @@
   align-items: center;
   padding: 3rem 2rem;
 }
+.prod-serv-catalog-container{
+  display:flex;
+  justify-content: space-between;
+  padding:0 8px 0 6px;
+}
 .product-service-card {
   width: 60%;
   background-color: rgba(27, 31, 34, 0.85);

@@ -25,10 +25,13 @@ const RecentProjectsPage = () => {
       <div className="rp-container">
         {sidebarVisible && (
           <div className="rp-sidebar">
-            {/* <button onClick={toggleSidebar}>Toggle Sidebar</button> */}
+            <div className="recent-cross-btn" onClick={toggleSidebar}>
+              <RxCross2 />
+            </div>
+
             <button
               onClick={() => showProjectDetails("Tile Adhesives")}
-              className={activeProject === "Tile Adhesives" ? "btn-active" : ""}
+              className={activeProject === "Tile Adhesives" ? "btn-active" : ""} style={{marginTop:"18px"}}
             >
               Tile Adhesives
             </button>
@@ -60,9 +63,11 @@ const RecentProjectsPage = () => {
         )}
 
         <div className="rp-content">
-          <button onClick={toggleSidebar}>
-            {sidebarVisible ? <RxCross2 /> : <IoReorderThreeOutline />}
-          </button>
+          {!sidebarVisible && (
+            <button onClick={toggleSidebar}>
+              <IoReorderThreeOutline />
+            </button>
+          )}
           <div className="project-details">
             <h2>{activeProject}</h2>
             <div className="rp-project-details">

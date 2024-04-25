@@ -483,6 +483,62 @@
             ]
 
           }
+        },
+        {
+          "itemTitle": "Equal Tee",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1014",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✓"
+              },
+              {
+                "size": "1216",
+                "suitableFor": "O Rings"
+              },
+              {
+                "size": "1620",
+                "suitableFor": "O Rings"
+              },
+              {
+                "size": "2025",
+                "suitableFor": "O Rings"
+              },
+              {
+                "size": "2532",
+                "suitableFor": "O Rings"
+              },
+              {
+                "size": "3240",
+                "suitableFor": "O Rings"
+              },
+              {
+                "size": "4050",
+                "suitableFor": "O Rings"
+              },
+              {
+                "size": "5063",
+                "suitableFor": "O Rings"
+              },
+              {
+                "size": "6375",
+                "suitableFor": "O Rings"
+              },
+              {
+                "size": "7590",
+                "suitableFor": "O Rings"
+              },
+              {
+                "size": "90110",
+                "suitableFor": "O Rings"
+              }
+            ]
+
+          }
         }
       ]
     },

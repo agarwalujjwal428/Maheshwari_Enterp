@@ -22,6 +22,8 @@ const ProductServiceItem = () => {
 
   console.log("Company Item:", companyItem);
 
+  const specialItemTitles = ["Equal Tee", "Reducing Tee","Female Tee","Equal Elbow","Reduced Elbow","Female Elbow","Male Thread Connector","Female Thread Connector","Reducer","Straight Coupler","Saddle","Pipe Plug","Special Fitting"];
+
   return (
     <div className="pro-serv-item-details">
       <div className="pro-serv-card">
@@ -45,19 +47,41 @@ const ProductServiceItem = () => {
               <table>
                 <thead>
                   <tr>
-                    <th>Product</th>
-                    <th>Pack Size / Details</th>
-                    {companyItem.itemDetails.itemSizes[0]?.extra1 && (
-                      <th>Shipper Pack</th>
+                    {specialItemTitles.includes(companyItem.itemTitle) ? (
+                      <>
+                        <th>Pack Size</th>
+                        <th style={{paddingLeft:"60px"}}>Composite Compression</th>
+                        <th style={{paddingLeft:"40px"}}>Brass Compression</th>
+                        <th style={{paddingLeft:"60px"}}>SS304</th>
+                      </>
+                    ) : (
+                      <>
+                        <th>Product</th>
+                        <th>Pack Size / Details</th>
+                        {companyItem.itemDetails.itemSizes[0]?.extra1 && (
+                          <th>Shipper Pack</th>
+                        )}
+                      </>
                     )}
                   </tr>
                 </thead>
                 <tbody>
                   {companyItem.itemDetails.itemSizes.map((item) => (
                     <tr>
-                      <td>{item.suitableFor}</td>
-                      <td>{item.size}</td>
-                      {item?.extra1 && <td>{item.extra1}</td>}
+                      {specialItemTitles.includes(companyItem.itemTitle) ? (
+                        <>
+                          <td >{item.size}</td>
+                          <td style={{paddingLeft:"135px"}}>{item.composite}</td>
+                          <td style={{paddingLeft:"95px"}}>{item.brass}</td>
+                          <td style={{paddingLeft:"75px"}}>{item.SS304}</td>
+                        </>
+                      ) : (
+                        <>
+                          <td>{item.suitableFor}</td>
+                          <td>{item.size}</td>
+                          {item?.extra1 && <td>{item.extra1}</td>}
+                        </>
+                      )}
                     </tr>
                   ))}
                 </tbody>
