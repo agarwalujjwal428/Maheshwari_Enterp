@@ -55,8 +55,8 @@ const ProductServiceItem = () => {
                 <tbody>
                   {companyItem.itemDetails.itemSizes.map((item) => (
                     <tr>
-                      <td>{item.size}</td>
                       <td>{item.suitableFor}</td>
+                      <td>{item.size}</td>
                       {item?.extra1 && <td>{item.extra1}</td>}
                     </tr>
                   ))}
