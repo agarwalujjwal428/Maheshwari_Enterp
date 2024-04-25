@@ -23,6 +23,7 @@ const Home_Bg = () => {
   ];
 
   const [fade, setFade] = useState(false);
+  const [showImage, setShowImage] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -39,21 +40,18 @@ const Home_Bg = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleCarouselChange = (currentSlideIndex) => {
-    // When the carousel changes the photo, reset fade state
-    setFade(true);
-    setTimeout(() => {
-      setFade(false);
-    }, 10); // Delay to allow re-rendering and applying animation
-  };
+  useEffect(() => {
+    setShowImage(true);
+  }, []);
 
   return (
     <div className="home_bg_container">
-      <Home_Bg_carousel slides={slides} onSlideChange={handleCarouselChange} />
+      <Home_Bg_carousel slides={slides} />
       <div
         className={`home_bg_pic animate__animated ${
           fade ? "animate__zoomOut" : "animate__zoomIn"
         } animate__duration-6s`}
+        style={{ display: showImage ? "block" : "none" }}
       >
         <img
           src="/src/assets/images/E_B2.png"
@@ -65,6 +63,7 @@ const Home_Bg = () => {
         className={`home_bg_first animate__animated  ${
           fade ? "animate__zoomOut" : "animate__zoomIn"
         } animate__duration-16s`}
+        style={{ display: showImage ? "block" : "none" }}
       >
         Creating Quality Construction
       </div>
