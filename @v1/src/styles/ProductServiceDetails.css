@@ -27,6 +27,11 @@
   font-weight: 600;
   text-transform: capitalize;
 }
+.prod-serv-catalog-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px 0 8px;
+}
 .prod-serv-desc{
   color: #fff;
 }
