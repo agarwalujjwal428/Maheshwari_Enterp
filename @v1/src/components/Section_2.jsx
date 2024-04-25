@@ -25,8 +25,9 @@ const Section_2 = () => {
               <div className="col-md-4">
                 <div className="specialization-single">
                 <div className="service-title">
-                <img src="https://template.hasthemes.com/raees/raees/img/icon/s1.png"></img>
-                <h3>Architecture</h3>
+               
+                <h3>Penetrative Waterproofing
+</h3>
               </div>
               <div className="service-text">
                 <p>
@@ -37,8 +38,7 @@ const Section_2 = () => {
                 </div>
                 <div className="specialization-single">
                 <div className="service-title">
-                <img src="https://template.hasthemes.com/raees/raees/img/icon/s4.png"></img>
-                <h3>Exterior Design</h3>
+                <h3>Composite Plumbing Pipes</h3>
               </div>
               <div className="service-text">
                 <p>
@@ -53,8 +53,7 @@ const Section_2 = () => {
               <div className="col-md-4">
                 <div className="specialization-single">
                 <div className="service-title">
-                <img src="https://template.hasthemes.com/raees/raees/img/icon/s2.png"></img>
-                <h3>Planning</h3>
+                <h3>Herbal Termite Treatment</h3>
               </div>
               <div className="service-text">
                 <p>
@@ -65,8 +64,8 @@ const Section_2 = () => {
                 </div>
                 <div className="specialization-single">
                 <div className="service-title">
-                <img src="https://template.hasthemes.com/raees/raees/img/icon/s5.png"></img>
-                <h3>Landscape Design</h3>
+                <h3>Mineral Paints
+</h3>
               </div>
               <div className="service-text">
                 <p>
@@ -81,8 +80,8 @@ const Section_2 = () => {
  <div className="col-md-4">
                 <div className="specialization-single">
                 <div className="service-title">
-                <img src="https://template.hasthemes.com/raees/raees/img/icon/s3.png"></img>
-                <h3>Interrior Design</h3>
+                <h3>Waterproof Textures
+</h3>
               </div>
               <div className="service-text">
                 <p>
@@ -93,8 +92,7 @@ const Section_2 = () => {
                 </div>
                 <div className="specialization-single">
                 <div className="service-title">
-                <img src="https://template.hasthemes.com/raees/raees/img/icon/s6.png"></img>
-                <h3>Furniture Design</h3>
+                <h3>High Quality Tile Adhesives</h3>
               </div>
               <div className="service-text">
                 <p>
