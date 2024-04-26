@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight } from "@fortawesome/free-solid-svg-icons"; // Import the specific icon you need
-import { faAngleLeft } from "@fortawesome/free-solid-svg-icons"; // Import the specific icon you need
+import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 
 const Client_slide = ({ slides }) => {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -15,30 +14,32 @@ const Client_slide = ({ slides }) => {
   };
 
   return (
-    <>
-      <div className="carousel">
-        <div
-          className="carousel-container"
-          style={{ transform: `translateX(-${slideIndex * (100 / 2)}%)` }}
-        >
-          {slides.map((slide, index) => (
-            <div className="slide-client" key={index}>
-              <div className="slide-text">{slide.text}</div>
-              <div className="slide-name text-right">{slide.name}</div>
-              <div className="slide-designation text-right">
-                {slide.designation}
-              </div>
+    <div className="carousel">
+      <div
+        className="carousel-container"
+        style={{ transform: `translateX(-${slideIndex * 50}%)` }}
+      >
+        {slides.map((slide, index) => (
+          <div className="slide-client" key={index} style={{ width: "50%" }}>
+            <div className="slide-text">{slide.text}</div>
+            <div className="slide-designation text-right">
+              {slide.img === "" ? (
+                slide.initials
+              ) : (
+                <img src={slide.img} alt={slide.name} style={{ height: "70px", width: "70px", margin: "3px" }} />
+              )}
             </div>
-          ))}
-        </div>
-        <button className="client-slide-btn prev" onClick={handlePrev}>
-          <FontAwesomeIcon icon={faAngleLeft} />
-        </button>
-        <button className="client-slide-btn next" onClick={handleNext}>
-          <FontAwesomeIcon icon={faAngleRight} /> {/* Use the imported icon */}
-        </button>
+            <div className="slide-name text-right">-{slide.name}</div>
+          </div>
+        ))}
       </div>
-    </>
+      <button className="client-slide-btn prev" onClick={handlePrev}>
+        <FontAwesomeIcon icon={faAngleLeft} />
+      </button>
+      <button className="client-slide-btn next" onClick={handleNext}>
+        <FontAwesomeIcon icon={faAngleRight} />
+      </button>
+    </div>
   );
 };
 

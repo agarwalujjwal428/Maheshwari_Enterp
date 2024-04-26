@@ -9,7 +9,7 @@ import Home_Bg from "./Home_Bg";
 const Home = () => {
 
     return (
-  <>
+     <>
     <Home_Bg />
     <Aboutus />
     <Section_2 />

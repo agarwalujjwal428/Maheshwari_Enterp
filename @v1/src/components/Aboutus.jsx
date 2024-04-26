@@ -27,21 +27,26 @@ const Aboutus = () => {
                 </h2>
                 <h4>About Us</h4>
                 <p className="about-first-para">
-                  Established in 1990 by Mr. Shailesh Maheshwari, Maheshwari
-                  Enterprises has become a leading name in the construction and
-                  waterproofing products industry over the past three decades.
-                  With a remarkable growth trajectory, we stand as a
-                  well-established firm with a broad market presence and an
-                  extensive range of top-quality products, all under one roof.
-                  Our expertise in the field, spanning 30 years, sets us apart
-                  from competitors, making us pioneers in introducing
-                  cutting-edge technologies in Jodhpur and neighboring areas.
+                  Maheshwari Enterprises was established by Mr. Shailesh
+                  Maheshwari in the year 1990. In the past three decades the
+                  company grew leaps & bounds and is now a well-established firm
+                  in the field of construction and waterproofing products.<br/>As
+                  compared to our competitors we have a major market cover along
+                  with a wide range of products under a roof and years long
+                  evolving experience in the field. Our products range are from
+                  the top-class companies and the leaders in construction line
+                  with experience of decades. We are pioneers of such top-notch
+                  technologies in Jodhpur and neighbouring areas for more than
+                  last 30 years.<br/>Our products are used in different stages of
+                  construction commonly in foundation, damp proof course (DPC),
+                  walls, reinforced cement concrete (RCC), bathrooms, terrace,
+                  plastering and finishing works.
                   <div className="about-us-text">
                     "I started the business as a one-man show, handling
                     everything from marketing to management. Over the years, we
                     have expanded our product range and are proud distributors
                     for 8 renowned companies. Today, Maheshwari Enterprises
-                    covers around 7 districts, a testament to our commitment to
+                    covers around 6 districts, a testament to our commitment to
                     excellence in the construction industry."
                     <div className="founder">-Shailesh Maheshwari</div>
                   </div>

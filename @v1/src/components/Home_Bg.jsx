@@ -62,7 +62,7 @@ const Home_Bg = () => {
       <div
         className={`home_bg_first animate__animated  ${
           fade ? "animate__zoomOut" : "animate__zoomIn"
-        } animate__duration-16s`}
+        } animate__duration-6s`}
         style={{ display: showImage ? "block" : "none" }}
       >
         Creating Quality Construction

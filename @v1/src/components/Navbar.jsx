@@ -80,7 +80,7 @@ const Navbar = () => {
                   <li className="nav-item">
                     <a
                       className={`nav-link ${
-                        location.pathname === "/recentproject" ? "active" : ""
+                        location.pathname.startsWith("/recentproject")  ? "active" : ""
                       }`}
                       href="/recentproject"
                     >

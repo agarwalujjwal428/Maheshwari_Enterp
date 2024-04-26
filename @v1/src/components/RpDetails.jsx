@@ -1,8 +1,8 @@
+
 import React from "react";
 import { useParams } from "react-router-dom";
 import recentData from "../RecentProject.json";
 import Carousel from "react-bootstrap/Carousel";
-
 
 const RpDetails = () => {
   const { id, title, category } = useParams();
@@ -11,7 +11,7 @@ const RpDetails = () => {
     (item) => item.id == parseInt(id)
   );
 
-  console.log("*recent project", rpItem);
+  console.log("***recent project", rpItem);
 
   return (
     <>
@@ -21,10 +21,7 @@ const RpDetails = () => {
           <div className="rp-desc">
             {rpItem.readMore?.read_description}
           </div>
-
-          <Carousel style={{ margin: "auto", height: "500px" }}
-
-          >
+          <Carousel style={{ margin: "auto", height: "500px" }}>
             {rpItem.readMore.servItems.map((item, index) => (
               <Carousel.Item key={index} interval={3000}>
                 <img
@@ -33,7 +30,7 @@ const RpDetails = () => {
                   style={{
                     height: "300px",
                     width: "auto",
-                    margin: "60px 0 0 165px",
+                    margin: "60px 0 0 165px"
                   }}
                 />
                 <p
