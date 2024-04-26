@@ -486,55 +486,988 @@
         },
         {
           "itemTitle": "Equal Tee",
+          "itemImage": "/src/assets/images/Kitec/Equal _tee.jpeg",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1014",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "1216",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "1620",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+                            },
+              {
+                "size": "2025",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✓"
+              },
+              {
+                "size": "5063",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "6375",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              }
+            ]
+
+          }
+        },
+        {
+          "itemTitle": "Reducing Tee",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1620 X 1216 X 1216",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "1620 X 1216 X 1620",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "1620 X 1620 X 1216",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+                            },
+              {
+                "size": "2025 X 1216 X 2025",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 1620 X 1620",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 1620 X 2025",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 2025 X 1216",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 2025 X 1620",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 1216 X 2532",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 1620 X 1620",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 2025 X 1216",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 2025 X 2025",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 2532 X 1216",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 2532 X 1620",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 2532 X 2025",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1216 X 3240",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1620 X 1620",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1620 X 2025",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1620 X 2532",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1620 X 3240",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 2025 X 1216",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 2025 X 2025",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 2532 X 1216",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 2532 X 1620",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 2532 X 2532",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 2532 X 3240",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 3240 X 1216",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 3240 X 1620",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 3240 X 2025",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 3240 X 2532",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 4050 X 1620",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 4050 X 2025",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 4050 X 2532",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✓"
+              },
+              {
+                "size": "4050 X 4050 X 3240",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "5063 X 5063 X 1620",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "5063 X 5063 X 2025",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "5063 X 5063 X 2532",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "5063 X 5063 X 3240",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "5063 X 5063 X 4050",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "6375 X 6375 X 2025",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "6375 X 6375 X 2532",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "6375 X 6375 X 3240",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "6375 X 6375 X 4050",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "6375 X 6375 X 5063",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              }
+            ]
+
+          }
+        },
+        {
+          "itemTitle": "Female Tee",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1014 X 1014 X 1/2 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "1216 X 1216 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "1620 X 1620 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+                            },
+              {
+                "size": "2025 X 2025 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 2025 X 1 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 2532 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 2532 X 1 inch",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 3240 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 3240 X 1.25 inch",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 4050 X 1.5 inch",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              }
+            ]
+
+          }
+        },
+        {
+          "itemTitle": "Equal Elbow",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1216",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "1620",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+                            },
+              {
+                "size": "2025",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "5063",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "6375",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              }
+            ]
+
+          }
+        },
+        {
+          "itemTitle": "Reduced Elbow",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "2025 X 1216",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 1620",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+                            },
+              
+              {
+                "size": "2532 X 1620",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1620",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 2025",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 2532",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 2532",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              }
+            ]
+
+          }
+        },
+        {
+          "itemTitle": "Female Elbow",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1014 X 1/2 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "1216 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+                            },
+              {
+                "size": "1620 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "1620 X 3/4 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 1 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 1 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1.25 inch",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1.5 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 2 inch",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              }
+            ]
+
+          }
+        },
+        {
+          "itemTitle": "Male Thread Connector",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1014 X 1/2 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "1216 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+                            },
+              {
+                "size": "1620 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "1620 X 3/4 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 1/2 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 3/4 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 1 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 1 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 1.25 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 1.5 inch",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1.25 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1.5 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 1.5 inch (Clamp)",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✓"
+              }
+            ]
+
+          }
+        },
+        {
+          "itemTitle": "Female Thread Connector",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1014 X 1/2 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "1216 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+                            },
+              {
+                "size": "1620 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "1620 X 3/4 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 1 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 1 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 1.25 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 1.5 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1.25 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1.5 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 1.5 inch",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "5063 X 2 inch",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "5063 X 2.5 inch",
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
+              }
+            ]
+
+          }
+        },
+        {
+          "itemTitle": "Reducer",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1620 X 1216",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 1216",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2025 X 1620",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 1216",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 1620",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "2532 X 2025",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1216",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 1620",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 2025",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "3240 X 2532",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 1620",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 2025",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 2532",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              },
+              {
+                "size": "4050 X 3240",
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              }
+            ]
+
+          }
+        },
+        {
+          "itemTitle": "Straight Coupler",
           "itemImage": "",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
               {
                 "size": "1014",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✓"
+                "composite":"✗",
+                "brass":"✓",
+                "SS304":"✗"
               },
               {
                 "size": "1216",
-                "suitableFor": "O Rings"
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
               },
               {
                 "size": "1620",
-                "suitableFor": "O Rings"
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
               },
               {
                 "size": "2025",
-                "suitableFor": "O Rings"
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
               },
               {
                 "size": "2532",
-                "suitableFor": "O Rings"
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
               },
               {
                 "size": "3240",
-                "suitableFor": "O Rings"
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
               },
               {
                 "size": "4050",
-                "suitableFor": "O Rings"
+                "composite":"✓",
+                "brass":"✓",
+                "SS304":"✗"
+              }
+            ]
+
+          }
+        },
+        {
+          "itemTitle": "Saddle",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "6375 X 1 inch",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              }
+            ]
+
+          }
+        },
+        {
+          "itemTitle": "Pipe Plug",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1216",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
               },
               {
-                "size": "5063",
-                "suitableFor": "O Rings"
+                "size": "1620",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
               },
               {
-                "size": "6375",
-                "suitableFor": "O Rings"
+                "size": "2025",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
+              }
+            ]
+
+          }
+        },
+        {
+          "itemTitle": "Special Fitting",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "Mixer Tee 1216 X 1216 X 1216 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
               },
               {
-                "size": "7590",
-                "suitableFor": "O Rings"
-              },
-              {
-                "size": "90110",
-                "suitableFor": "O Rings"
+                "size": "Mixer Tee 1620 X 1620 X 1620 X 1/2 inch",
+                "composite":"✓",
+                "brass":"✗",
+                "SS304":"✗"
               }
             ]
 

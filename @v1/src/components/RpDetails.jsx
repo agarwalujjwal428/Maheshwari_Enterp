@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+
+import React from "react";
 import { useParams } from "react-router-dom";
 import recentData from "../RecentProject.json";
 import Carousel from "react-bootstrap/Carousel";
@@ -15,12 +16,11 @@ const RpDetails = () => {
   return (
     <>
       <div className="rp-details">
-        <div className="product-service-card">
-          <div className="prod-serv-title">{title}</div>
-          <div className="prod-serv-desc">
+        <div className="rp-card">
+          <div className="rp-title">{title}</div>
+          <div className="rp-desc">
             {rpItem.readMore?.read_description}
           </div>
-
           <Carousel style={{ margin: "auto", height: "500px" }}>
             {rpItem.readMore.servItems.map((item, index) => (
               <Carousel.Item key={index} interval={3000}>
@@ -30,12 +30,12 @@ const RpDetails = () => {
                   style={{
                     height: "300px",
                     width: "auto",
-                    margin: "60px 0 0 165px",
-                  }}  
+                    margin: "60px 0 0 165px"
+                  }}
                 />
                 <p
                   style={{
-                    color: "#fff",
+                    color: "#606060",
                     fontWeight: "bold",
                     margin: "25px 0 20px 65px",
                     width: "80%",
