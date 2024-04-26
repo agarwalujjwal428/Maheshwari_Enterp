@@ -22,7 +22,21 @@ const ProductServiceItem = () => {
 
   console.log("Company Item:", companyItem);
 
-  const specialItemTitles = ["Equal Tee", "Reducing Tee","Female Tee","Equal Elbow","Reduced Elbow","Female Elbow","Male Thread Connector","Female Thread Connector","Reducer","Straight Coupler","Saddle","Pipe Plug","Special Fitting"];
+  const specialItemTitles = [
+    "Equal Tee",
+    "Reducing Tee",
+    "Female Tee",
+    "Equal Elbow",
+    "Reduced Elbow",
+    "Female Elbow",
+    "Male Thread Connector",
+    "Female Thread Connector",
+    "Reducer",
+    "Straight Coupler",
+    "Saddle",
+    "Pipe Plug",
+    "Special Fitting",
+  ];
 
   return (
     <div className="pro-serv-item-details">
@@ -50,9 +64,13 @@ const ProductServiceItem = () => {
                     {specialItemTitles.includes(companyItem.itemTitle) ? (
                       <>
                         <th>Pack Size</th>
-                        <th style={{paddingLeft:"60px"}}>Composite Compression</th>
-                        <th style={{paddingLeft:"40px"}}>Brass Compression</th>
-                        <th style={{paddingLeft:"60px"}}>SS304</th>
+                        <th style={{ paddingLeft: "60px" }}>
+                          Composite Compression
+                        </th>
+                        <th style={{ paddingLeft: "40px" }}>
+                          Brass Compression
+                        </th>
+                        <th style={{ paddingLeft: "60px" }}>SS304</th>
                       </>
                     ) : (
                       <>
@@ -70,10 +88,12 @@ const ProductServiceItem = () => {
                     <tr>
                       {specialItemTitles.includes(companyItem.itemTitle) ? (
                         <>
-                          <td >{item.size}</td>
-                          <td style={{paddingLeft:"135px"}}>{item.composite}</td>
-                          <td style={{paddingLeft:"95px"}}>{item.brass}</td>
-                          <td style={{paddingLeft:"75px"}}>{item.SS304}</td>
+                          <td>{item.size}</td>
+                          <td style={{ paddingLeft: "135px" }}>
+                            {item.composite}
+                          </td>
+                          <td style={{ paddingLeft: "95px" }}>{item.brass}</td>
+                          <td style={{ paddingLeft: "75px" }}>{item.SS304}</td>
                         </>
                       ) : (
                         <>

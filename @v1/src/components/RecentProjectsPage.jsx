@@ -3,6 +3,7 @@ import "../styles/RecentPage.css";
 import { IoReorderThreeOutline } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 import recentData from "../RecentProject.json";
+import { Link } from "react-router-dom";
 
 const RecentProjectsPage = () => {
   const [activeProject, setActiveProject] = useState("Tile Adhesives");
@@ -76,7 +77,16 @@ const RecentProjectsPage = () => {
                   <img src={item.img}></img>
                   <p className="rp-pd-title">{item.title}</p>
                   <p className="rp-pd-desc">{item.description}</p>
+                  <button className="rp-read-more">
+                   <span className="circle" aria-hidden="true">
+                   <span className="icon arrow"></span>
+                   </span>
+                   <Link to={`/recentproject/${item.id}/${item.title}/${item.category}`}>
+                   <span className="read-btn-text">Read More</span>
+                   </Link>
+                  </button>
                 </div>
+                
               ))}
             </div>
           </div>

@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons"; // Import the solid version
 import { Link } from "react-router-dom";
 
-
 const Blog = ({ blogId, data }) => {
   const like = parseInt(data.likes);
   const [likes, setLikes] = useState(like); // Initial like count is 10

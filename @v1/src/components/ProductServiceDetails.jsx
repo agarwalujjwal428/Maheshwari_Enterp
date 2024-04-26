@@ -62,17 +62,29 @@ const ProductServiceDetails = () => {
               {companyItem.readMore?.read_description}
             </div>
 
-            <Carousel style={{ margin:"auto" ,height:"500px"}}>
+            <Carousel style={{ margin: "auto", height: "500px" }}>
               {companyItem.readMore.servItems.map((item, index) => (
                 <Carousel.Item key={index} interval={3000}>
                   <img
                     src={item["item-img"]}
                     alt={item["item-desc"]}
-                    style={{ height: "300px", width: "auto", margin: "60px 0 0 165px" }}
+                    style={{
+                      height: "300px",
+                      width: "auto",
+                      margin: "60px 0 0 165px",
+                    }}
                   />
-                    <p style={{ color: "#fff", fontWeight: "bold",margin:"25px 0 20px 65px",width:"80%",textAlign:"justify"}}>
-                      {item["item-desc"]}
-                    </p>
+                  <p
+                    style={{
+                      color: "#fff",
+                      fontWeight: "bold",
+                      margin: "25px 0 20px 65px",
+                      width: "80%",
+                      textAlign: "justify",
+                    }}
+                  >
+                    {item["item-desc"]}
+                  </p>
                 </Carousel.Item>
               ))}
             </Carousel>
