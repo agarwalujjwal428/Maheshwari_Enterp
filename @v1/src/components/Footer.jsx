@@ -42,10 +42,10 @@ const Footer = () => {
 
             <div className="footerlogotext">
               <p>
-                Raees the best Architect agency perspiciatis unde omnis iste
-                natus error sit volutatem accusantium doloremque antium, totam
-                rem aperiam perspiciatis unde omnis iste natus error sit
-                voluptatem accusantium doloremque laudan
+                Maheshwari Enterprises, is a leading name in the construction
+                and waterproofing products industry. With over 30 years of
+                expertise, we offer top-quality products and cutting-edge
+                technologies, serving Jodhpur and neighboring areas.
               </p>
               <div className="logocontainer">
                 <a
@@ -109,10 +109,12 @@ const Footer = () => {
 
         <div className="footercolumn2">
           <h3>Our Services</h3>
-          <span>Architecture</span>
-          <span>Planning</span>
-          <span>Interior Design</span>
-          <span>Exterior Design</span>
+          <span>Penetrative WaterProofing</span>
+          <span>Termite Treatment</span>
+          <span>WaterProof Textures</span>
+          <span>Composite Plumbing</span>
+          <span>Mineral Paints</span>
+          <span>Tile Adhesives</span>
         </div>
         <div className="footercolumn3">
           <h3>Site Link</h3>

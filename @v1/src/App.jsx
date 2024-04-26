@@ -15,6 +15,7 @@ import AllBlog from "./components/AllBlog";
 import RecentProjectsPage from "./components/RecentProjectsPage";
 import ProductServiceItem from "./components/ProductServiceItem";
 import BlogDetails from "./components/BlogDetails";
+import RpDetails from "./components/RpDetails";
 
 // Higher-order component to check if the user's IP address is allowed
 const withAdminAccess = (Component) => (props) => {
@@ -73,6 +74,11 @@ const App = () => {
         <Route exact path="/blog/:title/:blogId" element={<BlogDetails />} />
         <Route exact path="/recentproject" element={<RecentProjectsPage />} />
 
+        <Route
+          exact
+          path="/recentproject/:id/:title/:category"
+          element={<RpDetails />}
+        />
         {/* Admin routes */}
         <Route exact path="/admin" element={<AdminDashboard />} />
       </Routes>
