@@ -12,7 +12,7 @@
   font-family: inherit;
   width: 12rem;
   height: auto;
-  margin-top: 20px;
+  margin-top: 8px;
   margin-bottom: 6px;
 }
 
@@ -218,6 +218,7 @@
   padding: 4.5rem 2.5rem 1.5rem;
 }
 .rp-title {
+  font-family: "Lato", sans-serif;
   border-bottom: 1px solid #606060;
   width: max-content;
   padding-bottom: 0.5rem;

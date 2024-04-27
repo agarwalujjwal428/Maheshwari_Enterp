@@ -1,4 +1,4 @@
-@import url("https://fonts.cdnfonts.com/css/futura-display-bq");
+ @import url("https://fonts.cdnfonts.com/css/futura-display-bq");
 
 .home_carousel {
   width: 100%;
@@ -51,4 +51,5 @@
 .home_bg_second {
   top: 392px;
   left: 534px;
-}
+} 
+
