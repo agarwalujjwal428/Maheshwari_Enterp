@@ -1,3 +1,4 @@
+
 /* @import url("https://fonts.cdnfonts.com/css/futura-display-bq");
 
 .home_carousel {
@@ -109,7 +110,8 @@
 .home_bg_second {
   top: 392px;
   left: 534px;
-}
+} 
+
 
 /* Media Queries for Responsive Design */
 @media screen and (max-width: 1024px) {
@@ -143,3 +145,4 @@
     font-size: 1.8em; /* Decrease font size for smaller screens */
   }
 }
+
