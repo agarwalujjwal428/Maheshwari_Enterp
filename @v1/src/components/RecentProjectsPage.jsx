@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "../styles/RecentPage.css";
 import { IoReorderThreeOutline } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
@@ -16,6 +16,9 @@ const RecentProjectsPage = () => {
   const toggleSidebar = () => {
     setSidebarVisible(!sidebarVisible);
   };
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top of the window when the component mounts
+  }, []); // Empty dependency array ensures the effect runs only once
 
   return (
     <>
