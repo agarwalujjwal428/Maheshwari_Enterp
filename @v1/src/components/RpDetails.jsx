@@ -1,7 +1,8 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { useParams } from "react-router-dom";
 import recentData from "../RecentProject.json";
 import Carousel from "react-bootstrap/Carousel";
+
 
 const RpDetails = () => {
   const { id, title, category } = useParams();
@@ -10,7 +11,12 @@ const RpDetails = () => {
     (item) => item.id == parseInt(id)
   );
 
+  useEffect(() => {
+    window.scrollTo(0,80); // Scroll to the top of the window when the component mounts
+  }, []); // Empty dependency array ensures the effect runs only once
+
   console.log("***recent project", rpItem);
+
 
   return (
     <>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons"; // Import the solid version
 import { Link } from "react-router-dom";
@@ -16,6 +16,7 @@ const Blog = ({ blogId, data }) => {
     }
     setLiked(!liked); // Toggle liked state
   };
+  
 
   return (
     <div className="blog" id={blogId}>

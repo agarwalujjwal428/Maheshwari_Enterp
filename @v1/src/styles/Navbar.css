@@ -1,4 +1,4 @@
-.nav-section {
+/* .nav-section {
   padding: 8px 0;
   position: sticky;
   top: 0;
@@ -35,5 +35,90 @@
 
 .navList {
   margin-right: -30px;
+} */
+
+.nav-section {
+  padding: 8px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-scrolled {
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+.nav-not-scrolled {
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-logo {
+  height: 50px;
+  margin-left: -33px;
+}
+
+.navList a {
+  text-transform: uppercase;
+}
+
+.navList a:hover {
+  color: #ffc400;
+}
+
+.active {
+  color: #ffc400;
+}
+
+.navList {
+  margin-right: -30px;
+
 } 
  
+
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1024px) {
+  .navbar-logo {
+    margin-left: 0; /* Reset margin for smaller screens */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-section {
+    padding: 4px 0; /* Adjust padding for smaller screens */
+  }
+
+  .main-menu {
+    flex-direction: column; /* Stack menu items vertically */
+    align-items: center; /* Center menu items horizontally */
+  }
+
+  .navList {
+    margin: 0; /* Reset margin for smaller screens */
+    padding: 10px 0; /* Add padding for smaller screens */
+    width: 100%; /* Expand the navList to full width */
+    text-align: center; /* Center align menu items */
+  }
+
+  .nav-item {
+    margin: 8px 0; /* Add margin between menu items */
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* Adjustments for iPhones */
+  .navbar-logo {
+    height: 40px; /* Decrease logo size for smaller screens */
+  }
+
+  .navList a {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+}
+

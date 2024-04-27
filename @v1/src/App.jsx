@@ -4,8 +4,9 @@ import {
   Routes,
   Route,
   Navigate,
+  useLocation
 } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import AllProductService from "./components/AllProductService";
@@ -49,40 +50,56 @@ const AdminDashboard = withAdminAccess(() => {
   return <div>Hello Admin!!</div>;
 });
 
+const ScrollToTop = ({ children }) => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return children;
+};
+
 const App = () => {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route
-          exact
-          path="/products-and-services"
-          element={<AllProductService />}
-        />
-        <Route
-          exact
-          path="/products-and-services/:title/:prodId/:category"
-          element={<ProductServiceDetails />}
-        />
-        <Route
-          exact
-          path="/products-and-services/:title/:prodId/:category/:itemTitle"
-          element={<ProductServiceItem />}
-        />
-        <Route exact path="/blog" element={<AllBlog />} />
-        <Route exact path="/blog/:title/:blogId" element={<BlogDetails />} />
-        <Route exact path="/recentproject" element={<RecentProjectsPage />} />
+      <ScrollToTop>
+        <Navbar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route
+            exact
+            path="/products-and-services"
+            element={<AllProductService />}
+          />
+          <Route
+            exact
+            path="/products-and-services/:title/:prodId/:category"
+            element={<ProductServiceDetails />}
+          />
+          <Route
+            exact
+            path="/products-and-services/:title/:prodId/:category/:itemTitle"
+            element={<ProductServiceItem />}
+          />
+          <Route exact path="/blog" element={<AllBlog />} />
+          <Route exact path="/blog/:title/:blogId" element={<BlogDetails />} />
+          <Route
+            exact
+            path="/recentproject"
+            element={<RecentProjectsPage />}
+          />
 
-        <Route
-          exact
-          path="/recentproject/:id/:title/:category"
-          element={<RpDetails />}
-        />
-        {/* Admin routes */}
-        <Route exact path="/admin" element={<AdminDashboard />} />
-      </Routes>
-      <Footer />
+          <Route
+            exact
+            path="/recentproject/:id/:title/:category"
+            element={<RpDetails />}
+          />
+          {/* Admin routes */}
+          <Route exact path="/admin" element={<AdminDashboard />} />
+        </Routes>
+        <Footer />
+      </ScrollToTop>
     </Router>
   );
 };
