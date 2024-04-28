@@ -31,7 +31,6 @@ ul {
   padding-right: 15%;
 }
 .footer-container {
-  /* background: linear-gradient(#112137,#0c3f7b,#0274CA); */
   background: #1a1a1a;
   min-height: 300px;
   overflow-x: hidden;
@@ -162,38 +161,37 @@ li {
 }
 
 @media screen and (max-width: 767px) {
-  /* Adjustments for Samsung and iPhone phones */
   .footer-container {
-    padding: 20px; /* Adjust padding for smaller screens */
+    padding: 20px;
   }
   .footer-top {
-    flex-direction: column; /* Change to column layout for smaller screens */
-    align-items: center; /* Center items for smaller screens */
-    padding-left: 0; /* Reset padding for smaller screens */
-    padding-right: 0; /* Reset padding for smaller screens */
+    flex-direction: column; 
+    align-items: center; 
+    padding-left: 0; 
+    padding-right: 0; 
   }
   .footerlogotext {
-    padding-left: 0; /* Reset padding for smaller screens */
-    padding-right: 0; /* Reset padding for smaller screens */
-    text-align: center; /* Center text for smaller screens */
+    padding-left: 0; 
+    padding-right: 0; 
+    text-align: center; 
   }
   .logocontainer {
-    margin-top: 20px; /* Adjust margin for smaller screens */
+    margin-top: 20px; 
   }
   .footer-linkcontainer {
-    flex-direction: column; /* Change to column layout for smaller screens */
-    align-items: center; /* Center items for smaller screens */
+    flex-direction: column; 
+    align-items: center; 
   }
   .footer-linkcontainer > div {
-    margin-bottom: 30px; /* Adjust margin between sections for smaller screens */
-    text-align: center; /* Center text for smaller screens */
+    margin-bottom: 30px; 
+    text-align: center; 
   }
   .footercolumn1 h3,
   .footercolumn2 h3,
   .footercolumn3 h3,
   .footercolumn4 h3 {
-    padding-left: 0; /* Reset padding for smaller screens */
-    text-align: center; /* Center text for smaller screens */
+    padding-left: 0; 
+    text-align: center; 
   }
   .footercolumn3 ul{
     padding-left: 0;

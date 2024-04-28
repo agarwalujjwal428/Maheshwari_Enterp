@@ -138,7 +138,6 @@ table td {
   
 }
 
-/* Style the enquiry button */
 .enquiry-button {
   background-color: transparent;
   border-radius: 4px;
@@ -158,27 +157,26 @@ table td {
 
 
 
-/* For screens up to 767px width (Samsung and iPhone phones) */
 @media screen and (max-width: 767px) {
   .pro-serv-card {
-    width: 100%; /* Make card full width for phones */
-    padding: 2rem 1rem; /* Adjust padding for smaller screens */
+    width: 100%; 
+    padding: 2rem 1rem; 
   }
 
   .pro-serv-item-head {
-    font-size: 1rem; /* Decrease font size for smaller screens */
+    font-size: 1rem; 
   }
 
   .product-header {
-    flex-direction: column; /* Stack header elements vertically */
+    flex-direction: column; 
   }
 
   .product-description {
-    text-align: center; /* Center-align description */
+    text-align: center; 
   }
 
   table {
-    font-size: 0.8rem; /* Decrease font size for smaller screens */
+    font-size: 0.8rem; 
   }
   #ps-item-size-head{
     margin-top: 30px;
@@ -192,10 +190,9 @@ table td {
   }
 }
 
-/* For screens between 768px and 1023px width (Tablets) */
 @media screen and (min-width: 768px) and (max-width: 1000px) {
   .pro-serv-card {
-    width: 80%; /* Adjust card width for tablets */
+    width: 80%; 
   }
   #ps-item-size-head{
     margin-top: 30px;

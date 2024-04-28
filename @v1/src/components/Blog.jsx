@@ -1,20 +1,20 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons"; // Import the solid version
+import { faHeart } from "@fortawesome/free-solid-svg-icons"; 
 import { Link } from "react-router-dom";
 
 const Blog = ({ blogId, data }) => {
   const like = parseInt(data.likes);
-  const [likes, setLikes] = useState(like); // Initial like count is 10
-  const [liked, setLiked] = useState(false); // Initial state of like button
+  const [likes, setLikes] = useState(like); 
+  const [liked, setLiked] = useState(false); 
 
   const handleLike = () => {
     if (!liked) {
-      setLikes(likes + 1); // Increment like count
+      setLikes(likes + 1); 
     } else {
-      setLikes(likes - 1); // Decrement like count if already liked
+      setLikes(likes - 1); 
     }
-    setLiked(!liked); // Toggle liked state
+    setLiked(!liked); 
   };
 
   return (

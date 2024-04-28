@@ -17,8 +17,8 @@ const RecentProjectsPage = () => {
     setSidebarVisible(!sidebarVisible);
   };
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top of the window when the component mounts
-  }, []); // Empty dependency array ensures the effect runs only once
+    window.scrollTo(0, 0); 
+  }, []); 
 
   return (
     <>

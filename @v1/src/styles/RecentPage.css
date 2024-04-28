@@ -231,7 +231,6 @@
 }
 .rp-card {
   width: 60%;
-  /* background-color: rgba(27, 31, 34, 0.85); */
   background-color: #f4f4f4;
   padding: 4.5rem 2.5rem 1.5rem;
 }
@@ -297,62 +296,61 @@
   text-align: justify;
 }
 
-/* For screens up to 767px width (Samsung and iPhone phones) */
 @media screen and (max-width: 767px) {
   .rp-bg {
-    height: 300px; /* Adjust height of background image */
-    top: -60px; /* Adjust position of background image */
+    height: 300px; 
+    top: -60px; 
   }
 
   .rp-head {
-    top: 116px; /* Center recent heading text */
-    left: 51%; /* Center recent heading text */
-    transform: translateX(-50%); /* Center recent heading text */
-    font-size: 3.5rem; /* Decrease font size for smaller screens */
+    top: 116px; 
+    left: 51%; 
+    transform: translateX(-50%); 
+    font-size: 3.5rem; 
   }
 
   .rp-container {
-    flex-direction: column; /* Change to column layout for phones */
-    align-items: center; /* Center align content */
-    padding: 20px; /* Adjust padding for smaller screens */
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px; 
   }
 
   .rp-sidebar {
-    position: relative; /* Remove sticky positioning for smaller screens */
-    width: 100%; /* Make sidebar full width for phones */
-    top: auto; /* Remove top positioning */
+    position: relative; 
+    width: 100%; 
+    top: auto; 
   }
 
   .rp-content {
-    width: 100%; /* Make content full width for phones */
-    margin-top: 20px; /* Add margin between sidebar and content */
-    margin-left: 0; /* Remove left margin */
+    width: 100%; 
+    margin-top: 20px; 
+    margin-left: 0; 
   }
 
   .rp-card {
-    width: 95%; /* Adjust card width for smaller screens */
-    padding: 2rem; /* Adjust padding for smaller screens */
+    width: 95%; 
+    padding: 2rem; 
   }
 
   .rp-title {
-    font-size: 0.8rem; /* Decrease title font size for smaller screens */
+    font-size: 0.8rem; 
   }
 
   .rp-desc {
-    font-size: 0.9rem; /* Decrease description font size for smaller screens */
+    font-size: 0.9rem; 
   }
 
   .carousel-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px; /* Set a fixed height for the carousel container */
+    height: 300px; 
   }
   
 
   .rp-project-details div {
-    width: 100%; /* Make each project full width for phones */
-    margin-bottom: 20px; /* Add margin between projects */
+    width: 100%; 
+    margin-bottom: 20px; 
   }
 
   .carousel-item{
@@ -375,31 +373,30 @@
   
 }
 
-/* For screens between 768px and 1020px width (Tablets) */
 @media screen and (min-width: 768px) and (max-width: 1020px) {
   .rp-bg {
-    height: 400px; /* Adjust height of background image */
-    top: -80px; /* Adjust position of background image */
+    height: 400px; 
+    top: -80px; 
   }
 
   .rp-head {
-    top: 190px; /* Center recent heading text */
+    top: 190px; 
     left:140px;
-    font-size: 4.3rem; /* Decrease font size for tablets */
+    font-size: 4.3rem; 
   }
   .rp-project-details div{
     width:48.5%;
   }
   .rp-card {
-    width: 70%; /* Adjust card width for tablets */
+    width: 70%; 
   }
 
   .rp-title {
-    font-size: 1.5rem; /* Increase title font size for tablets */
+    font-size: 1.5rem; 
   }
 
   .rp-desc {
-    font-size: 1rem; /* Increase description font size for tablets */
+    font-size: 1rem; 
   }
 
   .carousel-item{

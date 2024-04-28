@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
 import prodData from "../products_services.json";
 import "../styles/ProductServiceDetails.css";
 import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
+import LazyLoad from "react-lazyload";
 
 const ProductServiceDetails = () => {
   const { title, prodId, category } = useParams();
@@ -62,18 +63,12 @@ const ProductServiceDetails = () => {
             </div>
 
             <Carousel style={{ margin: "auto", height: "500px" }}>
-              {companyItem.readMore.servItems.map((item, index) => (
+              {companyItem.readMore?.servItems.map((item, index) => (
                 <Carousel.Item key={index} interval={3000}>
-                  <img
-                    src={item["item-img"]}
-                    alt={item["item-desc"]}
-                    
-                  />
-                  <p
-                  style={{color:"#fff"}}
-                  >
-                    {item["item-desc"]}
-                  </p>
+                  <LazyLoad height={500} once>
+                    <img src={item["item-img"]} alt={item["item-desc"]} />
+                  </LazyLoad>
+                  <p style={{ color: "#fff" }}>{item["item-desc"]}</p>
                 </Carousel.Item>
               ))}
             </Carousel>

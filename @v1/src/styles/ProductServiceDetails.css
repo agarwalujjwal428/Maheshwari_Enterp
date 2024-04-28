@@ -227,20 +227,19 @@
   width: 80%;
   text-align: justify;
 }
-/* For screens up to 767px width (Samsung and iPhone phones) */
 @media screen and (max-width: 767px) {
   .product-service-card {
-    width: 100%; /* Make card full width for phones */
-    padding: 2rem 1rem 1rem; /* Adjust padding for smaller screens */
+    width: 100%; 
+    padding: 2rem 1rem 1rem; 
   }
 
   .prod-serv-items {
-    flex-direction: column; /* Change to column layout for phones */
-    gap: 20px; /* Adjust gap between items for phones */
+    flex-direction: column; 
+    gap: 20px; 
   }
 
   .ps_item_container {
-    width: 100%; /* Make item container full width for phones */
+    width: 100%; 
   }
   .buttonDownload:before,.buttonDownload:after{
     display: none;
@@ -252,24 +251,24 @@
     margin: 70px 0 19.2px 20px;
   }
   .product-service-card {
-    width: 95%; /* Adjust card width for smaller screens */
-    padding: 2rem; /* Adjust padding for smaller screens */
+    width: 95%; 
+    padding: 2rem; 
   }
 
   .prod-serv-title {
-    font-size: 0.8rem; /* Decrease title font size for smaller screens */
+    font-size: 0.8rem; 
     margin-top:24px;
   }
 
   .prodd-serv-desc {
-    font-size: 0.9rem; /* Decrease description font size for smaller screens */
+    font-size: 0.9rem; 
   }
 
   .carousel-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px; /* Set a fixed height for the carousel container */
+    height: 300px; 
   }
   
 
@@ -299,20 +298,19 @@
 
 }
 
-/* For screens between 768px and 1023px width (Tablets) */
 @media screen and (min-width: 768px) and (max-width: 1020px) {
   .product-service-card {
-    width: 80%; /* Make card full width for phones */
-    padding: 2rem 1rem 1rem; /* Adjust padding for smaller screens */
+    width: 80%; 
+    padding: 2rem 1rem 1rem; 
   }
 
   .prod-serv-items {
-    flex-direction: column; /* Change to column layout for phones */
-    gap: 20px; /* Adjust gap between items for phones */
+    flex-direction: column; 
+    gap: 20px; 
   }
 
   .ps_item_container {
-    width: 100%; /* Make item container full width for phones */
+    width: 100%; 
   }
   .ps_item_image img{
     width:100% !important;
@@ -332,15 +330,15 @@
     padding-top: 2em;
   }
   .product-service-card {
-    width: 70%; /* Adjust card width for tablets */
+    width: 70%; 
   }
 
   .prod-serv-title {
-    font-size: 1.5rem; /* Increase title font size for tablets */
+    font-size: 1.5rem; 
   }
 
   .prod-serv-desc {
-    font-size: 1rem; /* Increase description font size for tablets */
+    font-size: 1rem; 
   }
 
   .carousel-item{

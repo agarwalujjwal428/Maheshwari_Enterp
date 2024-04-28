@@ -2,26 +2,12 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import prodData from "../products_services.json";
 import "../styles/ProductServiceItem.css";
-import { Enquiry } from "./Enquiry"; // Import Enquiry component
+import { Enquiry } from "./Enquiry";
+import LazyLoad from "react-lazyload";
 
 const ProductServiceItem = () => {
   const { title, prodId, category, itemTitle } = useParams();
-  console.log(prodId, itemTitle);
-  let itemData = {};
-
-  if (category === "products") {
-    itemData = prodData.products.find((product) => product.id === prodId);
-  } else if (category === "services") {
-    itemData = prodData.services.find((service) => service.id === prodId);
-  }
-
-  console.log("Product/Service:", itemData);
-
-  const companyItem = itemData.companyItems.find(
-    (item) => item.itemTitle === itemTitle
-  );
-
-  console.log("Company Item:", companyItem);
+  const [showDialog, setShowDialog] = useState(false);
 
   const specialItemTitles = [
     "Equal Tee",
@@ -39,10 +25,20 @@ const ProductServiceItem = () => {
     "Special Fitting",
   ];
 
-  // State to manage dialog visibility
-  const [showDialog, setShowDialog] = useState(false);
+  const getItemData = () => {
+    if (category === "products") {
+      return prodData.products.find((product) => product.id === prodId);
+    } else if (category === "services") {
+      return prodData.services.find((service) => service.id === prodId);
+    }
+    return {};
+  };
 
-  // Function to toggle dialog visibility
+  const itemData = getItemData();
+  const companyItem = itemData.companyItems.find(
+    (item) => item.itemTitle === itemTitle
+  );
+
   const toggleDialog = () => {
     setShowDialog(!showDialog);
   };
@@ -51,21 +47,23 @@ const ProductServiceItem = () => {
     <div className="pro-serv-item-details">
       <div className="pro-serv-card">
         <div className="enquiry-container">
-        <h2 className="pro-serv-item-head">{itemTitle}</h2>
-        <button className="enquiry-button" onClick={toggleDialog}>
-          Enquiry
-        </button>
+          <h2 className="pro-serv-item-head">{itemTitle}</h2>
+          <button className="enquiry-button" onClick={toggleDialog}>
+            Enquiry
+          </button>
         </div>
-        
+
         <div className="product-detail">
           <div className="product-header">
             {companyItem.itemImage !== "" && (
               <div className="pro-serv-item-image">
-                <img
-                  src={companyItem.itemImage}
-                  alt={companyItem.itemTitle}
-                  style={{ height: "180px", width: "260px" }}
-                />
+                <LazyLoad height={180} once>
+                  <img
+                    src={companyItem.itemImage}
+                    alt={companyItem.itemTitle}
+                    style={{ height: "180px", width: "260px" }}
+                  />
+                </LazyLoad>
               </div>
             )}
             <div className="product-description">{companyItem.itemDesc}</div>
@@ -138,8 +136,7 @@ const ProductServiceItem = () => {
           </div>
         </div>
       </div>
-      {/* Render Enquiry component conditionally */}
-      
+
       {showDialog && (
         <div className="dialog-container">
           <div className="dialog-content">

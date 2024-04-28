@@ -122,7 +122,6 @@
   .enq-send-button:active {
     transform: scale(0.95);
   }
-  /* Add this CSS to your existing Enquiry.css file */
 .success-popup {
   position: fixed;
   top: 0;
@@ -155,41 +154,39 @@
       width:50%;
     }
     .enq-fm {
-      flex-direction: column; /* Stack form fields vertically */
-      gap: 5px; /* Add gap between form fields */
+      flex-direction: column;
+      gap: 5px; 
     }
   
     .enq-form-fm {
-      width: 100%; /* Make form fields full width */
+      width: 100%; 
     }
   
     .enq-send-button {
-      width: 100%; /* Make button full width */
-      margin-top: 20px; /* Adjust top margin */
-      margin-left: 0; /* Reset left margin */
+      width: 100%; 
+      margin-top: 20px; 
+      margin-left: 0; 
     }
   }
   
-  /* For screens between 768px and 1023px width (Tablets) */
   @media screen and (min-width: 768px) and (max-width: 1023px) {
-    /* Add tablet-specific styles here */
     .dialog-container{
       width:40%;
       top:39%;
     }
     .enq-fm {
-      flex-direction: column; /* Stack form fields vertically */
-      gap: 5px; /* Add gap between form fields */
+      flex-direction: column; 
+      gap: 5px; 
     }
   
     .enq-form-fm {
-      width: 100%; /* Make form fields full width */
+      width: 100%; 
     }
   
     .enq-send-button {
-      width: 100%; /* Make button full width */
-      margin-top: 20px; /* Adjust top margin */
-      margin-left: 0; /* Reset left margin */
+      width: 100%; 
+      margin-top: 20px; 
+      margin-left: 0; 
     }
 
   }

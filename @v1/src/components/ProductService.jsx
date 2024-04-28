@@ -1,15 +1,18 @@
 import React from "react";
+import LazyLoad from "react-lazyload";
 import { Link } from "react-router-dom";
 
 const ProductService = ({ prodId, data }) => {
   console.log(prodId, data);
   return (
     <div className="product-service" id={prodId}>
-      <img
-        src={data.img}
-        style={{ width: "100%", height: "200px" }}
-        alt={data.title}
-      />
+      <LazyLoad height={200}>
+        <img
+          src={data.img}
+          style={{ width: "100%", height: "200px" }}
+          alt={data.title}
+        />
+      </LazyLoad>
       <h3>{data.title}</h3>
       <p>{data.description}</p>
       <Link

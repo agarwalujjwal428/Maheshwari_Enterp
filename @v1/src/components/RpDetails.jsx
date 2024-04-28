@@ -11,8 +11,8 @@ const RpDetails = () => {
   );
 
   useEffect(() => {
-    window.scrollTo(0, 80); // Scroll to the top of the window when the component mounts
-  }, []); // Empty dependency array ensures the effect runs only once
+    window.scrollTo(0, 80); 
+  }, []); 
 
   console.log("***recent project", rpItem);
 
@@ -26,7 +26,7 @@ const RpDetails = () => {
             {rpItem.readMore.servItems.map((item, index) => (
               <Carousel.Item key={index} interval={3000}>
                 <img src={item["item-img"]} alt={item["item-desc"]} />
-                <p style={{color:"#606060"}}>{item["item-desc"]}</p>
+                <p style={{ color: "#606060" }}>{item["item-desc"]}</p>
               </Carousel.Item>
             ))}
           </Carousel>

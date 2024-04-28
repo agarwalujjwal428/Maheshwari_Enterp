@@ -8,28 +8,23 @@ const AllBlog = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const blogsPerPage = 3;
 
-  // Calculate the index of the first and last blog on the current page
   const indexOfLastBlog = currentPage * blogsPerPage;
   const indexOfFirstBlog = indexOfLastBlog - blogsPerPage;
   const currentBlogs = blogData.blogs.slice(indexOfFirstBlog, indexOfLastBlog);
 
-  // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
-  // Ref for blog container
   const blogContainerRef = useRef(null);
 
   useEffect(() => {
     blogContainerRef.current.scrollIntoView({ behavior: "smooth" });
   }, [currentPage]);
 
-  // Logic to display page numbers
   const pageNumbers = [];
   for (let i = 1; i <= Math.ceil(blogData.blogs.length / blogsPerPage); i++) {
     pageNumbers.push(i);
   }
 
-  // Sort blogs by date
   const sortedBlogs = [...blogData.blogs].sort((a, b) => {
     const dateA = new Date(a.publish_date.split("/").reverse().join("/"));
     const dateB = new Date(b.publish_date.split("/").reverse().join("/"));
@@ -38,7 +33,6 @@ const AllBlog = () => {
 
   console.log("*latest blogs", sortedBlogs);
 
-  // Get the latest 4 blogs
   const latestBlogs = sortedBlogs.slice(0, 4);
   console.log(latestBlogs);
 
@@ -73,7 +67,7 @@ const AllBlog = () => {
           </ul>
         </div>
       </div>
-      {/* Pagination */}
+      
       <ul className="pagination">
         {pageNumbers.map((number) => (
           <li key={number} className={currentPage === number ? "active" : ""}>

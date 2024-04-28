@@ -74,15 +74,14 @@
 }
 
 @media screen and (max-width: 767px) {
-  /* Adjustments for Samsung and iPhone phones */
   .funfact-wrapper {
-    flex-direction: column; /* Change to column layout for smaller screens */
-    gap: 20px; /* Add some gap between items for smaller screens */
+    flex-direction: column; 
+    gap: 20px; 
   }
 
   .funfact-single {
-    max-width: 100%; /* Take up full width for smaller screens */
-    flex-basis: auto; /* Reset flex basis for smaller screens */
+    max-width: 100%; 
+    flex-basis: auto; 
   }
 }
 @media screen and (max-width: 420px) {
