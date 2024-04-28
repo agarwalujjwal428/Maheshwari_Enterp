@@ -22,9 +22,9 @@ const AllProductService = () => {
         <img src="/src/assets/images/j.jpg" alt="Product Background" />
         <div className="product-head">
           <h2 id="ph-first">Products</h2>
-           <h2 id="ph-second">&</h2> 
-           <h2 id="ph-third">Services</h2>
-           </div>
+          <h2 id="ph-second">&</h2>
+          <h2 id="ph-third">Services</h2>
+        </div>
       </div>
 
       <div className="prod-serv-container">

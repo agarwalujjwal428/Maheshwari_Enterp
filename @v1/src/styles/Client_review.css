@@ -104,6 +104,14 @@
     text-align: end;
 
   }
+
+  .slide-initials span{
+    border-radius: 50%;
+    background-color: #1a1a1a;
+    color: #fafafa;
+    font-size:1.4em;
+    padding:5px;
+  }
   
   /* Media Queries for Responsive Design */
 @media screen and (max-width: 767px) {

@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons"; // Import the solid version
 import { useParams, Link } from "react-router-dom";
@@ -38,7 +38,7 @@ const BlogDetails = () => {
     setLiked(!liked); // Toggle liked state
   };
   useEffect(() => {
-    window.scrollTo(0,500); // Scroll to the top of the window when the component mounts
+    window.scrollTo(0, 500); // Scroll to the top of the window when the component mounts
   }, []); // Empty dependency array ensures the effect runs only once
 
   return (
@@ -104,4 +104,4 @@ const BlogDetails = () => {
   );
 };
 
-export default BlogDetails;
+export default BlogDetails;

@@ -31,7 +31,7 @@ const Testimonials = () => {
                 />
                 <Test_Item
                   title="Retail Shops Covered"
-                  stat={500} 
+                  stat={500}
                   icon="https://template.hasthemes.com/raees/raees/img/funfact/4.png"
                 />
               </div>
