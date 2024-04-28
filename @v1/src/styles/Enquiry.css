@@ -17,7 +17,7 @@
   .enq-fm {
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    gap: 60px;  
   }
   .enq-form-fm {
     width: 45%;

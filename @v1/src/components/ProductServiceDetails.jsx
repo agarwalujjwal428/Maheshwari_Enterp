@@ -14,8 +14,6 @@ const ProductServiceDetails = () => {
     companyItem = prodData.services.find((service) => service.id === prodId);
   }
 
-  
-
   return (
     <>
       {category === "products" && (

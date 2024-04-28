@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import prodData from "../products_services.json";
 import "../styles/ProductServiceItem.css";
@@ -13,8 +13,6 @@ const ProductServiceItem = () => {
   } else if (category === "services") {
     itemData = prodData.services.find((service) => service.id === prodId);
   }
-
- 
 
   console.log("Product/Service:", itemData);
 

@@ -10,7 +10,9 @@ const Section_2 = () => {
               <div className="specialization-title">
                 <h2>Our Specialization</h2>
                 <p>
-                With a focus on innovation and quality, we specialize in providing top-notch solutions for various needs, ensuring the longevity and durability of your projects.
+                  With a focus on innovation and quality, we specialize in
+                  providing top-notch solutions for various needs, ensuring the
+                  longevity and durability of your projects.
                 </p>
               </div>
             </div>

@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/RecentPage.css";
 import { IoReorderThreeOutline } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
@@ -35,7 +35,8 @@ const RecentProjectsPage = () => {
 
             <button
               onClick={() => showProjectDetails("Tile Adhesives")}
-              className={activeProject === "Tile Adhesives" ? "btn-active" : ""} style={{marginTop:"18px"}}
+              className={activeProject === "Tile Adhesives" ? "btn-active" : ""}
+              style={{ marginTop: "18px" }}
             >
               Tile Adhesives
             </button>
@@ -81,15 +82,16 @@ const RecentProjectsPage = () => {
                   <p className="rp-pd-title">{item.title}</p>
                   <p className="rp-pd-desc">{item.description}</p>
                   <button className="rp-read-more">
-                   <span className="circle" aria-hidden="true">
-                   <span className="icon arrow"></span>
-                   </span>
-                   <Link to={`/recentproject/${item.id}/${item.title}/${item.category}`}>
-                   <span className="read-btn-text">Read More</span>
-                   </Link>
+                    <span className="circle" aria-hidden="true">
+                      <span className="icon arrow"></span>
+                    </span>
+                    <Link
+                      to={`/recentproject/${item.id}/${item.title}/${item.category}`}
+                    >
+                      <span className="read-btn-text">Read More</span>
+                    </Link>
                   </button>
                 </div>
-                
               ))}
             </div>
           </div>
