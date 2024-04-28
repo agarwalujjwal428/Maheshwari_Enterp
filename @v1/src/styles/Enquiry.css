@@ -32,8 +32,8 @@
     font-size: 0.8em;
     color: #fff;
   }
-  textarea::placeholder,
-  input::placeholder {
+  .enq-form textarea::placeholder,
+  .enq-form input::placeholder {
     font-size: 15px;
     padding: 10px;
     opacity: 0.67;
@@ -51,8 +51,8 @@
     margin-bottom: 5px;
   }
   
-   input,
-  textarea {
+   .enq-form input,
+  .enq-form textarea {
     width: 100%;
     padding: 2px;
     border: 1px solid #ccc;
@@ -138,11 +138,7 @@
   color:#303030;
 }
 
-.time-indicator {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 14px;
-}
+
 
   @keyframes fly-1 {
     from {

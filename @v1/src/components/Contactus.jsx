@@ -1,12 +1,62 @@
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import "../styles/Contactus.css";
 
 const Contactus = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    phoneNumber: "",
+    message: "",
+  });
+  const [isSent, setIsSent] = useState(false);
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_5dz6tgm",
+        "template_4bd8nyd",
+        e.target,
+        "0hA4brvvYVm6NFf9d"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setIsSent(true);
+          setTimeout(() => {
+            setIsSent(false);
+            setFormData({
+              name: "",
+              email: "",
+              subject: "",
+              phoneNumber: "",
+              message: "",
+            });
+          }, 2000);
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Message sending failed!");
+        }
+      );
+  };
+
   return (
     <>
       <div class="contact-container">
         <div class="contact-form">
           <h2>Contact Us</h2>
-          <form id="contact-form" className="contact-form-inner">
+          <form
+            id="contact-form"
+            className="contact-form-inner"
+            onSubmit={handleSubmit}
+          >
             <div className="contact-fm">
               <div class="form-group form-fm">
                 <label className="contact-lbl" for="name">
@@ -16,6 +66,8 @@ const Contactus = () => {
                   type="text"
                   id="name"
                   name="name"
+                  value={formData.name}
+                  onChange={handleChange}
                   required
                   placeholder="Name"
                 ></input>
@@ -28,6 +80,8 @@ const Contactus = () => {
                   type="email"
                   id="email"
                   name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   required
                   placeholder="Email"
                 ></input>
@@ -42,6 +96,8 @@ const Contactus = () => {
                 type="text"
                 id="subject"
                 name="subject"
+                value={formData.subject}
+                onChange={handleChange}
                 required
                 placeholder="Subject"
               ></input>
@@ -53,7 +109,9 @@ const Contactus = () => {
               <input
                 type="text"
                 id="number"
-                name="number"
+                name="phoneNumber"
+                value={formData.phoneNumber}
+                onChange={handleChange}
                 required
                 placeholder="Phone Number"
               ></input>
@@ -65,12 +123,14 @@ const Contactus = () => {
               <textarea
                 id="message"
                 name="message"
+                value={formData.message}
+                onChange={handleChange}
                 required
                 placeholder="Message"
               ></textarea>
             </div>
 
-            <button className="send-button">
+            <button type="submit" className="send-button">
               <div class="svg-wrapper-1">
                 <div class="svg-wrapper">
                   <svg
@@ -90,6 +150,11 @@ const Contactus = () => {
               <span>Send</span>
             </button>
           </form>
+          {isSent && (
+            <div className="contact-success-popup">
+              <p>Message sent successfully!</p>
+            </div>
+          )}
         </div>
         <div class="map">
           <iframe

@@ -20,10 +20,10 @@ export const Enquiry = ({ itemTitle }) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_fh2377d",
-        "template_m8hdsnl",
+        "service_5dz6tgm",
+        "template_32r0y0r",
         e.target,
-        "GAEGanxR1VKee0aMY"
+        "0hA4brvvYVm6NFf9d"
       )
       .then(
         (result) => {

@@ -7,13 +7,13 @@ const Home_Bg = () => {
   const slides = [
     {
       image: "/src/assets/images/F_7.jpg",
-      alt: "Slide 3",
-      caption: "This is slide 3",
+      alt: "Slide 1",
+      caption: "This is slide 1",
     },
     {
       image: "/src/assets/images/F_3.jpg",
-      alt: "Slide 3",
-      caption: "This is slide 3",
+      alt: "Slide 2",
+      caption: "This is slide 2",
     },
     {
       image: "/src/assets/images/F_9.jpeg",
