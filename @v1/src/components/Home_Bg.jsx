@@ -3,25 +3,26 @@ import Home_Bg_carousel from "./Home_Bg_carousel";
 import "../styles/Home_Bg.css";
 import "animate.css";
 
-const slides = [
-  {
-    image: "/src/assets/images/F_7.jpg",
-    alt: "Slide 3",
-    caption: "This is slide 3",
-  },
-  {
-    image: "/src/assets/images/F_3.jpg",
-    alt: "Slide 3",
-    caption: "This is slide 3",
-  },
-  {
-    image: "/src/assets/images/F_9.jpeg",
-    alt: "Slide 3",
-    caption: "This is slide 3",
-  },
-];
 
 const Home_Bg = () => {
+  const slides = [
+    {
+      image: "/src/assets/images/F_7.jpg",
+      alt: "Slide 1",
+      caption: "This is slide 1",
+    },
+    {
+      image: "/src/assets/images/F_3.jpg",
+      alt: "Slide 2",
+      caption: "This is slide 2",
+    },
+    {
+      image: "/src/assets/images/F_9.jpeg",
+      alt: "Slide 3",
+      caption: "This is slide 3",
+    },
+  ];
+
   const [fade, setFade] = useState(false);
   const [showImage, setShowImage] = useState(false);
 
