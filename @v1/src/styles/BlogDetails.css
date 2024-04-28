@@ -89,3 +89,50 @@
   line-height: 24px;
   margin: 0 0 15px;
 }
+
+/* For screens up to 767px width (Samsung and iPhone phones) */
+@media screen and (max-width: 767px) {
+  .blog-bg {
+    top: -70px; /* Adjust position of background image */
+    height: 300px; /* Adjust height of background image */
+  }
+
+  .blog-head {
+    top: 150px; /* Center blog heading text */
+    left: 50%; /* Center blog heading text */
+    transform: translateX(-50%); /* Center blog heading text */
+    font-size: 3rem; /* Decrease font size for smaller screens */
+  }
+
+  .blog-details-container {
+    flex-direction: column; /* Change to column layout for phones */
+    align-items: center; /* Center align content */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .blog-details-leftSide {
+    width: 100%; /* Make left side full width for phones */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  .blog-details-rightSide {
+    display: none; /* Hide right side for phones */
+  }
+}
+
+/* For screens between 768px and 1020px width (Tablets) */
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  .blog-bg {
+    top: -90px; /* Adjust position of background image */
+    height: 400px; /* Adjust height of background image */
+  }
+
+  .blog-head {
+    top: 220px; /* Center blog heading text */
+    left: 50%; /* Center blog heading text */
+    transform: translateX(-50%); /* Center blog heading text */
+    font-size: 3.5rem; /* Decrease font size for tablets */
+  }
+}
+
+/* Additional styles for larger screens (Desktops) if needed */

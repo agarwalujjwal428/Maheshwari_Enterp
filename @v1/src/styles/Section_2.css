@@ -42,4 +42,36 @@ p {
   line-height: 25px;
   /* padding-left: 48px; */
 }
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 420px) {
+  /* Adjustments for Samsung and iPhone phones */
+  .col-md-4 {
+    width: 100%; /* Each specification takes up full width */
+    padding: 0 15px; /* Add some padding between specifications */
+    margin-bottom: 30px; /* Add margin at the bottom for spacing */
+
+  }
+  .specialization-title {
+    width: 270px;
+  }
+  .spec-container .row{
+    width:250px;
+  }
+  
+}
+
+@media screen and (min-width:421px) and (max-width: 788px)  {
+  /* Adjustments for tablets */
+  .col-md-4 {
+    width: 100%; /* Two specifications per row */
+    display: flex;
+  }
+  .spec-container{
+    padding: 0 40px 0 40px;
+  }
+  .specialization-single{
+    text-align: justify;
+    padding: 5px 14px 5px 14px;
+  }
+}
 

@@ -89,36 +89,103 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 780px) {
   .nav-section {
     padding: 4px 0; /* Adjust padding for smaller screens */
+    width:100%;
   }
-
-  .main-menu {
-    flex-direction: column; /* Stack menu items vertically */
-    align-items: center; /* Center menu items horizontally */
-  }
-
-  .navList {
-    margin: 0; /* Reset margin for smaller screens */
-    padding: 10px 0; /* Add padding for smaller screens */
-    width: 100%; /* Expand the navList to full width */
-    text-align: center; /* Center align menu items */
-  }
-
   .nav-item {
     margin: 8px 0; /* Add margin between menu items */
   }
+  .navbar-logo{
+    height:40px;
+  }
+  
+  .navContainer{
+    margin:0 20px 0 20px;
+    max-width: 100%;
+  }
+  .navList{
+    margin:0;
+  }
+
+  .navList a{
+    padding:6px 30px 6px 0px;
+  }
+ 
+  
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
+  .nav-section {
+    padding: 4px 0; /* Adjust padding for smaller screens */
+    width:100%;
+  }
   /* Adjustments for iPhones */
   .navbar-logo {
-    height: 40px; /* Decrease logo size for smaller screens */
+    display: none;/* Remove logo size for smaller screens */
   }
 
   .navList a {
-    font-size: 14px; /* Decrease font size for smaller screens */
+    font-size: 14px;
+    padding:0 0.6rem 0 1rem; /* Decrease font size for smaller screens */
+
   }
-}
+  .navContainer{
+    margin:0.2rem 0.02rem 0.02rem 0.04rem;
+    padding:0.2rem;
+  }
+  .navList{
+    padding-left:1.2rem;
+    
+  }
+  .navbar-header,.navbar-header a
+  {
+    height:0;
+    width:0;
+    font-size: 0px;
+  }
+  .main-menu{
+    justify-content:left !important;
+
+  }
+  
+  }
+
+@media screen and (max-width: 380px) {
+  .nav-section {
+    padding: 4px 0; /* Adjust padding for smaller screens */
+    width:100%;
+  }
+  /* Adjustments for iPhones */
+  .navbar-logo {
+    display: none;/* Remove logo size for smaller screens */
+  }
+
+  .navList a {
+    font-size: 14px;
+    padding:0 0.6rem 0 1rem; /* Decrease font size for smaller screens */
+
+  }
+  .navContainer{
+    margin:0.2rem 0.02rem 0.02rem 0.04rem;
+    padding:0.2rem;
+  }
+  .navList{
+    padding:0;
+    
+  }
+  .navbar-header,.navbar-header a
+  {
+    height:0;
+    width:0;
+    font-size: 0px;
+  }
+  .main-menu{
+    justify-content:left !important;
+
+  }
+  
+  }
+
 

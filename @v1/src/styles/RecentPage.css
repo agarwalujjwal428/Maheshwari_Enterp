@@ -147,6 +147,24 @@
   border-radius: 3px;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
 }
+.carousel-control-next{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 70px !important; 
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
 
 .rp-content {
   flex: 1;
@@ -266,3 +284,142 @@
   background-size: 100% 100%;
   background-color: #606060;
 }
+.carousel-item img{
+  height: 300px;
+  width: auto;
+  margin: 60px 0 0 166px;
+}
+.carousel-item p{
+  color: #606060;
+  font-weight: bold;
+  margin: 25px 0 20px 65px;
+  width: 80%;
+  text-align: justify;
+}
+
+/* For screens up to 767px width (Samsung and iPhone phones) */
+@media screen and (max-width: 767px) {
+  .rp-bg {
+    height: 300px; /* Adjust height of background image */
+    top: -60px; /* Adjust position of background image */
+  }
+
+  .rp-head {
+    top: 116px; /* Center recent heading text */
+    left: 51%; /* Center recent heading text */
+    transform: translateX(-50%); /* Center recent heading text */
+    font-size: 3.5rem; /* Decrease font size for smaller screens */
+  }
+
+  .rp-container {
+    flex-direction: column; /* Change to column layout for phones */
+    align-items: center; /* Center align content */
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .rp-sidebar {
+    position: relative; /* Remove sticky positioning for smaller screens */
+    width: 100%; /* Make sidebar full width for phones */
+    top: auto; /* Remove top positioning */
+  }
+
+  .rp-content {
+    width: 100%; /* Make content full width for phones */
+    margin-top: 20px; /* Add margin between sidebar and content */
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .rp-card {
+    width: 95%; /* Adjust card width for smaller screens */
+    padding: 2rem; /* Adjust padding for smaller screens */
+  }
+
+  .rp-title {
+    font-size: 0.8rem; /* Decrease title font size for smaller screens */
+  }
+
+  .rp-desc {
+    font-size: 0.9rem; /* Decrease description font size for smaller screens */
+  }
+
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Set a fixed height for the carousel container */
+  }
+  
+
+  .rp-project-details div {
+    width: 100%; /* Make each project full width for phones */
+    margin-bottom: 20px; /* Add margin between projects */
+  }
+
+  .carousel-item{
+    float: none;
+    margin:0 ;
+    margin-left:-123px;
+    margin-top:10px;
+  }
+
+  .carousel-item img{
+    height:200px;
+    width:150px;
+  }
+  .carousel-item p{
+    margin-left:148px;
+  }
+  .carousel-control-next{
+    right:5px !important;
+  }
+  
+}
+
+/* For screens between 768px and 1020px width (Tablets) */
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  .rp-bg {
+    height: 400px; /* Adjust height of background image */
+    top: -80px; /* Adjust position of background image */
+  }
+
+  .rp-head {
+    top: 190px; /* Center recent heading text */
+    left:140px;
+    font-size: 4.3rem; /* Decrease font size for tablets */
+  }
+  .rp-project-details div{
+    width:48.5%;
+  }
+  .rp-card {
+    width: 70%; /* Adjust card width for tablets */
+  }
+
+  .rp-title {
+    font-size: 1.5rem; /* Increase title font size for tablets */
+  }
+
+  .rp-desc {
+    font-size: 1rem; /* Increase description font size for tablets */
+  }
+
+  .carousel-item{
+    float: none;
+    margin:0 ;
+    margin-left:-57px;
+    margin-top:10px;
+  }
+
+  .carousel-item img{
+    height:250px;
+    width:200px;
+  }
+  .carousel-item p{
+    margin-left:103px;
+  }
+  .carousel-control-next{
+    right:5px !important;
+  }
+  
+}
+
+

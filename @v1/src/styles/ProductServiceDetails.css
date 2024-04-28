@@ -103,7 +103,6 @@
   padding: 0 1.25rem 0 1.35rem;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   position: relative;
   font-family: sans-serif;
   text-indent: 15px;
@@ -216,4 +215,152 @@
   left: 0;
   top: 0;
   opacity: 0.5;
+}
+.carousel-item img{
+  height: 300px;
+  width: auto;
+  margin: 60px 0 0 166px;
+}
+.carousel-item p{
+  font-weight: bold;
+  margin: 25px 0 20px 65px;
+  width: 80%;
+  text-align: justify;
+}
+/* For screens up to 767px width (Samsung and iPhone phones) */
+@media screen and (max-width: 767px) {
+  .product-service-card {
+    width: 100%; /* Make card full width for phones */
+    padding: 2rem 1rem 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .prod-serv-items {
+    flex-direction: column; /* Change to column layout for phones */
+    gap: 20px; /* Adjust gap between items for phones */
+  }
+
+  .ps_item_container {
+    width: 100%; /* Make item container full width for phones */
+  }
+  .buttonDownload:before,.buttonDownload:after{
+    display: none;
+  }
+  .buttonDownload{
+    text-indent:0;
+    font-size: 1em;
+    line-height: 2em;
+    margin: 70px 0 19.2px 20px;
+  }
+  .product-service-card {
+    width: 95%; /* Adjust card width for smaller screens */
+    padding: 2rem; /* Adjust padding for smaller screens */
+  }
+
+  .prod-serv-title {
+    font-size: 0.8rem; /* Decrease title font size for smaller screens */
+    margin-top:24px;
+  }
+
+  .prodd-serv-desc {
+    font-size: 0.9rem; /* Decrease description font size for smaller screens */
+  }
+
+  .carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Set a fixed height for the carousel container */
+  }
+  
+
+  .carousel-item{
+    float: none;
+    margin:0 ;
+    margin-left:-123px;
+    margin-top:10px;
+  }
+
+  .carousel-item img{
+    height:200px;
+    width:150px;
+  }
+  .carousel-item p{
+    margin-left:148px;
+  }
+  .carousel-control-next{
+    right:5px !important;
+  }
+  .ps_item_image img{
+    width:100% !important;
+    height:200px !important;
+
+  }
+  
+
+}
+
+/* For screens between 768px and 1023px width (Tablets) */
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+  .product-service-card {
+    width: 80%; /* Make card full width for phones */
+    padding: 2rem 1rem 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .prod-serv-items {
+    flex-direction: column; /* Change to column layout for phones */
+    gap: 20px; /* Adjust gap between items for phones */
+  }
+
+  .ps_item_container {
+    width: 100%; /* Make item container full width for phones */
+  }
+  .ps_item_image img{
+    width:100% !important;
+    height:250px !important;
+
+  }
+  .buttonDownload:before,.buttonDownload:after{
+    display: none;
+  }
+  .buttonDownload{
+    text-indent:0;
+    font-size: 1.8em;
+    line-height: 1.8em;
+    margin: 30px 0 19.2px 30px;
+  }
+  .prod-serv-title{
+    padding-top: 2em;
+  }
+  .product-service-card {
+    width: 70%; /* Adjust card width for tablets */
+  }
+
+  .prod-serv-title {
+    font-size: 1.5rem; /* Increase title font size for tablets */
+  }
+
+  .prod-serv-desc {
+    font-size: 1rem; /* Increase description font size for tablets */
+  }
+
+  .carousel-item{
+    float: none;
+    margin:0 ;
+    margin-left:-57px;
+    margin-top:10px;
+  }
+
+  .carousel-item img{
+    height:250px;
+    width:200px;
+  }
+  .carousel-item p{
+    margin-left:103px;
+  }
+  .carousel-control-next{
+    right:5px !important;
+  }
+  
+
+  
 }

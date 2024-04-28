@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 
-.bg-2 {
-  /* background: url(https://template.hasthemes.com/raees/raees/img/bg/2.png)
-    repeat scroll 0 0 / cover; */
-}
 .ptb-85 {
   padding: 60px 45px;
 }
@@ -75,5 +71,23 @@
 .stat-number {
   font-size: 2rem;
   font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  /* Adjustments for Samsung and iPhone phones */
+  .funfact-wrapper {
+    flex-direction: column; /* Change to column layout for smaller screens */
+    gap: 20px; /* Add some gap between items for smaller screens */
+  }
+
+  .funfact-single {
+    max-width: 100%; /* Take up full width for smaller screens */
+    flex-basis: auto; /* Reset flex basis for smaller screens */
+  }
+}
+@media screen and (max-width: 420px) {
+  .ptb-85{
+    margin-top:30px;
+  }
 }
 
