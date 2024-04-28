@@ -118,31 +118,64 @@
   /* Adjustments for tablets */
   .home_bg_pic {
     left: 50%; /* Center the image horizontally */
-    transform: translateX(-50%);
+    top:130px;
+    transform: translateX(-54%);
   }
   
   .home_bg_first {
     left: 50%; /* Center the text horizontally */
-    transform: translateX(-50%);
+    top:440px;
+    transform: translateX(-54%);
+    font-size: 1.85em;
+    font-weight: bolder;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 780px) {
   /* Adjustments for Samsung phones */
-  .home_bg_pic,
-  .home_bg_first {
-    /* Reset positioning */
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
+  .home_bg_pic {
+    left: 53%; /* Center the image horizontally */
+    top:170px;
+    transform: translateX(-61%);
   }
+  .home_bg_pic img{
+    height:350px !important;
+    width:350px !important;
+  }
+  
+  .home_bg_first {
+    left: 52%; /* Center the text horizontally */
+    top:435px;
+    transform: translateX(-59%);
+    font-size: 1.8em;
+    font-weight: bolder;
+  }
+  
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
   /* Adjustments for iPhones */
-  .home_bg_first {
-    font-size: 1.8em; /* Decrease font size for smaller screens */
+  .home_bg_pic {
+    left: 50%; /* Center the image horizontally */
+    top:180px;
+    transform: translateX(-48%);
   }
+  .home_bg_pic img{
+    height:200px !important;
+    width:200px !important;
+  }
+  
+  .home_bg_first {
+    left: 50%; /* Center the text horizontally */
+    top:337px;
+    transform: translateX(-46%);
+    font-size: 1em;
+    font-weight: bolder;
+  }
+  .home_bg_container{
+    height:640px;
+  }
+  
+  
 }
 

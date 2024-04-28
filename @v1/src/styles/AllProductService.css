@@ -202,3 +202,79 @@
 .read-more:hover .read-btn-text {
   color: #fff;
 }
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 767px) {
+  /* Adjustments for Samsung and iPhone phones */
+  .prod-serv-container {
+    padding: 0; /* Reset padding for smaller screens */
+  }
+
+  .prod-serv-btn-container {
+    flex-direction: column; /* Change to column layout for smaller screens */
+    align-items: center; /* Center items for smaller screens */
+    gap: 10px; /* Adjust gap between buttons for smaller screens */
+  }
+
+  .prod-serv-btn {
+    width: 100%; /* Make buttons full width for smaller screens */
+  }
+
+  .prod-container,
+  .serv-container {
+    display: flex;
+    flex-direction: column; /* Change to column layout for smaller screens */
+    align-items: center; /* Center items for smaller screens */
+  }
+
+  .product-service {
+    width: calc(100% - 20px); /* Make card full width for smaller screens */
+  }
+  .product-head {
+    text-align: center;
+    left:50%;
+    transform: translateX(-50%);
+    top:200px;
+  }
+  #ph-first, #ph-second, #ph-third{
+    font-size:3rem;
+  }
+  #ph-second{
+    margin-left:-13px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width:1020px) {
+  /* Adjustments for tablets and larger screens */
+  .prod-serv-container {
+    padding: 0 1em; /* Reset horizontal padding for tablets and larger screens */
+  }
+
+  .prod-serv-btn-container {
+    flex-direction: row; /* Change back to row layout for tablets and larger screens */
+  }
+
+  .prod-serv-btn {
+    width: auto; /* Reset button width for tablets and larger screens */
+  }
+
+  .prod-container,
+  .serv-container {
+    flex-direction: row; /* Change back to row layout for tablets and larger screens */
+    justify-content: space-evenly; /* Spread out items evenly for tablets and larger screens */
+  }
+
+  .product-service {
+    width: calc(50% - 20px); /* Two cards per row for tablets and larger screens */
+  }
+  .product-head {
+    text-align: center;
+    left:50%;
+    transform: translateX(-50%);
+    top:150px;
+  }
+  
+  #ph-second{
+    margin-left:-13px;
+  }
+}

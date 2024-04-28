@@ -22,7 +22,7 @@
     position: relative;
   }
   
-  .carousel-container {
+  .client-carousel-container {
     display: flex;
     transition: transform 2s ease;
     padding:35px;
@@ -113,3 +113,57 @@
     padding:5px;
   }
   
+  /* Media Queries for Responsive Design */
+@media screen and (max-width: 767px) {
+  /* Adjustments for Samsung and iPhone phones */
+  .review-container {
+    flex-direction: column; /* Change to column layout for smaller screens */
+    width: 100%; /* Full width for smaller screens */
+    margin: 0; /* Remove margin for smaller screens */
+    padding: 0; /* Remove padding for smaller screens */
+  }
+
+  .review-header, .review-slides {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  .client-carousel-container {
+    gap: 0; /* Remove gap between slides for smaller screens */
+    padding: 0; /* Remove padding for smaller screens */
+  }
+
+  .slide-client {
+    flex: 1 0 100%; /* Each slide takes up full width for smaller screens */
+    margin: 0; /* Remove margin for smaller screens */
+  }
+
+  .client-slide-btn {
+    display: inline;
+    margin:20px 5px 10px 5px;
+}
+.carousel{
+  width:100%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Adjustments for tablets */
+  .slide-client {
+    flex: 1 0 50%; /* Two slides per row for tablets */
+  }
+  .carousel{
+    width:100%;
+  }
+  .review-header, .review-slides {
+    width: 100%; /* Full width for smaller screens */
+  }
+  .review-container {
+    flex-direction: column; /* Change to column layout for smaller screens */
+    width: 100%; /* Full width for smaller screens */
+    margin: 30px 0; /* Remove margin for smaller screens */
+    padding: 0; /* Remove padding for smaller screens */
+  }
+
+}
+
+ 

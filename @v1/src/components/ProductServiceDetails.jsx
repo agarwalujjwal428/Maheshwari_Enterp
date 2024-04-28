@@ -67,20 +67,10 @@ const ProductServiceDetails = () => {
                   <img
                     src={item["item-img"]}
                     alt={item["item-desc"]}
-                    style={{
-                      height: "300px",
-                      width: "auto",
-                      margin: "60px 0 0 165px",
-                    }}
+                    
                   />
                   <p
-                    style={{
-                      color: "#fff",
-                      fontWeight: "bold",
-                      margin: "25px 0 20px 65px",
-                      width: "80%",
-                      textAlign: "justify",
-                    }}
+                  style={{color:"#fff"}}
                   >
                     {item["item-desc"]}
                   </p>

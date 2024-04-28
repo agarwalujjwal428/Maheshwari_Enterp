@@ -16,7 +16,7 @@ const Client_slide = ({ slides }) => {
   return (
     <div className="carousel">
       <div
-        className="carousel-container"
+        className="client-carousel-container"
         style={{ transform: `translateX(-${slideIndex * 50}%)` }}
       >
         {slides.map((slide, index) => (

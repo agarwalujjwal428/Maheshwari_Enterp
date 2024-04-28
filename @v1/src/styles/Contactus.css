@@ -166,3 +166,43 @@ textarea {
     transform: translateY(-0.1em);
   }
 }
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 767px) {
+  /* Adjustments for Samsung and iPhone phones */
+  .contact-container {
+    flex-direction: column; /* Change to column layout for smaller screens */
+    height: auto; /* Remove fixed height for smaller screens */
+    margin-top: 50px; /* Adjust margin for smaller screens */
+    margin-bottom: 50px; /* Adjust margin for smaller screens */
+  }
+
+  .contact-form {
+    width: 100%; /* Take up full width for smaller screens */
+    margin-right: 0; /* Reset margin for smaller screens */
+    margin-bottom: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .map {
+    width: 100%; /* Take up full width for smaller screens */
+    margin-left: 0; /* Reset margin for smaller screens */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* Adjustments for tablets and larger screens */
+  .contact-container {
+    height: 650px; /* Restore fixed height for tablets and larger screens */
+  }
+
+  .contact-form {
+    width: 55%; /* Restore original width for tablets and larger screens */
+    margin-right: 20px; /* Restore original margin for tablets and larger screens */
+    margin-bottom: 0; /* Remove bottom margin for tablets and larger screens */
+  }
+
+  .map {
+    width: 40%; /* Restore original width for tablets and larger screens */
+    margin-left: 20px; /* Restore original margin for tablets and larger screens */
+  }
+}

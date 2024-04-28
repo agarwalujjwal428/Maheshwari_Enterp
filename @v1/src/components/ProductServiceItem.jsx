@@ -1,7 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import prodData from "../products_services.json";
 import "../styles/ProductServiceItem.css";
+import { Enquiry } from "./Enquiry"; // Import Enquiry component
 
 const ProductServiceItem = () => {
   const { title, prodId, category, itemTitle } = useParams();
@@ -38,10 +39,24 @@ const ProductServiceItem = () => {
     "Special Fitting",
   ];
 
+  // State to manage dialog visibility
+  const [showDialog, setShowDialog] = useState(false);
+
+  // Function to toggle dialog visibility
+  const toggleDialog = () => {
+    setShowDialog(!showDialog);
+  };
+
   return (
     <div className="pro-serv-item-details">
       <div className="pro-serv-card">
+        <div className="enquiry-container">
         <h2 className="pro-serv-item-head">{itemTitle}</h2>
+        <button className="enquiry-button" onClick={toggleDialog}>
+          Enquiry
+        </button>
+        </div>
+        
         <div className="product-detail">
           <div className="product-header">
             {companyItem.itemImage !== "" && (
@@ -84,16 +99,29 @@ const ProductServiceItem = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  {companyItem.itemDetails.itemSizes.map((item) => (
-                    <tr>
+                  {companyItem.itemDetails.itemSizes.map((item, index) => (
+                    <tr key={index}>
                       {specialItemTitles.includes(companyItem.itemTitle) ? (
                         <>
                           <td>{item.size}</td>
-                          <td style={{ paddingLeft: "135px" }}>
+                          <td
+                            style={{ paddingLeft: "135px" }}
+                            className="ps-item-check psc-1"
+                          >
                             {item.composite}
                           </td>
-                          <td style={{ paddingLeft: "95px" }}>{item.brass}</td>
-                          <td style={{ paddingLeft: "75px" }}>{item.SS304}</td>
+                          <td
+                            style={{ paddingLeft: "95px" }}
+                            className="ps-item-check psc-2"
+                          >
+                            {item.brass}
+                          </td>
+                          <td
+                            style={{ paddingLeft: "75px" }}
+                            className="ps-item-check psc-3"
+                          >
+                            {item.SS304}
+                          </td>
                         </>
                       ) : (
                         <>
@@ -110,6 +138,18 @@ const ProductServiceItem = () => {
           </div>
         </div>
       </div>
+      {/* Render Enquiry component conditionally */}
+      
+      {showDialog && (
+        <div className="dialog-container">
+          <div className="dialog-content">
+            <button className="close-dialog" onClick={toggleDialog}>
+              &times;
+            </button>
+            <Enquiry itemTitle={itemTitle} />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

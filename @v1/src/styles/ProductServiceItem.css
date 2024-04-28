@@ -13,6 +13,11 @@
   width: 60%;
   background-color: rgba(27, 31, 34, 0.85);
   padding: 4.5rem 2.5rem 1.5rem;
+  
+}
+.enquiry-container{
+  display:flex ;
+  justify-content: space-between;
 }
 .pro-serv-item-head {
   width: max-content;
@@ -102,3 +107,105 @@ table th {
 table td {
   padding: 0.75rem;
 }
+
+
+
+.dialog-container {
+  position: fixed;
+  top: 57%;
+  left: 50%;
+  width:30%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(27, 31, 34, 0.85);
+  padding: 20px;
+  z-index: 1001;
+}
+
+.dialog-content {
+  position: relative;
+  width:100%;
+}
+
+.close-dialog {
+  position: absolute;
+  top: -25px;
+  right: -10px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color:#fff;
+  
+}
+
+/* Style the enquiry button */
+.enquiry-button {
+  background-color: transparent;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px #fff;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 2.75rem;
+  letter-spacing: 0.2rem;
+  outline: 0;
+  padding: 0 1.25rem 0 1.35rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+/* For screens up to 767px width (Samsung and iPhone phones) */
+@media screen and (max-width: 767px) {
+  .pro-serv-card {
+    width: 100%; /* Make card full width for phones */
+    padding: 2rem 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .pro-serv-item-head {
+    font-size: 1rem; /* Decrease font size for smaller screens */
+  }
+
+  .product-header {
+    flex-direction: column; /* Stack header elements vertically */
+  }
+
+  .product-description {
+    text-align: center; /* Center-align description */
+  }
+
+  table {
+    font-size: 0.8rem; /* Decrease font size for smaller screens */
+  }
+  #ps-item-size-head{
+    margin-top: 30px;
+    margin-bottom: 12px;
+  }
+  .psc-1{
+    padding-left:90px !important ;
+  }
+  .psc-2{
+    padding-left: 70px !important;
+  }
+}
+
+/* For screens between 768px and 1023px width (Tablets) */
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .pro-serv-card {
+    width: 80%; /* Adjust card width for tablets */
+  }
+  #ps-item-size-head{
+    margin-top: 30px;
+    margin-bottom: 12px;
+  }
+  .psc-1{
+    padding-left:100px !important ;
+  }
+  .psc-2{
+    padding-left: 80px !important;
+  }
+}
+
