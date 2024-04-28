@@ -30,16 +30,19 @@ const Aboutus = () => {
                   Maheshwari Enterprises was established by Mr. Shailesh
                   Maheshwari in the year 1990. In the past three decades the
                   company grew leaps & bounds and is now a well-established firm
-                  in the field of construction and waterproofing products.<br/>As
-                  compared to our competitors we have a major market cover along
-                  with a wide range of products under a roof and years long
-                  evolving experience in the field. Our products range are from
-                  the top-class companies and the leaders in construction line
-                  with experience of decades. We are pioneers of such top-notch
-                  technologies in Jodhpur and neighbouring areas for more than
-                  last 30 years.<br/>Our products are used in different stages of
-                  construction commonly in foundation, damp proof course (DPC),
-                  walls, reinforced cement concrete (RCC), bathrooms, terrace,
+                  in the field of construction and waterproofing products.
+                  <br />
+                  As compared to our competitors we have a major market cover
+                  along with a wide range of products under a roof and years
+                  long evolving experience in the field. Our products range are
+                  from the top-class companies and the leaders in construction
+                  line with experience of decades. We are pioneers of such
+                  top-notch technologies in Jodhpur and neighbouring areas for
+                  more than last 30 years.
+                  <br />
+                  Our products are used in different stages of construction
+                  commonly in foundation, damp proof course (DPC), walls,
+                  reinforced cement concrete (RCC), bathrooms, terrace,
                   plastering and finishing works.
                   <div className="about-us-text">
                     "I started the business as a one-man show, handling

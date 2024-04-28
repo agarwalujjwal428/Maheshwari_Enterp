@@ -17,7 +17,6 @@ const Navbar = () => {
 
     window.addEventListener("scroll", handleScroll);
 
-    // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -80,7 +79,9 @@ const Navbar = () => {
                   <li className="nav-item">
                     <a
                       className={`nav-link ${
-                        location.pathname.startsWith("/recentproject")  ? "active" : ""
+                        location.pathname.startsWith("/recentproject")
+                          ? "active"
+                          : ""
                       }`}
                       href="/recentproject"
                     >

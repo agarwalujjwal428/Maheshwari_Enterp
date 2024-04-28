@@ -8,8 +8,6 @@
 .blog-details-leftSide {
   width: 70%;
   text-align: justify;
-  /* background-color: rgb(225, 225, 225, 0.27); */
-
   margin-right: 50px;
 }
 .blog-details-rightSide {
@@ -21,7 +19,7 @@
   padding: 20px;
 }
 .blog-details-rightSide h2 {
-  color: #1a1a1a; /* Change heading color */
+  color: #1a1a1a; 
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 1rem;
@@ -35,14 +33,14 @@
 }
 
 .blog-details-rightSide ul li {
-  margin-bottom: 12px; /* Add margin bottom */
+  margin-bottom: 12px; 
 }
 
 .blog-details-rightSide ul li span {
   display: block;
   font-size: 16px;
   margin: 8px 0 5px;
-  color: #252525; /* Change text color */
+  color: #252525;
 }
 .bd_latestBlog_author {
   display: flex;
@@ -90,49 +88,46 @@
   margin: 0 0 15px;
 }
 
-/* For screens up to 767px width (Samsung and iPhone phones) */
 @media screen and (max-width: 767px) {
   .blog-bg {
-    top: -70px; /* Adjust position of background image */
-    height: 300px; /* Adjust height of background image */
+    top: -70px; 
+    height: 300px; 
   }
 
   .blog-head {
-    top: 150px; /* Center blog heading text */
-    left: 50%; /* Center blog heading text */
-    transform: translateX(-50%); /* Center blog heading text */
-    font-size: 3rem; /* Decrease font size for smaller screens */
+    top: 150px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 3rem; 
   }
 
   .blog-details-container {
-    flex-direction: column; /* Change to column layout for phones */
-    align-items: center; /* Center align content */
-    padding: 10px; /* Adjust padding for smaller screens */
+    flex-direction: column; 
+    align-items: center; 
+    padding: 10px; 
   }
 
   .blog-details-leftSide {
-    width: 100%; /* Make left side full width for phones */
-    margin-right: 0; /* Remove right margin */
+    width: 100%; 
+    margin-right: 0; 
   }
 
   .blog-details-rightSide {
-    display: none; /* Hide right side for phones */
+    display: none; 
   }
 }
 
-/* For screens between 768px and 1020px width (Tablets) */
 @media screen and (min-width: 768px) and (max-width: 1020px) {
   .blog-bg {
-    top: -90px; /* Adjust position of background image */
-    height: 400px; /* Adjust height of background image */
+    top: -90px; 
+    height: 400px; 
   }
 
   .blog-head {
-    top: 220px; /* Center blog heading text */
-    left: 50%; /* Center blog heading text */
-    transform: translateX(-50%); /* Center blog heading text */
-    font-size: 3.5rem; /* Decrease font size for tablets */
+    top: 220px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 3.5rem; 
   }
 }
 
-/* Additional styles for larger screens (Desktops) if needed */

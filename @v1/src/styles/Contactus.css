@@ -32,7 +32,6 @@
   display: flex;
   flex-direction: row;
   gap: 60px;
-  /* background-color:#45a049; */
 }
 .form-fm {
   width: 45%;
@@ -86,21 +85,6 @@ textarea {
   width: 100%;
 }
 
-/* #contact-btn {
-  font-weight: 700;
-  color: #ffc400;
-  background: transparent;
-  border: 1px solid #131730;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 18px;
-  padding: 10px 20px;
-  margin-bottom: 10px;
-}
-#contact-btn:hover {
-  background: linear-gradient(#112137, #0c3f7b, #0274ca);
-  color: #fafafa;
-} */
 .send-button {
   font-family: inherit;
   font-size: 15px;
@@ -167,42 +151,39 @@ textarea {
   }
 }
 
-/* Media Queries for Responsive Design */
 @media screen and (max-width: 767px) {
-  /* Adjustments for Samsung and iPhone phones */
   .contact-container {
-    flex-direction: column; /* Change to column layout for smaller screens */
-    height: auto; /* Remove fixed height for smaller screens */
-    margin-top: 50px; /* Adjust margin for smaller screens */
-    margin-bottom: 50px; /* Adjust margin for smaller screens */
+    flex-direction: column; 
+    height: auto; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
   }
 
   .contact-form {
-    width: 100%; /* Take up full width for smaller screens */
-    margin-right: 0; /* Reset margin for smaller screens */
-    margin-bottom: 20px; /* Adjust margin for smaller screens */
+    width: 100%; 
+    margin-right: 0; 
+    margin-bottom: 20px; 
   }
 
   .map {
-    width: 100%; /* Take up full width for smaller screens */
-    margin-left: 0; /* Reset margin for smaller screens */
+    width: 100%; 
+    margin-left: 0; 
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* Adjustments for tablets and larger screens */
   .contact-container {
-    height: 650px; /* Restore fixed height for tablets and larger screens */
+    height: 650px; 
   }
 
   .contact-form {
-    width: 55%; /* Restore original width for tablets and larger screens */
-    margin-right: 20px; /* Restore original margin for tablets and larger screens */
-    margin-bottom: 0; /* Remove bottom margin for tablets and larger screens */
+    width: 55%; 
+    margin-right: 20px; 
+    margin-bottom: 0; 
   }
 
   .map {
-    width: 40%; /* Restore original width for tablets and larger screens */
-    margin-left: 20px; /* Restore original margin for tablets and larger screens */
+    width: 40%; 
+    margin-left: 20px; 
   }
 }

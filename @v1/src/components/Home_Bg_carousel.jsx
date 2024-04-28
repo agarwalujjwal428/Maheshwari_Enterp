@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from "react";
 
-const Home_Bg_carousel = ({ slides, onSlideChange }) => {
+const Home_Bg_carousel = ({ slides }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((currentSlide + 1) % slides.length);
-      onSlideChange(currentSlide); // Pass the current slide index to onSlideChange
     }, 5000);
 
     return () => clearInterval(interval);
-  }, [currentSlide, slides.length, onSlideChange]);
+  }, [currentSlide, slides.length]);
 
   return (
     <div className="home_carousel">
@@ -24,19 +23,8 @@ const Home_Bg_carousel = ({ slides, onSlideChange }) => {
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
           }}
-        >
-          {/* <div className="caption">{slide.caption}</div> */}
-        </div>
+        ></div>
       ))}
-      {/* <div className="indicators">
-        {slides.map((_, index) => (
-          <button
-            key={index}
-            className={`indicator ${currentSlide === index ? 'active' : ''}`}
-            onClick={() => setCurrentSlide(index)}
-          />
-        ))}
-      </div> */}
     </div>
   );
 };

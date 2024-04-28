@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons"; // Import the solid version
+import { faHeart } from "@fortawesome/free-solid-svg-icons"; 
 import { useParams, Link } from "react-router-dom";
 import blogData from "../blog.json";
 import "../styles/BlogDetails.css";
@@ -8,38 +8,32 @@ import "../styles/BlogDetails.css";
 const BlogDetails = () => {
   const { title, blogId } = useParams();
 
-  // Convert blogId to number
   const numericBlogId = parseInt(blogId);
 
-  // Find the blog item with matching id
   const blogItem = blogData.blogs.find((blog) => blog.id === numericBlogId);
 
-  // State for like count and like button
   const [likes, setLikes] = useState(parseInt(blogItem.likes));
   const [liked, setLiked] = useState(false);
 
-  // Sort blogs by date
   const sortedBlogs = [...blogData.blogs].sort((a, b) => {
     const dateA = new Date(a.publish_date.split("/").reverse().join("/"));
     const dateB = new Date(b.publish_date.split("/").reverse().join("/"));
     return dateB - dateA;
   });
 
-  // Get the latest 4 blogs
   const latestBlogs = sortedBlogs.slice(0, 4);
 
-  // Handle like button click
   const handleLike = () => {
     if (!liked) {
-      setLikes(likes + 1); // Increment like count
+      setLikes(likes + 1); 
     } else {
-      setLikes(likes - 1); // Decrement like count if already liked
+      setLikes(likes - 1); 
     }
-    setLiked(!liked); // Toggle liked state
+    setLiked(!liked); 
   };
   useEffect(() => {
-    window.scrollTo(0, 500); // Scroll to the top of the window when the component mounts
-  }, []); // Empty dependency array ensures the effect runs only once
+    window.scrollTo(0, 500); 
+  }, []); 
 
   return (
     <>

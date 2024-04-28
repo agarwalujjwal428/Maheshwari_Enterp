@@ -71,7 +71,7 @@ const AllProductService = () => {
             </h2>
             <div className="serv-data">
               {prodData.services.map((service) => {
-                console.log("****", service.id); // Log prodId for each service
+                console.log("****", service.id);
                 return (
                   <ProductService
                     key={service.id}

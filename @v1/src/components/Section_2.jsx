@@ -21,7 +21,7 @@ const Section_2 = () => {
           <div className="row">
             <div className="offset-xl-2 col-cl-10 col-lg-12">
               <div className="row">
-                {/* specialization single */}
+               
 
                 <div className="col-md-4">
                   <div className="specialization-single">
