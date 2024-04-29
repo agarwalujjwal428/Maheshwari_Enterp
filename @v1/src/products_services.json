@@ -4087,6 +4087,383 @@
       ]
     },
     {
+      "img": "/src/assets/images/company_logo/zydex_logo.jpg",
+      "id": "11",
+      "category": "products",
+      "title": "ZYDEX",
+      "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
+      "companyItems": [
+        {
+          "itemTitle": " Zycosil Plus",
+          "itemImage": "/src/assets/images/Zydex/Zycosill.jpeg",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "100ml",
+                "suitableFor": "Zycosil Plus",
+                "extra1": " 100ml X 10 Bottles"
+                
+              },
+              {
+                "size": "250ml",
+                "suitableFor": "Zycosil Plus",
+                "extra1": " 250ml X 8 Bottles"
+              },
+              {
+                "size": "1L",
+                "suitableFor": "Zycosil Plus",
+                "extra1": "  1L X 6 Bottles"
+              },
+              {
+                "size": "5L",
+                "suitableFor": " Zycosil Plus",
+                "extra1": " 5L X 1 Carboy"
+              },
+              {
+                "size": "20L",
+                "suitableFor": " Zycosil Plus",
+                "extra1": " 20L Carboy"
+                
+              }
+            ]
+          
+          }
+        },
+        {
+          "itemTitle": " Zycosil Max",
+          "itemImage": "/src/assets/images/Zydex/ZycosilMax.Png",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1L",
+                "suitableFor": "Zycosil Max",
+                "extra1": "  1L X 6 Bottles"
+              },
+              {
+                "size": "5L",
+                "suitableFor": " Zycosil Max",
+                "extra1": " 5L X 2 Carboy"
+              }
+            ]
+          
+          }
+        },
+        {
+          "itemTitle": " Zycoprime Plus",
+          "itemImage": "/src/assets/images/Zydex/ZycoPrime.jpeg",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "250ml",
+                "suitableFor": "Zycoprime Plus",
+                "extra1": " 250ml X 8 Bottles"
+              },
+              {
+                "size": "1L",
+                "suitableFor": "Zycoprime Plus",
+                "extra1": "  1L X 6 Bottles"
+              },
+              {
+                "size": "5L",
+                "suitableFor": " Zycoprime Plus",
+                "extra1": " 5L X 1 Carboy"
+              },
+              {
+                "size": "20L",
+                "suitableFor": " Zycoprime Plus",
+                "extra1": " 20L Carboy"
+                
+              },
+              {
+                "size": "35L",
+                "suitableFor": " Zycoprime Plus",
+                "extra1": " 35L X 5 Carboy"
+                
+              }
+            ]
+          
+          }
+        },
+        {
+          "itemTitle": " Seal-It",
+          "itemImage": "/src/assets/images/Zydex/Seal-it.png",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1.2 kg",
+                "suitableFor": "Seal-It",
+                "extra1": " 1.2 kg X 12 pails"
+              },
+              {
+                "size": " 600 g",
+                "suitableFor": " Seal-It",
+                "extra1": " 600 g X 16 pails"
+              }
+            ]
+          
+          }
+        },
+        {
+          "itemTitle": " Elastobar",
+          "itemImage": "/src/assets/images/Zydex/Elastobar.jpg",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "250 g",
+                "suitableFor": "Elastobar",
+                "extra1": " 250g X 16 Bottles"
+              },
+              {
+                "size": "1 kg",
+                "suitableFor": "Elastobar",
+                "extra1": "  1kg X 12 Bottles"
+              },
+              {
+                "size": "5 kg",
+                "suitableFor": "Elastobar",
+                "extra1": " 5kg X 4 Carboy"
+              },
+              {
+                "size": "20kg",
+                "suitableFor": "Elastobar",
+                "extra1": " 20kg Carboy"
+                
+              }
+            ]
+          
+          }
+        },
+        {
+          "itemTitle": " Cold Bond",
+          "itemImage": "/src/assets/images/Zydex/Cold_Bond.jpg",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1L",
+                "suitableFor": "Cold Bond",
+                "extra1": "  1L X 12 Bottles"
+              },
+              {
+                "size": "5L",
+                "suitableFor": " Cold Bond",
+                "extra1": " 5L X 4 Carboy"
+              },
+              {
+                "size": "20L",
+                "suitableFor": " Cold Bond",
+                "extra1": " 20L Carboy"
+                
+              }
+            ]
+          
+          }
+        },
+        {
+          "itemTitle": "ElastoStretch",
+          "itemImage": "/src/assets/images/Zydex/Elastostrech.jpeg",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "4L",
+                "suitableFor": "ElastoStretch",
+                "extra1": "4L X 4 Pails"
+              },
+              {
+                "size": "20L",
+                "suitableFor": "ElastoStretch",
+                "extra1": "20L X 1 Drum"
+                
+              }
+            ]
+          
+          }
+        },
+        {
+          "itemTitle": " ElastoMax",
+          "itemImage": "/src/assets/images/Zydex/ElastoMax.png",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "5L",
+                "suitableFor": " ElastoMax",
+                "extra1": " 4L X 4 Carboy"
+              },
+              {
+                "size": "20L",
+                "suitableFor": " ElastoMax",
+                "extra1": "20L X 1 Carboy"
+                
+              }
+            ]
+          
+          }
+        },
+        {
+          "itemTitle": " Zycofix",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1 kg",
+                "suitableFor": " Zycofix Super",
+                "extra1": "  1kg X 12 Bottles"
+              },
+              {
+                "size": "5 kg",
+                "suitableFor": " Zycofix Super",
+                "extra1": " 5kg X 4 Carboy"
+              },
+              {
+                "size": "1 kg",
+                "suitableFor": "Zycofix Ultra",
+                "extra1": "  1kg X 12 Bottles"
+              },
+              {
+                "size": "5 kg",
+                "suitableFor": "Zycofix Ultra",
+                "extra1": " 5kg X 4 Carboy"
+              }
+            ]
+          
+          }
+        },
+        {
+          "itemTitle": " Zycrete 2X",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "500ml",
+                "suitableFor": "Zycrete 2X",
+                "extra1": " 500ml X 8 Bottles"
+                
+              },
+              {
+                "size": "1L",
+                "suitableFor": "Zycrete 2X",
+                "extra1": "  1L X 12 Bottles"
+              },
+              {
+                "size": "5L",
+                "suitableFor": "Zycrete 2X",
+                "extra1": " 5L X 4 Carboy"
+              },
+              {
+                "size": "10L",
+                "suitableFor": "Zycrete 2X",
+                "extra1": "10L X 1 Carboys"
+                
+              },
+              {
+                "size": "20L",
+                "suitableFor": "Zycrete 2X",
+                "extra1": "20L X 2 Carboys"
+                
+              },
+              {
+                "size": "210L",
+                "suitableFor": "Zycrete 2X",
+                "extra1": "210L X 1 Carboy"
+                
+              }
+            ]
+          
+          }
+        },
+        {
+          "itemTitle": "Wall Primer",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1L",
+                "suitableFor": "Wall Primer",
+                "extra1": "1L X 6 Bucket"
+              },
+              {
+                "size": "4L",
+                "suitableFor": "Wall Primer",
+                "extra1": "4L X 4 Pails"
+              },
+              {
+                "size": "10L",
+                "suitableFor": "Wall Primer",
+                "extra1": "10L X 1 Drum"
+                
+              },
+              {
+                "size": "20L",
+                "suitableFor": "Wall Primer",
+                "extra1": "20L X 1 Drum"
+                
+              },
+              {
+                "size": "20L",
+                "suitableFor": "Wall Primer Pro",
+                "extra1": "20L X 1 Drum"
+                
+              }
+            ]
+          
+          }
+        },
+        {
+          "itemTitle": "Zycobond Max",
+          "itemImage": "/src/assets/images/Zydex/Zycobond-Max.png",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1L",
+                "suitableFor": "Zycobond Max",
+                "extra1": "1L X 6 Bottles"
+              },
+              {
+                "size": "5L",
+                "suitableFor": "Zycobond Max",
+                "extra1": " 5L X 2 Carboy"
+              }
+            ]
+          
+          }
+        },
+        {
+          "itemTitle": "ElastoSil",
+          "itemImage": "",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "4L",
+                "suitableFor": "ElastoSil",
+                "extra1": "4L X 4 Pails"
+              },
+              {
+                "size": "20L",
+                "suitableFor": "ElastoSil",
+                "extra1": "20L X 1 Drum"
+                
+              }
+            ]
+          
+          }
+        }
+        
+       
+      ]
+    },
+    {
       "img": "/src/assets/images/company_logo/ncl logo.webp",
       "id": "12",
       "category": "products",
