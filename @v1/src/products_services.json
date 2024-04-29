@@ -1589,7 +1589,7 @@
       ]
     },
     {
-      "img": "/src/assets/images/p_s.webp",
+      "img": "/src/assets/images/company_logo/hp_logo.png",
       "id": "3",
       "category": "products",
       "title": " HP ADHESIVES",
@@ -1809,7 +1809,7 @@
       ]
     },
     {
-      "img": "/src/assets/images/p_s.webp",
+      "img": "/src/assets/images/company_logo/aipl-logo.jpg",
       "id": "6",
       "category": "products",
       "title": " AIPL ABRO",
@@ -4461,6 +4461,473 @@
         }
         
        
+      ]
+    },
+    {
+      "img": "/src/assets/images/company_logo/ncl logo.webp",
+      "id": "12",
+      "category": "products",
+      "title": " NCL",
+      "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
+      "companyItems": [
+        {
+          "itemTitle": "NCL Paints",
+          "itemImage": "/src/assets/images/NCl/Primer Interior.png",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "20L",
+                "suitableFor": "Alltimate Exterior",
+                "extra1": "20L X 1"
+              },
+              {
+                "size": "10L",
+                "suitableFor": "Alltimate Exterior",
+                "extra1": "10L X 1"
+              },
+              {
+                "size": "4L",
+                "suitableFor": "Alltimate Exterior",
+                "extra1": "4L X 4"
+              },
+              {
+                "size": "1L",
+                "suitableFor": "Alltimate Exterior",
+                "extra1": "1L X 6"
+              },
+              {
+                "size": "20L",
+                "suitableFor": " Gaiety Interior",
+                "extra1": "20L X 1"
+              },
+              {
+                "size": "10L",
+                "suitableFor": " Gaiety Interior",
+                "extra1": "10L X 1"
+              },
+              {
+                "size": "4L",
+                "suitableFor": " Gaiety Interior",
+                "extra1": "4L X 4"
+              },
+              {
+                "size": "1L",
+                "suitableFor": " Gaiety Interior",
+                "extra1": "1L X 6"
+              },
+              {
+                "size": "20L",
+                "suitableFor": " Cement Primer",
+                "extra1": "20L X 1"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "NCL Paints-Harmony",
+          "itemImage": "/src/assets/images/NCl/Harmony.jpg",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "20L",
+                "suitableFor": " Harmony Exterior",
+                "extra1": "20L X 1"
+              },
+              {
+                "size": "10L",
+                "suitableFor": " Harmony Exterior",
+                "extra1": "10L X 1"
+              },
+              {
+                "size": "4L",
+                "suitableFor": " Harmony Exterior",
+                "extra1": "4L X 4"
+              },
+              {
+                "size": "1L",
+                "suitableFor": " Harmony Exterior",
+                "extra1": "1L X 6"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "NCL Paints-Optima",
+          "itemImage": "/src/assets/images/NCl/Optima.jpg",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              
+              {
+                "size": "20L",
+                "suitableFor": " Optima Exterior",
+                "extra1": "20L X 1"
+              },
+              {
+                "size": "10L",
+                "suitableFor": " Optima Exterior",
+                "extra1": "10L X 1"
+              },
+              {
+                "size": "4L",
+                "suitableFor": " Optima Exterior",
+                "extra1": "4L X 4"
+              },
+              {
+                "size": "1L",
+                "suitableFor": " Optima Exterior",
+                "extra1": "1L X 6"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "NCL Paints-Flora",
+          "itemImage": "/src/assets/images/NCl/Flora.jpg",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              
+              {
+                "size": "20L",
+                "suitableFor": " Flora Interior",
+                "extra1": "20L X 1"
+              },
+              {
+                "size": "10L",
+                "suitableFor": " Flora Interior",
+                "extra1": "10L X 1"
+              },
+              {
+                "size": "4L",
+                "suitableFor": " Flora Interior",
+                "extra1": "4L X 4"
+              },
+              {
+                "size": "1L",
+                "suitableFor": " Flora Interior",
+                "extra1": "1L X 6"
+              }
+              
+            ]
+          }
+        },
+        {
+          "itemTitle": "NCL Paints-Cemenet Primer(Interior)",
+          "itemImage": "/src/assets/images/NCl/Primer Interior.png",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              
+              {
+                "size": "20L",
+                "suitableFor": " Cement Primer",
+                "extra1": "20L X 1"
+              },
+              {
+                "size": "10L",
+                "suitableFor": " Cement Primer",
+                "extra1": "10L X 1"
+              },
+              {
+                "size": "4L",
+                "suitableFor": " Cement Primer",
+                "extra1": "4L X 4"
+              },
+              {
+                "size": "1L",
+                "suitableFor": " Cement Primer",
+                "extra1": "1L X 6"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "NCL Paints-Cemenet Primer(Exterior)",
+          "itemImage": "/src/assets/images/NCl/Primer Exterior.jpg",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              
+              {
+                "size": "20L",
+                "suitableFor": " Cement Primer Exterior",
+                "extra1": "20L X 1"
+              },
+              {
+                "size": "10L",
+                "suitableFor": " Cement Primer Exterior",
+                "extra1": "10L X 1"
+              },
+              {
+                "size": "4L",
+                "suitableFor": " Cement Primer Exterior",
+                "extra1": "4L X 4"
+              },
+              {
+                "size": "1L",
+                "suitableFor": " Cement Primer Exterior",
+                "extra1": "1L X 6"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": " NCL Distemper",
+          "itemImage": "/src/assets/images/NCl/Delight.jpeg",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "20kg",
+                "suitableFor": " Delight (Acrylic Water Based Distemper)",
+                "extra1": "20kg X 1"
+              },
+              {
+                "size": "10kg",
+                "suitableFor": " Delight (Acrylic Water Based Distemper)",
+                "extra1": "10kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Delight (Acrylic Water Based Distemper)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "1kg",
+                "suitableFor": " Delight (Acrylic Water Based Distemper)",
+                "extra1": "1kg X 6"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": " NCL Texture",
+          "itemImage": "/src/assets/images/NCl/Top-coat.png",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "25kg",
+                "suitableFor": " Top Coat White (Acrylic Smooth Exterior)",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Top Coat White (Acrylic Smooth Exterior)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Top Coat Colour (Acrylic Smooth Exterior)",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Top Coat Colour (Acrylic Smooth Exterior)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Base Coat White Primer (Bag Packaging)",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Base Coat Colour Primer (Bag Packaging)",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Superfine Interior Wall Putty(Bag Packing)",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Superfine Interior Wall Putty(Bag Packing)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "20kg",
+                "suitableFor": " Superfine Interior Wall Putty(Bucket Packing)",
+                "extra1": "20kg X 1"
+              },
+              {
+                "size": "10kg",
+                "suitableFor": " Superfine Interior Wall Putty(Bucket Packing)",
+                "extra1": "10kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Superfine Interior Wall Putty(Bucket Packing)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Superfine W/R(Bag Packing)",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Superfine W/R(Bag Packing)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "20kg",
+                "suitableFor": " Superfine W/R(Bucket Packing)",
+                "extra1": "20kg X 1"
+              },
+              {
+                "size": "10kg",
+                "suitableFor": " Superfine W/R(Bucket Packing)",
+                "extra1": "10kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Superfine W/R(Bucket Packing)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Superfine Exterior(Bag Packing)",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Superfine Exterior(Bag Packing)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "20kg",
+                "suitableFor": " Superfine Exterior(Bucket Packing)",
+                "extra1": "20kg X 1"
+              },
+              {
+                "size": "10kg",
+                "suitableFor": " Superfine Exterior(Bucket Packing)",
+                "extra1": "10kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Superfine Exterior(Bucket Packing)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Goldline White(Roller Finish)",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Goldline White(Roller Finish)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Goldline Natural Colour(Roller Finish)",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Goldline Natural Colour(Roller Finish)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Deco Orient Base(Bag Packing)",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Deco Orient Base(Bag Packing)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "20kg",
+                "suitableFor": " Deco Orient Base(Bucket Packing)",
+                "extra1": "20kg X 1"
+              },
+              {
+                "size": "10kg",
+                "suitableFor": " Deco Orient Base(Bucket Packing)",
+                "extra1": "10kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Deco Orient Base(Bucket Packing)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Deco Orient Natural Colour(Trovel Finish)",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Deco Orient Natural Colour(Trovel Finish)",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Cherlina",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Cherlina",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Dune White & Colour",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Dune White & Colour",
+                "extra1": "5kg X 4"
+              },
+              {
+                "size": "25kg",
+                "suitableFor": " Trendy White & Colour",
+                "extra1": "25kg X 1"
+              },
+              {
+                "size": "5kg",
+                "suitableFor": " Trendy White & Colour",
+                "extra1": "5kg X 4"
+              }
+              
+            ]
+          }
+        },
+        {
+          "itemTitle": " NCL White Cement Based Wall Putty",
+          "itemImage": "/src/assets/images/NCl/Putty.jpg",
+          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "40kg",
+                "suitableFor": "Skimcoat Wall Putty",
+                "extra1": " 40 kg X 1"
+              },
+              {
+                "size": "20kg (T)",
+                "suitableFor": "Skimcoat Wall Putty",
+                "extra1": " 20 kg X 1"
+              },
+              {
+                "size": "20kg (WT)",
+                "suitableFor": "Skimcoat Wall Putty",
+                "extra1": " 20 kg X 1"
+              }
+              
+            ]
+          }
+        }
       ]
     }
   ],
