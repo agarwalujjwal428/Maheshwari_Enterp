@@ -6,13 +6,13 @@ const Client_review = () => {
   const slides = [
     {
       text: `“Maheshwari Enterprises has been my trusted partner for waterproofing across numerous projects. Their consistent quality and meticulous attention to detail have ensured long-lasting protection against moisture damage and seepage. I highly recommend Maheshwari Enterprises to any fellow professionals seeking reliable and top-notch waterproofing services.”`,
-      img: "src/assets/images/Testimonials/Kamal_Khetani.jpg",
+      img: "/assets/images/Testimonials/Kamal_Khetani.jpg",
       name: "Arch. Kamal Khetani",
       initials: "Arch. KK",
     },
     {
       text: `“I built my house in Umaid Heritage in Jodhpur and Maheshwari Enterprises went above and beyond for it! They not only supplied the best KiTEC composite pipes for plumbing, but their waterproofing treatment has kept my home dry and secure. I couldn't be happier with their service and products!”`,
-      img: "src/assets/images/Testimonials/Kapil_Vatwani.png",
+      img: "/assets/images/Testimonials/Kapil_Vatwani.png",
       name: "Kapil Vatwani",
       initials: "KV",
     },
@@ -24,25 +24,25 @@ const Client_review = () => {
     },
     {
       text: `“I have been using KiTEC composite pipes from Maheshwari Enterprises since 1998. It has given the best results in all my projects as by using KiTEC pipes, problem of leakage and detoration of pipe vanishes. I am happy with their services and dedication to work. I highly recommend their products and services to everyone planning to build their house.”`,
-      img: "src/assets/images/Testimonials/Umesh_Sadayat.jpg",
+      img: "/assets/images/Testimonials/Umesh_Sadayat.jpg",
       name: "Umesh Sadayat",
       initials: "US",
     },
     {
       text: `“My factory, Metallizing Equipment Company Pvt. Ltd. (MEC), has been installed with KiTEC composite pipes for all the compressor lines. The best feature that appeals to me is that the pipe comes in a single length of 200 metres, which helped overcome frictional losses and the cost of fittings in the whole project.”`,
-      img: "src/assets/images/Testimonials/Ankur_Modi.jpg",
+      img: "/assets/images/Testimonials/Ankur_Modi.jpg",
       name: "Ankur Modi",
       initials: "AM",
     },
     {
       text: `“In our new unit, Maheshwari Enterprises supplied us with KiTEC composite pipes for compressor lines and NCL paints for the complete project. The products are of top-notch quality, and their service is also very satisfactory. I look forward to using their products in my factory and would also recommend others to use them.”`,
-      img: "src/assets/images/Testimonials/Yogesh_Maheshwari.jpg",
+      img: "/assets/images/Testimonials/Yogesh_Maheshwari.jpg",
       name: "Yogesh Maheshwari",
       initials: "YM",
     },
     {
       text: `“Maheshwari Enterprises handled the waterproofing project at my residence with the utmost perfection. The products they provide are very innovative and technologically advanced. Their penetrative waterproofing showed promising results, and I am more than happy with it. I would highly recommend it to others!!”`,
-      img: "src/assets/images/Testimonials/Tulsidas_Sangtani.jpg",
+      img: "/assets/images/Testimonials/Tulsidas_Sangtani.jpg",
       name: "Tulsi Das Sangtani",
       initials: "TDS",
     },

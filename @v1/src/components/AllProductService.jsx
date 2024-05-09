@@ -15,11 +15,12 @@ const AllProductService = () => {
       setActive(false);
     }
   }
+  
 
   return (
     <>
       <div className="product-bg">
-        <img src="/src/assets/images/j.jpg" alt="Product Background" />
+        <img src="/assets/images/j.jpg" alt="Product Background" />
         <div className="product-head">
           <h2 id="ph-first">Products</h2>
           <h2 id="ph-second">&</h2>

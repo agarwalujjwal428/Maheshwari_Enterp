@@ -38,7 +38,7 @@ const BlogDetails = () => {
   return (
     <>
       <div className="blog-bg">
-        <img src="/src/assets/images/7.jpg" alt="Blog Background" />
+        <img src="/assets/images/7.jpg" alt="Blog Background" />
         <h2 className="blog-head">Blogs/</h2>
       </div>
       <div className="blog-details-container">

@@ -23,8 +23,8 @@ const RecentProjectsPage = () => {
   return (
     <>
       <div className="rp-bg">
-        <img src="/src/assets/images/5.jpg" alt="Recent Background" />
-        <h2 className="rp-head">Recent Projects/</h2>
+        <img src="/assets/images/5.jpg" alt="Recent Background" />
+        <h2 className="rp-head">Recent Projects</h2>
       </div>
       <div className="rp-container">
         {sidebarVisible && (
