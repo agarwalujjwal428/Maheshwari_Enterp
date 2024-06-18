@@ -77,6 +77,10 @@ const RecentProjectsPage = () => {
             <h2>{activeProject}</h2>
             <div className="rp-project-details">
               {recentData[activeProject]?.map((item) => (
+                <Link
+                to={`/recentproject/${item.id}/${item.title}/${item.category}`}
+                className="rp-item-card"
+              >
                 <div>
                   <img src={item.img}></img>
                   <p className="rp-pd-title">{item.title}</p>
@@ -86,12 +90,14 @@ const RecentProjectsPage = () => {
                       <span className="icon arrow"></span>
                     </span>
                     <Link
-                      to={`/recentproject/${item.id}/${item.title}/${item.category}`}
+                      to={`/recentproject/${item.id}/${item.title}/${item.category}`} 
+
                     >
                       <span className="read-btn-text">Read More</span>
                     </Link>
                   </button>
                 </div>
+                </Link>
               ))}
             </div>
           </div>

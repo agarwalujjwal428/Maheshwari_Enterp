@@ -1,9 +1,15 @@
 import React, { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams,useNavigate } from "react-router-dom";
 import recentData from "../RecentProject.json";
 import Carousel from "react-bootstrap/Carousel";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const RpDetails = () => {
+  const navigate=useNavigate();
+  const handlePrevious = () => {
+    navigate(-1);
+  };
   const { id, title, category } = useParams();
   const decodedCategory = decodeURIComponent(category);
   const rpItem = recentData[decodedCategory]?.find(
@@ -20,6 +26,11 @@ const RpDetails = () => {
     <>
       <div className="rp-details">
         <div className="rp-card">
+        <div className="navigation-buttons" style={{marginTop:"-10px",marginBottom:"10px"}}>
+          <button onClick={handlePrevious}>
+            <FontAwesomeIcon icon={faArrowLeft} />
+          </button>
+          </div>
           <div className="rp-title">{title}</div>
           <div className="rp-desc">{rpItem.readMore?.read_description}</div>
           <Carousel style={{ margin: "auto", height: "500px" }}>

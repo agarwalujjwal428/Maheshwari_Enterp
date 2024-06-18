@@ -18,6 +18,7 @@ const Blog = ({ blogId, data }) => {
   };
 
   return (
+    <Link to={`/blog/${data.title}/${blogId}`}>
     <div className="blog" id={blogId}>
       <img src={data.img} alt="Blog" />
       <h3>{data.title}</h3>
@@ -44,6 +45,7 @@ const Blog = ({ blogId, data }) => {
         </button>
       </Link>
     </div>
+    </Link>
   );
 };
 

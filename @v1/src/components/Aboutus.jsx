@@ -21,7 +21,15 @@ const Aboutus = () => {
                 <h2>
                   Over
                   <span>
-                    <img src="https://template.hasthemes.com/raees/raees/img/icon/1.png"></img>
+                  <img
+                    src="/assets/images/30 years.png"
+                    style={{
+                      height: "72px",
+                      width: "85px",
+                    
+                    }}
+
+                  ></img>
                   </span>
                   years of Experience
                 </h2>
@@ -48,7 +56,7 @@ const Aboutus = () => {
                     "I started the business as a one-man show, handling
                     everything from marketing to management. Over the years, we
                     have expanded our product range and are proud distributors
-                    for 8 renowned companies. Today, Maheshwari Enterprises
+                    for 10 renowned companies. Today, Maheshwari Enterprises
                     covers around 6 districts, a testament to our commitment to
                     excellence in the construction industry."
                     <div className="founder">-Shailesh Maheshwari</div>

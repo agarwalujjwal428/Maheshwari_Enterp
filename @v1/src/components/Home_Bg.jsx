@@ -49,8 +49,8 @@ const Home_Bg = () => {
             } animate__duration-6s`}
           >
             <img
-              src="/assets/images/E_B2.png"
-              style={{ height: "400px", width: "400px" }}
+              src="/assets/images/ME_Logo_New.png"
+              style={{ height: "300px", width: "400px" }}
               alt="Background"
             />
           </div>

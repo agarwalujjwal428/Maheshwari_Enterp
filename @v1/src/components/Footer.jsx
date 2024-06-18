@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="footer-top">
             <div className="footer-image">
               <img
-                src="/assets/images/E_6.1.png"
+                src="/assets/images/ME_Logo_White.png"
                 style={{
                   height: "79px",
                   paddingLeft: "15px",

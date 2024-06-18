@@ -17,15 +17,9 @@ const Client_review = () => {
       initials: "KV",
     },
     {
-      text: `“After looking at many options for plumbing pipes and waterproofing solutions, we came across Maheshwari Enterprises. Their innovative composite pipes and penetrative waterproofing make them stand out from others in the market and ensure customer satisfaction.”`,
-      img: "",
-      name: "Y K Sharma",
-      initials: "YS",
-    },
-    {
       text: `“I have been using KiTEC composite pipes from Maheshwari Enterprises since 1998. It has given the best results in all my projects as by using KiTEC pipes, problem of leakage and detoration of pipe vanishes. I am happy with their services and dedication to work. I highly recommend their products and services to everyone planning to build their house.”`,
       img: "/assets/images/Testimonials/Umesh_Sadayat.jpg",
-      name: "Umesh Sadayat",
+      name: "Engg. Umesh Sadayat",
       initials: "US",
     },
     {
@@ -47,17 +41,30 @@ const Client_review = () => {
       initials: "TDS",
     },
     {
+      text: `“My factory, Prince Art Export, has been a regular customer of Maheswari Enterprises when it comes to pipes for compressor line. The product and service they provide is unmatched. The pipes for compressor lines are of highest quality, which ensures safety. My experience with Maheshwari Enterprises is highly satisfactory and would recommend them to others also.”`,
+      img: "/assets/images/Testimonials/Piyush_Luniya.jpg",
+      name: "Piyush Luniya (Prince Art, Basni)",
+      initials: "PL",
+    },
+    {
+      text: `“Maheshwari Enterprises is my one-stop shop for a wide range of construction-related items, including high-quality tile adhesives and grout, as well as exterior texturing, all at a very cheap price. I am really delighted with their products and services and will continue to be a customer. I personally suggest them to others.”`,
+      img: "/assets/images/Testimonials/Shobhit_Maheshwari.jpg",
+      name: "Arch. Shobhit Maheshwari",
+      initials: "SM",
+    },
+    {
+      text: `“After looking at many options for plumbing pipes and waterproofing solutions, we came across Maheshwari Enterprises. Their innovative composite pipes and penetrative waterproofing make them stand out from others in the market and ensure customer satisfaction.”`,
+      img: "",
+      name: "Y K Sharma",
+      initials: "YS",
+    },
+    {
       text: `“Maheshwari Enterprises executed the plumbing project at my residence with absolute perfection and precision. The plumbing technology they provided is completely reliable and advanced than any other I have known. Their composite plumbing pipe ensures no leakage of both hot and cold water, and even gas pipe for kitchen. I am totally satisfied with their work. I highly recommend them to others!!”`,
       img: "",
       name: "Ganpat Sharma",
       initials: "GS",
     },
-    {
-      text: `“My factory, Prince Art Export, has been a regular customer of Maheswari Enterprises when it comes to pipes for compressor line. The product and service they provide is unmatched. The pipes for compressor lines are of highest quality, which ensures safety. My experience with Maheshwari Enterprises is highly satisfactory and would recommend them to others also.”`,
-      img: "",
-      name: "Prince Art",
-      initials: "PA",
-    },
+    
     {
       text: `“My hotel and resort,Thar Oasis in Dechu now has a state-of-the-art plumbing system courtesy of Maheshwari Enterprises. The KiTEC plumbing pipes provided are safe, easy to handle, and come in lengths of up to 200 meters, reducing the need for additional fittings. Highly satisfied with both the product and service, I highly recommend Maheshwari Enterprises.!!”`,
       img: "",
@@ -69,7 +76,7 @@ const Client_review = () => {
   return (
     <div className="review-container">
       <div className="review-header">
-        <h2>Clients review</h2>
+        <h2>Clients' Review</h2>
         <p>
           Our expertise in the field, spanning 30 years, sets us apart from
           competitors, making us pioneers in introducing cutting-edge

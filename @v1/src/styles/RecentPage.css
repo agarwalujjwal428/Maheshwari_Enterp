@@ -189,14 +189,14 @@
 .btn-active {
   color: #ffc400;
 }
-.rp-project-details {
+.rp-project-details{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   gap: 12px;
 }
-.rp-project-details div {
+.rp-item-card {
   width: 32.5%;
   text-align: justify;
   border: 1px solid #131730;
@@ -418,5 +418,6 @@
   }
   
 }
+
 
 

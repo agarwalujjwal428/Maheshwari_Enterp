@@ -37,7 +37,7 @@ const Navbar = () => {
                 <a className="navbar-brand" href="/">
                   <img
                     className="navbar-logo"
-                    src="/assets/images/E_6.1.png"
+                    src="/assets/images/ME_Logo_White.png"
                     alt="logo"
                   ></img>
                 </a>
@@ -73,7 +73,7 @@ const Navbar = () => {
                       }`}
                       href="/blog"
                     >
-                      Blog
+                      Blogs
                     </a>
                   </li>
                   <li className="nav-item">

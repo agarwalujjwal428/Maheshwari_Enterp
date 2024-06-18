@@ -1,13 +1,18 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import prodData from "../products_services.json";
 import "../styles/ProductServiceDetails.css";
 import { Link } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 import LazyLoad from "react-lazyload";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight} from "@fortawesome/free-solid-svg-icons";
 
 const ProductServiceDetails = () => {
   const { title, prodId, category } = useParams();
+  const navigate = useNavigate();
+
   let companyItem = {};
   if (category === "products") {
     companyItem = prodData.products.find((product) => product.id === prodId);
@@ -15,11 +20,25 @@ const ProductServiceDetails = () => {
     companyItem = prodData.services.find((service) => service.id === prodId);
   }
 
+  const handlePrevious = () => {
+    navigate(-1);
+  };
+
+  const handleNext = () => {
+    navigate(1);
+  };
+
   return (
     <>
       {category === "products" && (
         <div className="product-service-details">
           <div className="product-service-card">
+          <div className="navigation-buttons" style={{marginTop:"-10px",marginBottom:"10px"}} >
+          <button onClick={handlePrevious}>
+            <FontAwesomeIcon icon={faArrowLeft} />
+          </button>
+              <button onClick={handleNext} style={{marginLeft:"2px"}}><FontAwesomeIcon icon={faArrowRight} /></button>
+            </div>
             <div className="prod-serv-catalog-container">
               <div className="prod-serv-title">{title}</div>
               <a href="#">
@@ -32,7 +51,7 @@ const ProductServiceDetails = () => {
               {companyItem.companyItems.map((company_item, index) => (
                 <div key={index} className="ps_item_container">
                   <div className="ps_item_title">{company_item.itemTitle}</div>
-                  {company_item.itemImage !== "" && (
+                  {company_item.itemImage && (
                     <div className="ps_item_image">
                       <img
                         src={company_item.itemImage}
@@ -50,6 +69,7 @@ const ProductServiceDetails = () => {
                 </div>
               ))}
             </div>
+           
           </div>
         </div>
       )}
@@ -57,11 +77,15 @@ const ProductServiceDetails = () => {
       {category === "services" && (
         <div className="product-service-details">
           <div className="product-service-card">
+          <div className="navigation-buttons" style={{marginTop:"-10px",marginBottom:"10px"}}>
+          <button onClick={handlePrevious}>
+            <FontAwesomeIcon icon={faArrowLeft} />
+          </button>
+          </div>
             <div className="prod-serv-title">{title}</div>
             <div className="prod-serv-desc">
               {companyItem.readMore?.read_description}
             </div>
-
             <Carousel style={{ margin: "auto", height: "500px" }}>
               {companyItem.readMore?.servItems.map((item, index) => (
                 <Carousel.Item key={index} interval={3000}>
