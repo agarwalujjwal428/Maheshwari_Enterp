@@ -57,9 +57,7 @@ const Section_2 = () => {
                     </div>
                     <div className="service-text">
                       <p>
-                        Our herbal termite treatment offers an eco-friendly
-                        solution to protect your property from termite
-                        infestation, ensuring peace of mind and safety.
+                      Our herbal termite treatment provides an eco-friendly and effective solution to protect your property from termite infestations, ensuring long-lasting peace of mind and safety.
                       </p>
                     </div>
                   </div>

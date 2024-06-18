@@ -55,44 +55,83 @@
   left: 534px;
 } 
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 780px) and (max-width: 2440px) {
   .home_bg_pic {
     left: 50%; 
     top:130px;
-    transform: translateX(-54%);
+    transform: translateX(-50%);
   }
   
   .home_bg_first {
     left: 50%; 
     top:440px;
-    transform: translateX(-54%);
+    transform: translateX(-50%);
     font-size: 1.85em;
     font-weight: bolder;
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width:715px) and (max-width: 780px) {
   .home_bg_pic {
-    left: 53%; 
+    left: 56%; 
     top:170px;
     transform: translateX(-61%);
   }
   .home_bg_pic img{
-    height:350px !important;
+    height:250px !important;
     width:350px !important;
   }
   
   .home_bg_first {
     left: 52%; 
     top:435px;
-    transform: translateX(-59%);
-    font-size: 1.8em;
+    transform: translateX(-52%);
+    font-size: 1.7em;
     font-weight: bolder;
   }
   
 }
-
-@media screen and (max-width: 450px) {
+@media screen and (min-width:621px) and (max-width:715px) {
+  
+  .home_bg_pic {
+    left: 56%; 
+    top:170px;
+    transform: translateX(-61%);
+  }
+  .home_bg_pic img{
+    height:250px !important;
+    width:350px !important;
+  }
+  
+  .home_bg_first {
+    left: 52%; 
+    top:435px;
+    transform: translateX(-52%);
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+}
+@media screen and (min-width:450px) and (max-width:621px) {
+  
+  .home_bg_pic {
+    left: 56%; 
+    top:220px;
+    transform: translateX(-58%);
+  }
+  .home_bg_pic img{
+    height:180px !important;
+    width:250px !important;
+  }
+  
+  .home_bg_first {
+    left: 52%; 
+    top:415px;
+    transform: translateX(-51%);
+    font-size: 1.1rem;
+    font-weight: bolder;
+  }
+}
+@media screen and (min-width: 370px) and (max-width: 450px) {
   
   .home_bg_pic {
     left: 50%; 
@@ -100,7 +139,7 @@
     transform: translateX(-48%);
   }
   .home_bg_pic img{
-    height:200px !important;
+    height:150px !important;
     width:200px !important;
   }
   
@@ -109,6 +148,29 @@
     top:337px;
     transform: translateX(-46%);
     font-size: 1em;
+    font-weight: bolder;
+  }
+  .home_bg_container{
+    height:640px;
+  }
+  
+}
+@media screen and (max-width: 370px) {
+  .home_bg_pic {
+    left: 50%; 
+    top:180px;
+    transform: translateX(-48%);
+  }
+  .home_bg_pic img{
+    height:150px !important;
+    width:200px !important;
+  }
+  
+  .home_bg_first {
+    left: 50%; 
+    top:337px;
+    transform: translateX(-46%);
+    font-size: 0.9em;
     font-weight: bolder;
   }
   .home_bg_container{

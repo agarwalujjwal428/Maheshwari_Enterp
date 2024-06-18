@@ -1,10 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   BrowserRouter as Router,
+  HashRouter,
   Routes,
   Route,
   Navigate,
-  useLocation
+  useLocation,
 } from "react-router-dom";
 import { useEffect } from "react";
 import Navbar from "./components/Navbar";
@@ -82,18 +83,14 @@ const App = () => {
           />
           <Route exact path="/blog" element={<AllBlog />} />
           <Route exact path="/blog/:title/:blogId" element={<BlogDetails />} />
-          <Route
-            exact
-            path="/recentproject"
-            element={<RecentProjectsPage />}
-          />
+          <Route exact path="/recentproject" element={<RecentProjectsPage />} />
 
           <Route
             exact
             path="/recentproject/:id/:title/:category"
             element={<RpDetails />}
           />
-          
+
           <Route exact path="/admin" element={<AdminDashboard />} />
         </Routes>
         <Footer />

@@ -41,13 +41,8 @@
 
 } 
  
-@media screen and (max-width: 1024px) {
-  .navbar-logo {
-    margin-left: 0; 
-  }
-}
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width:530px) and (max-width: 780px) {
   .nav-section {
     padding: 4px 0; 
     width:100%;
@@ -57,6 +52,7 @@
   }
   .navbar-logo{
     height:40px;
+    margin-left:5px;
   }
   
   .navContainer{
@@ -73,8 +69,40 @@
  
   
 }
+@media screen and (min-width:450px) and (max-width: 530px) {
+  
+  .nav-section {
+    padding: 4px 0; 
+    width:100%;
+  }
+  .nav-item {
+    margin: 8px 0; 
+  }
+  .navbar-logo{
+    height:40px;
+    
+  }
+  .navbar-header{
+    margin-left:235px;
+  }
+  
+  .navContainer{
+    margin:0 20px 0 20px;
+    max-width: 100%;
+  }
+  .navList{
+    margin:0;
+    margin-left:10px;
+  }
 
-@media screen and (max-width: 450px) {
+  .navList a{
+    padding:6px 30px 6px 0px;
+  }
+ 
+  
+}
+
+@media screen and (min-width:390px) and (max-width: 450px) {
   .nav-section {
     padding: 4px 0; 
     width:100%;
@@ -108,8 +136,8 @@
   }
   
   }
-
-@media screen and (max-width: 380px) {
+ 
+@media screen and (max-width: 390px) {
   .nav-section {
     padding: 4px 0; 
     width:100%;
@@ -120,7 +148,7 @@
 
   .navList a {
     font-size: 14px;
-    padding:0 0.6rem 0 1rem; 
+    padding:0 0.5rem 0 0.9rem; 
   }
   .navContainer{
     margin:0.2rem 0.02rem 0.02rem 0.04rem;

@@ -12,7 +12,7 @@ const Testimonials = () => {
                 <Test_Item
                   title="Year Established"
                   stat={1990}
-                  icon="/src/assets/images/mile_logo2.png"
+                  icon="/assets/images/mile_logo2.png"
                 />
                 <Test_Item
                   title="PROJECTS DONE"

@@ -4,14 +4,17 @@ import { Link } from "react-router-dom";
 
 const ProductService = ({ prodId, data }) => {
   console.log(prodId, data);
+  console.log(data.img);
   return (
     <div className="product-service" id={prodId}>
       <LazyLoad height={200}>
-        <img
-          src={data.img}
-          style={{ width: "100%", height: "200px" }}
-          alt={data.title}
-        />
+        {data.img && (
+          <img
+            src={data.img}
+            style={{ width: "100%", height: "200px" }}
+            alt={data.title}
+          />
+        )}
       </LazyLoad>
       <h3>{data.title}</h3>
       <p>{data.description}</p>

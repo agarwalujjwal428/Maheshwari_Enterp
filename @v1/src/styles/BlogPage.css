@@ -98,9 +98,9 @@
 }
 .blog-head {
   position: absolute;
-  top: 300px;
-  left: 540px;
-  font-size: 4.2rem;
+  top: 220px;
+  left: 500px;
+  font-size: 5.6rem;
   font-weight: bold;
   color: #112137;
 }
@@ -178,6 +178,7 @@
 }
 .blog h3 {
   margin: 20px 0 20px 0;
+  color:#1a1a1a;
 }
 .blog-owner-details {
   display: flex;
@@ -189,6 +190,7 @@
   text-transform: capitalize;
   font-family: "lato", sans-serif;
   margin-bottom: 22px;
+  color:#1a1a1a;
 }
 .blog-desc {
   margin-bottom: 22px;

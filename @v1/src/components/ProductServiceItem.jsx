@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import prodData from "../products_services.json";
 import "../styles/ProductServiceItem.css";
 import { Enquiry } from "./Enquiry";
 import LazyLoad from "react-lazyload";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const ProductServiceItem = () => {
   const { title, prodId, category, itemTitle } = useParams();
@@ -24,6 +26,10 @@ const ProductServiceItem = () => {
     "Pipe Plug",
     "Special Fitting",
   ];
+  const navigate = useNavigate();
+  const handlePrevious = () => {
+    navigate(-1);
+  };
 
   const getItemData = () => {
     if (category === "products") {
@@ -46,6 +52,11 @@ const ProductServiceItem = () => {
   return (
     <div className="pro-serv-item-details">
       <div className="pro-serv-card">
+        <div className="navigation-buttons" style={{marginTop:"-10px",marginBottom:"10px"}}>
+          <button onClick={handlePrevious}>
+            <FontAwesomeIcon icon={faArrowLeft} />
+          </button>
+        </div>
         <div className="enquiry-container">
           <h2 className="pro-serv-item-head">{itemTitle}</h2>
           <button className="enquiry-button" onClick={toggleDialog}>

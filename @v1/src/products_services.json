@@ -1,7 +1,8 @@
+
 {
   "products": [
     {
-      "img": "/src/assets/images/Kitec/Logo.jpeg",
+      "img": "/assets/images/Kitec/Logo.jpeg",
       "id": "1",
       "category": "products",
       "title": "KiTEC Industries (INDIA) Pvt. Ltd.",
@@ -9,7 +10,7 @@
       "companyItems": [
         {
           "itemTitle": "Gas Item - Pipe",
-          "itemImage": "/src/assets/images/Kitec/Pipe_Round.png",
+          "itemImage": "/assets/images/Kitec/Pipe_Round.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -25,25 +26,7 @@
           }
         },
         {
-          "itemTitle": "Gas Item - Tee",
-          "itemImage": "/src/assets/images/Kitec/Equal _tee.jpeg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1014 X 1014 X 1/2 inch",
-                "suitableFor": "Female Tee (Br.)"
-              },
-              {
-                "size": "1014",
-                "suitableFor": "Equal Tee (Br.)"
-              }
-              
-            ]
-          }
-        },
-        {
-          "itemTitle": "Gas Item",
+          "itemTitle": "Gas Fittings",
           "itemImage": "",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
@@ -75,19 +58,14 @@
               {
                 "size": "1014 X 1/2 inch",
                 "suitableFor": "Pipe Holding Clamp "
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Gas Item - Bending Spring",
-          "itemImage": "/src/assets/images/Kitec/bending_springs.jpg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
+              },
+              {
+                "size": "1014 X 1014 X 1/2 inch",
+                "suitableFor": "Female Tee (Br.)"
+              },
               {
                 "size": "1014",
-                "suitableFor": "Blending Spring 1014"
+                "suitableFor": "Equal Tee (Br.)"
               }
             ]
           }
@@ -254,7 +232,7 @@
         },
         {
           "itemTitle": "Plastic Rounder",
-          "itemImage": "/src/assets/images/Kitec/Rounding_tool.jpg",
+          "itemImage": "/assets/images/Kitec/Rounding_tool.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -270,8 +248,8 @@
           }
         },
         {
-          "itemTitle": "Plastic Pipe Chaferer",
-          "itemImage": "",
+          "itemTitle": "Plastic Deburring Tool",
+          "itemImage": "/assets/images/Kitec/deburring-tool.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -284,7 +262,7 @@
         },
         {
           "itemTitle": "Pipe Cutter",
-          "itemImage": "/src/assets/images/Kitec/Pipe_Cutter.jpg",
+          "itemImage": "/assets/images/Kitec/Pipe_Cutter.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -297,7 +275,7 @@
         },
         {
           "itemTitle": "External & Internal Bending Spring",
-          "itemImage": "/src/assets/images/Kitec/Bending_Spring1.jpg",
+          "itemImage": "/assets/images/Kitec/Bending_Spring1.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -486,7 +464,7 @@
         },
         {
           "itemTitle": "Equal Tee",
-          "itemImage": "/src/assets/images/Kitec/Equal _tee.jpeg",
+          "itemImage": "/assets/images/Kitec/Equal _tee.jpeg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -1476,7 +1454,7 @@
       ]
     },
     {
-      "img": "/src/assets/images/p_s.webp",
+      "img": "/assets/images/company_logo/Fastofix.png",
       "id": "2",
       "category": "products",
       "title": " FASTOFIX",
@@ -1484,7 +1462,7 @@
       "companyItems": [
         {
           "itemTitle": "Tile Adhesive",
-          "itemImage": "/src/assets/images/Fasto_Fix/ft-111.jpeg",
+          "itemImage": "/assets/images/Fasto_Fix/ft-111.jpeg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -1540,7 +1518,7 @@
         },
         {
           "itemTitle": " TJF Grout",
-          "itemImage": "/src/assets/images/Fasto_Fix/Grout.jpeg",
+          "itemImage": "/assets/images/Fasto_Fix/Grout.jpeg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -1589,7 +1567,7 @@
       ]
     },
     {
-      "img": "/src/assets/images/company_logo/hp_logo.png",
+      "img": "/assets/images/company_logo/Hp Adhesives.jpeg",
       "id": "3",
       "category": "products",
       "title": " HP ADHESIVES",
@@ -1597,7 +1575,7 @@
       "companyItems": [
         {
           "itemTitle": " HP ADHESIVES",
-          "itemImage": "/src/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/GP_Bronze.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -1668,7 +1646,7 @@
       ]
     },
     {
-      "img": "/src/assets/images/p_s.webp",
+      "img": "",
       "id": "4",
       "category": "products",
       "title": " STRONGER",
@@ -1774,7 +1752,7 @@
       ]
     },
     {
-      "img": "/src/assets/images/p_s.webp",
+      "img": "",
       "id": "5",
       "category": "products",
       "title": "AZUD",
@@ -1809,7 +1787,7 @@
       ]
     },
     {
-      "img": "/src/assets/images/company_logo/aipl-logo.jpg",
+      "img": "/assets/images/company_logo/aipl-logo.jpg",
       "id": "6",
       "category": "products",
       "title": " AIPL ABRO",
@@ -1817,7 +1795,7 @@
       "companyItems": [
         {
           "itemTitle": " Open Coat Paper",
-          "itemImage": "/src/assets/images/ABRO/sandpaper.jpg",
+          "itemImage": "/assets/images/ABRO/sandpaper.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -1831,7 +1809,7 @@
         },
         {
           "itemTitle": " CPG Paper",
-          "itemImage": "/src/assets/images/ABRO/sandpaper.jpg",
+          "itemImage": "/assets/images/ABRO/sandpaper.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -1905,7 +1883,7 @@
         },
         {
           "itemTitle": " Latex Paper",
-          "itemImage": "/src/assets/images/ABRO/Latex_sandpaper.jpg",
+          "itemImage": "/assets/images/ABRO/Latex_sandpaper.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -1979,7 +1957,7 @@
         },
         {
           "itemTitle": " Telescopic Slider - 45 kg (Zinc)",
-          "itemImage": "/src/assets/images/ABRO/telescopic.jpeg",
+          "itemImage": "/assets/images/ABRO/telescopic.jpeg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2018,7 +1996,7 @@
         },
         {
           "itemTitle": " Telescopic Slider - 35 kg (Zinc)",
-          "itemImage": "/src/assets/images/ABRO/telescopic.jpeg",
+          "itemImage": "/assets/images/ABRO/telescopic.jpeg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2057,7 +2035,7 @@
         },
         {
           "itemTitle": " PVC insulation Tape (17mmX6m)",
-          "itemImage": "/src/assets/images/ABRO/PVC_tape.jpg",
+          "itemImage": "/assets/images/ABRO/PVC_tape.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2071,7 +2049,7 @@
         },
         {
           "itemTitle": " PVC insulation Tape (17mmX7m)",
-          "itemImage": "/src/assets/images/ABRO/PVC_tape.jpg",
+          "itemImage": "/assets/images/ABRO/PVC_tape.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2085,7 +2063,7 @@
         },
         {
           "itemTitle": " Masking Tape - 6123 Grade",
-          "itemImage": "/src/assets/images/ABRO/masking.png",
+          "itemImage": "/assets/images/ABRO/masking.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2119,7 +2097,7 @@
         },
         {
           "itemTitle": " Masking Tape - 3123 Grade",
-          "itemImage": "/src/assets/images/ABRO/masking.png",
+          "itemImage": "/assets/images/ABRO/masking.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2148,7 +2126,7 @@
         },
         {
           "itemTitle": "PTFE Thread Seal Tape",
-          "itemImage": "/src/assets/images/ABRO/PTFE_tape.jpg",
+          "itemImage": "/assets/images/ABRO/PTFE_tape.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2167,7 +2145,7 @@
         },
         {
           "itemTitle": "Abrasive Cloth Roll (Goodsun)",
-          "itemImage": "/src/assets/images/ABRO/cloth-roll.jpg",
+          "itemImage": "/assets/images/ABRO/cloth-roll.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2196,7 +2174,7 @@
         },
         {
           "itemTitle": "Abrasive Cloth Roll (Zorro)",
-          "itemImage": "/src/assets/images/ABRO/cloth-roll.jpg",
+          "itemImage": "/assets/images/ABRO/cloth-roll.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2225,7 +2203,7 @@
         },
         {
           "itemTitle": " PU Foam",
-          "itemImage": "/src/assets/images/ABRO/pu-foam.png",
+          "itemImage": "/assets/images/ABRO/pu-foam.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2239,7 +2217,7 @@
         },
         {
           "itemTitle": "Anti Slip Tape",
-          "itemImage": "/src/assets/images/ABRO/anti-slip.jpg",
+          "itemImage": "/assets/images/ABRO/anti-slip.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2254,7 +2232,7 @@
         },
         {
           "itemTitle": "Bopp Tape",
-          "itemImage": "/src/assets/images/ABRO/bopp_tape.jpg",
+          "itemImage": "/assets/images/ABRO/bopp_tape.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2268,7 +2246,7 @@
         },
         {
           "itemTitle": "Floor Protection Tape",
-          "itemImage": "/src/assets/images/ABRO/cellux_tape.jpg",
+          "itemImage": "/assets/images/ABRO/cellux_tape.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2282,7 +2260,7 @@
         },
         {
           "itemTitle": "Roller Masker",
-          "itemImage": "/src/assets/images/ABRO/Roller_Masker.jpg",
+          "itemImage": "/assets/images/ABRO/Roller_Masker.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2301,7 +2279,7 @@
         },
         {
           "itemTitle": " Spray Paint",
-          "itemImage": "/src/assets/images/ABRO/spray_paint.jpg",
+          "itemImage": "/assets/images/ABRO/spray_paint.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2580,61 +2558,7 @@
       ]
     },
     {
-      "img": "/src/assets/images/p_s.webp",
-      "id": "7",
-      "category": "products",
-      "title": " KOVAX",
-      "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
-      "companyItems": [
-        {
-          "itemTitle": " KOVAX",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "Grit 80, 120",
-                "suitableFor": " KOVAX Ceramic Velcro Disc ",
-                "extra1": "Inner pack  (100) / Outer Pack (2000)"
-              },
-              {
-                "size": " Grit 80, 100, 120",
-                "suitableFor": "  KOVAX Eagle WPP",
-                "extra1": "Inner pack  (100) / Outer Pack (500)"
-              },
-              {
-                "size": "Grit 150, 220, 320, 400, 600, 800",
-                "suitableFor": " KOVAX Eagle WPP ",
-                "extra1": "Inner pack  (100) / Outer Pack (1000)"
-              },
-              {
-                "size": "Grit 1000, 1500, 1500",
-                "suitableFor": " KOVAX Eagle WPP ",
-                "extra1": "Inner pack  (100) / Outer Pack (1000)"
-              },
-              {
-                "size": "No Hole 80, 120, 220",
-                "suitableFor": " KOVAX Pre-stick  on Disc 5 inches ",
-                "extra1": "Inner pack  (100) / Outer Pack (NA)"
-              },
-              {
-                "size": "No Hole 80, 120, 220",
-                "suitableFor": " KOVAX stick  on Disc 5 inches ",
-                "extra1": "Inner pack  (100) / Outer Pack (NA)"
-              },
-              {
-                "size": "Grit 60, 80, 120",
-                "suitableFor": "  KOVAX Velcro Disc 5 inches ",
-                "extra1": "Inner pack  (100) / Outer Pack (NA)"
-              }
-            ]
-          }
-        }
-       
-      ]
-    },
-    {
-      "img": "/src/assets/images/p_s.webp",
+      "img": "/assets/images/company_logo/Mymix.png",
       "id": "8",
       "category": "products",
       "title": " MYMIX",
@@ -2642,7 +2566,7 @@
       "companyItems": [
         {
           "itemTitle": " Tile Adhesive & Jointing Mortar",
-          "itemImage": "/src/assets/images/My_Mix/CTA.png",
+          "itemImage": "/assets/images/My_Mix/CTA.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2747,7 +2671,7 @@
         },
         {
           "itemTitle": " Epoxy & Cementitious Grouts",
-          "itemImage": "/src/assets/images/My_Mix/Epoxy.jpg",
+          "itemImage": "/assets/images/My_Mix/Epoxy.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2784,7 +2708,7 @@
         },
         {
           "itemTitle": "Integral Waterproofing & Bonding Agent",
-          "itemImage": "/src/assets/images/My_Mix/SBR_Latex.png",
+          "itemImage": "/assets/images/My_Mix/SBR_Latex.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2937,7 +2861,7 @@
       ]
     },
     {
-      "img": "/src/assets/images/p_s.webp",
+      "img": "/assets/images/company_logo/Termiguard.webp",
       "id": "9",
       "category": "products",
       "title": "TERMIGUARD",
@@ -2945,7 +2869,7 @@
       "companyItems": [
         {
           "itemTitle": "Termiguard",
-          "itemImage": "/src/assets/images/Termi_Gaurd/termiguard.png",
+          "itemImage": "/assets/images/Termi_Gaurd/termiguard.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2984,7 +2908,7 @@
         },
         {
           "itemTitle": "Termiguard",
-          "itemImage": "/src/assets/images/Termi_Gaurd/termiguard.png",
+          "itemImage": "/assets/images/Termi_Gaurd/termiguard.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3024,7 +2948,7 @@
         },
         {
           "itemTitle": " Trigger Spray Tin Can",
-          "itemImage": "/src/assets/images/Termi_Gaurd/Super_Power.jpg",
+          "itemImage": "/assets/images/Termi_Gaurd/Super_Power.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3039,7 +2963,7 @@
       ]
     },
     {
-      "img": "/src/assets/images/p_s.webp",
+      "img": "/assets/images/company_logo/Lapox.png",
       "id": "10",
       "category": "products",
       "title": " LAPOX.",
@@ -3047,7 +2971,7 @@
       "companyItems": [
         {
           "itemTitle": " Lapox Ultra",
-          "itemImage": "/src/assets/images/Lapox/Lapox-Ultra.png",
+          "itemImage": "/assets/images/Lapox/Lapox-Ultra.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3102,7 +3026,7 @@
         },
         {
           "itemTitle": " Lapox Rapid and Clear",
-          "itemImage": "/src/assets/images/Lapox/Rapid_Clear.jpg",
+          "itemImage": "/assets/images/Lapox/Rapid_Clear.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3151,7 +3075,7 @@
         },
         {
           "itemTitle": " Lapox Ultrafast",
-          "itemImage": "/src/assets/images/Lapox/Lapox-Ultrafast.png",
+          "itemImage": "/assets/images/Lapox/Lapox-Ultrafast.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3170,7 +3094,7 @@
         },
         {
           "itemTitle": "Lapox Ultraseal",
-          "itemImage": "/src/assets/images/Lapox/Lapox-Ultraseal.png",
+          "itemImage": "/assets/images/Lapox/Lapox-Ultraseal.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3199,7 +3123,7 @@
         },
         {
           "itemTitle": "Lapox Powergrip",
-          "itemImage": "/src/assets/images/Lapox/Powergrip.png",
+          "itemImage": "/assets/images/Lapox/Powergrip.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3228,7 +3152,7 @@
         },
         {
           "itemTitle": "Lapox Lacrete",
-          "itemImage": "/src/assets/images/Lapox/Lacrete.png",
+          "itemImage": "/assets/images/Lapox/Lacrete.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3252,7 +3176,7 @@
         },
         {
           "itemTitle": " Lapox Epogrout",
-          "itemImage": "/src/assets/images/Lapox/Lapox-Epogrout.jpg",
+          "itemImage": "/assets/images/Lapox/Lapox-Epogrout.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3271,7 +3195,7 @@
         },
         {
           "itemTitle": " Lapox  Granito  JR150 | JH350",
-          "itemImage": "/src/assets/images/Lapox/granito.jpg",
+          "itemImage": "/assets/images/Lapox/granito.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3295,7 +3219,7 @@
         },
         {
           "itemTitle": " Lapox Granito Cast",
-          "itemImage": "/src/assets/images/Lapox/granito.jpg",
+          "itemImage": "/assets/images/Lapox/granito.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3309,7 +3233,7 @@
         },
         {
           "itemTitle": " Lapox Granito ASH 400|ASH200",
-          "itemImage": "/src/assets/images/Lapox/granito.jpg",
+          "itemImage": "/assets/images/Lapox/granito.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3323,7 +3247,7 @@
         },
         {
           "itemTitle": "Lapox Ultraseal White",
-          "itemImage": "/src/assets/images/Lapox/Ultraseal-White.png",
+          "itemImage": "/assets/images/Lapox/Ultraseal-White.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -3337,7 +3261,7 @@
         },
         {
           "itemTitle": " Lapox Ultrabond CPVC",
-          "itemImage": "/src/assets/images/Lapox/Ultrabond-CPVC.png",
+          "itemImage": "/assets/images/Lapox/Ultrabond-CPVC.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4087,7 +4011,7 @@
       ]
     },
     {
-      "img": "/src/assets/images/company_logo/zydex_logo.jpg",
+      "img": "/assets/images/company_logo/zydex_logo.jpg",
       "id": "11",
       "category": "products",
       "title": "ZYDEX",
@@ -4095,7 +4019,7 @@
       "companyItems": [
         {
           "itemTitle": " Zycosil Plus",
-          "itemImage": "/src/assets/images/Zydex/Zycosill.jpeg",
+          "itemImage": "/assets/images/Zydex/Zycosill.jpeg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4132,7 +4056,7 @@
         },
         {
           "itemTitle": " Zycosil Max",
-          "itemImage": "/src/assets/images/Zydex/ZycosilMax.Png",
+          "itemImage": "/assets/images/Zydex/ZycosilMax.Png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4152,7 +4076,7 @@
         },
         {
           "itemTitle": " Zycoprime Plus",
-          "itemImage": "/src/assets/images/Zydex/ZycoPrime.jpeg",
+          "itemImage": "/assets/images/Zydex/ZycoPrime.jpeg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4189,7 +4113,7 @@
         },
         {
           "itemTitle": " Seal-It",
-          "itemImage": "/src/assets/images/Zydex/Seal-it.png",
+          "itemImage": "/assets/images/Zydex/Seal-it.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4209,7 +4133,7 @@
         },
         {
           "itemTitle": " Elastobar",
-          "itemImage": "/src/assets/images/Zydex/Elastobar.jpg",
+          "itemImage": "/assets/images/Zydex/Elastobar.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4240,7 +4164,7 @@
         },
         {
           "itemTitle": " Cold Bond",
-          "itemImage": "/src/assets/images/Zydex/Cold_Bond.jpg",
+          "itemImage": "/assets/images/Zydex/Cold_Bond.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4266,7 +4190,7 @@
         },
         {
           "itemTitle": "ElastoStretch",
-          "itemImage": "/src/assets/images/Zydex/Elastostrech.jpeg",
+          "itemImage": "/assets/images/Zydex/Elastostrech.jpeg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4287,7 +4211,7 @@
         },
         {
           "itemTitle": " ElastoMax",
-          "itemImage": "/src/assets/images/Zydex/ElastoMax.png",
+          "itemImage": "/assets/images/Zydex/ElastoMax.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4420,7 +4344,7 @@
         },
         {
           "itemTitle": "Zycobond Max",
-          "itemImage": "/src/assets/images/Zydex/Zycobond-Max.png",
+          "itemImage": "/assets/images/Zydex/Zycobond-Max.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4464,7 +4388,7 @@
       ]
     },
     {
-      "img": "/src/assets/images/company_logo/ncl logo.webp",
+      "img": "/assets/images/company_logo/ncl logo.webp",
       "id": "12",
       "category": "products",
       "title": " NCL",
@@ -4472,7 +4396,7 @@
       "companyItems": [
         {
           "itemTitle": "NCL Paints",
-          "itemImage": "/src/assets/images/NCl/Primer Interior.png",
+          "itemImage": "/assets/images/NCl/Primer Interior.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4526,7 +4450,7 @@
         },
         {
           "itemTitle": "NCL Paints-Harmony",
-          "itemImage": "/src/assets/images/NCl/Harmony.jpg",
+          "itemImage": "/assets/images/NCl/Harmony.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4555,7 +4479,7 @@
         },
         {
           "itemTitle": "NCL Paints-Optima",
-          "itemImage": "/src/assets/images/NCl/Optima.jpg",
+          "itemImage": "/assets/images/NCl/Optima.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4585,7 +4509,7 @@
         },
         {
           "itemTitle": "NCL Paints-Flora",
-          "itemImage": "/src/assets/images/NCl/Flora.jpg",
+          "itemImage": "/assets/images/NCl/Flora.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4616,7 +4540,7 @@
         },
         {
           "itemTitle": "NCL Paints-Cemenet Primer(Interior)",
-          "itemImage": "/src/assets/images/NCl/Primer Interior.png",
+          "itemImage": "/assets/images/NCl/Primer Interior.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4646,7 +4570,7 @@
         },
         {
           "itemTitle": "NCL Paints-Cemenet Primer(Exterior)",
-          "itemImage": "/src/assets/images/NCl/Primer Exterior.jpg",
+          "itemImage": "/assets/images/NCl/Primer Exterior.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4676,7 +4600,7 @@
         },
         {
           "itemTitle": " NCL Distemper",
-          "itemImage": "/src/assets/images/NCl/Delight.jpeg",
+          "itemImage": "/assets/images/NCl/Delight.jpeg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4705,7 +4629,7 @@
         },
         {
           "itemTitle": " NCL Texture",
-          "itemImage": "/src/assets/images/NCl/Top-coat.png",
+          "itemImage": "/assets/images/NCl/Top-coat.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4905,7 +4829,7 @@
         },
         {
           "itemTitle": " NCL White Cement Based Wall Putty",
-          "itemImage": "/src/assets/images/NCl/Putty.jpg",
+          "itemImage": "/assets/images/NCl/Putty.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -4933,7 +4857,7 @@
   ],
   "services": [
     {
-      "img": "/src/assets/images/p_s.webp",
+      "img": "",
       "id": "1",
       "category": "services",
       "title": "WaterProofing",
@@ -4942,27 +4866,27 @@
         "read_description":"Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable.",
         "servItems":[
           {
-            "item-img" : "/src/assets/images/p_s.webp",
+            "item-img" : "/assets/images/p_s.webp",
              "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/src/assets/images/p_s.webp",
+            "item-img" : "/assets/images/p_s.webp",
              "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/src/assets/images/p_s.webp",
+            "item-img" : "/assets/images/p_s.webp",
              "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/src/assets/images/p_s.webp",
+            "item-img" : "/assets/images/p_s.webp",
              "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/src/assets/images/p_s.webp",
+            "item-img" : "/assets/images/p_s.webp",
              "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/src/assets/images/p_s.webp",
+            "item-img" : "/assets/images/p_s.webp",
              "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           }
           
@@ -4970,7 +4894,7 @@
       }
     },
     {
-      "img": "/src/assets/images/p_s.webp",
+      "img": "",
       "id": "2",
       "category": "services",
       "title": "Termite Treatment",
@@ -4979,34 +4903,32 @@
         "read_description":"Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable.",
         "servItems":[
           {
-            "item-img" : "/src/assets/images/p_s.webp",
+            "item-img" : "/assets/images/p_s.webp",
              "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/src/assets/images/p_s.webp",
+            "item-img" : "/assets/images/p_s.webp",
              "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/src/assets/images/p_s.webp",
+            "item-img" : "/assets/images/p_s.webp",
              "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/src/assets/images/p_s.webp",
+            "item-img" : "/assets/images/p_s.webp",
              "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/src/assets/images/p_s.webp",
+            "item-img" : "/assets/images/p_s.webp",
              "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/src/assets/images/p_s.webp",
+            "item-img" : "/assets/images/p_s.webp",
              "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           }
           
         ]
       }
     }
-    
-    
   ]
 }

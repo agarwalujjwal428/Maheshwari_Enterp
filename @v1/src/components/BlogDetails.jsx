@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons"; 
-import { useParams, Link } from "react-router-dom";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import blogData from "../blog.json";
 import "../styles/BlogDetails.css";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const BlogDetails = () => {
+  const navigate = useNavigate();
+  const handlePrevious = () => {
+    navigate(-1);
+  };
   const { title, blogId } = useParams();
 
   const numericBlogId = parseInt(blogId);
@@ -25,21 +30,21 @@ const BlogDetails = () => {
 
   const handleLike = () => {
     if (!liked) {
-      setLikes(likes + 1); 
+      setLikes(likes + 1);
     } else {
-      setLikes(likes - 1); 
+      setLikes(likes - 1);
     }
-    setLiked(!liked); 
+    setLiked(!liked);
   };
   useEffect(() => {
-    window.scrollTo(0, 500); 
-  }, []); 
+    window.scrollTo(0, 500);
+  }, []);
 
   return (
     <>
       <div className="blog-bg">
-        <img src="/src/assets/images/7.jpg" alt="Blog Background" />
-        <h2 className="blog-head">Blogs/</h2>
+        <img src="/assets/images/7.jpg" alt="Blog Background" />
+        <h2 className="blog-head">Blogs</h2>
       </div>
       <div className="blog-details-container">
         <div className="blog-details-leftSide">
@@ -75,7 +80,12 @@ const BlogDetails = () => {
               </button>
               <span className="like-count">{likes}</span>
             </div>
+            <div className="navigation-buttons">
+            <button onClick={handlePrevious} style={{border:"none", marginTop:"15px", fontSize:"1em"}}><FontAwesomeIcon icon={faArrowLeft} onClick={handlePrevious} />Prev</button>
           </div>
+          </div>
+
+          
         </div>
         <div className="blog-details-rightSide">
           <h2>Recent Blogs</h2>
