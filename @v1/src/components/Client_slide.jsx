@@ -1,26 +1,41 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 
 const Client_slide = ({ slides }) => {
   const [slideIndex, setSlideIndex] = useState(0);
+  const [slidesToShow, setSlidesToShow] = useState(2);
+
+  const updateSlidesToShow = () => {
+    if (window.innerWidth < 768) {
+      setSlidesToShow(1);
+    } else {
+      setSlidesToShow(2);
+    }
+  };
+
+  useEffect(() => {
+    updateSlidesToShow();
+    window.addEventListener("resize", updateSlidesToShow);
+    return () => window.removeEventListener("resize", updateSlidesToShow);
+  }, []);
 
   const handlePrev = () => {
-    setSlideIndex(Math.max(slideIndex - 2, 0));
+    setSlideIndex(slideIndex > 0 ? slideIndex - 1 : slides.length - 1);
   };
 
   const handleNext = () => {
-    setSlideIndex(Math.min(slideIndex + 2, slides.length - 2));
+    setSlideIndex((slideIndex + slidesToShow) % slides.length);
   };
 
   return (
     <div className="carousel">
       <div
         className="client-carousel-container"
-        style={{ transform: `translateX(-${slideIndex * 50}%)` }}
+        style={{ transform: `translateX(-${slideIndex * (100 / slidesToShow)}%)` }}
       >
         {slides.map((slide, index) => (
-          <div className="slide-client" key={index} style={{ width: "50%" }}>
+          <div className="slide-client" key={index} style={{ width: `${100 / slidesToShow}%` }}>
             <div className="slide-text" style={{ height: "250px" }}>
               {slide.text}
             </div>

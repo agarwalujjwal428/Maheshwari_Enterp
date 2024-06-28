@@ -84,6 +84,7 @@
 .rp-read-more:hover .read-btn-text {
   color: #fff;
 }
+
 .rp-bg {
   position: relative;
   height: 500px;
@@ -139,6 +140,7 @@
   text-align: left;
   cursor: pointer;
 }
+
 .recent-cross-btn {
   cursor: pointer;
   border: 4px dotted #f4f4f4;
@@ -147,23 +149,24 @@
   border-radius: 3px;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
 }
-.carousel-control-next{
+
+.carousel-control-next {
   position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 70px !important; 
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 15%;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    background: 0 0;
-    border: 0;
-    opacity: .5;
-    transition: opacity .15s ease;
+  top: 0;
+  bottom: 0;
+  right: 70px !important;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
 }
 
 .rp-content {
@@ -189,24 +192,29 @@
 .btn-active {
   color: #ffc400;
 }
-.rp-project-details{
+
+.rp-project-details {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
   gap: 12px;
+  width:100%;
 }
+
 .rp-item-card {
-  width: 32.5%;
+  width:32%;
+  /* flex: 1 1 calc(33% - 12px); */
   text-align: justify;
   border: 1px solid #131730;
   border-radius: 5px;
   padding: 15px;
+  /* box-sizing: border-box; */
 }
+
 .rp-project-details div img {
   width: 100%;
   height: 235px;
 }
+
 .rp-pd-desc {
   color: #606060;
   font-family: "Lato", sans-serif;
@@ -221,6 +229,7 @@
   margin-top: 20px;
   color: #1a1a1a;
 }
+
 .rp-details {
   background-attachment: fixed;
   display: flex;
@@ -229,11 +238,13 @@
   align-items: center;
   padding: 3rem 2rem;
 }
+
 .rp-card {
   width: 60%;
   background-color: #f4f4f4;
   padding: 4.5rem 2.5rem 1.5rem;
 }
+
 .rp-title {
   font-family: "Lato", sans-serif;
   border-bottom: 1px solid #606060;
@@ -247,11 +258,12 @@
   color: #606060;
   font-weight: 600;
   text-transform: capitalize;
-  font-family: "Lato", sans-serif;
 }
+
 .rp-desc {
   color: #606060;
 }
+
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
@@ -270,9 +282,11 @@
   opacity: 0.5;
   transition: opacity 0.6s ease;
 }
+
 .carousel-indicators button.active {
   background-color: #1a1a1a;
 }
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   display: inline-block;
@@ -283,12 +297,14 @@
   background-size: 100% 100%;
   background-color: #606060;
 }
-.carousel-item img{
+
+.carousel-item img {
   height: 300px;
   width: auto;
   margin: 60px 0 0 166px;
 }
-.carousel-item p{
+
+.carousel-item p {
   color: #606060;
   font-weight: bold;
   margin: 25px 0 20px 65px;
@@ -298,8 +314,12 @@
 
 @media screen and (max-width: 767px) {
   .rp-bg {
-    height: 300px; 
-    top: -60px; 
+    height: 300px;
+    top: -60px;
+  }
+
+  .rp-bg img {
+    top: -20px;
   }
 
   .rp-head {
@@ -313,18 +333,17 @@
     flex-direction: column; 
     align-items: center; 
     padding: 20px; 
+
   }
 
   .rp-sidebar {
-    position: relative; 
-    width: 100%; 
-    top: auto; 
+    display: none;
   }
 
   .rp-content {
-    width: 100%; 
+    width: 100%;
     margin-top: 20px; 
-    margin-left: 0; 
+    margin-left: 0;
   }
 
   .rp-card {
@@ -355,8 +374,8 @@
 
   .carousel-item{
     float: none;
-    margin:0 ;
-    margin-left:-123px;
+    margin:0 ; 
+    margin-left:-123px; 
     margin-top:10px;
   }
 
@@ -370,9 +389,12 @@
   .carousel-control-next{
     right:5px !important;
   }
+  .rp-item-card {
+    flex: 1 1 calc(100%);
+  }
+
   
 }
-
 @media screen and (min-width: 768px) and (max-width: 1020px) {
   .rp-bg {
     height: 400px; 
@@ -385,7 +407,7 @@
     font-size: 4.3rem; 
   }
   .rp-project-details div{
-    width:48.5%;
+    width:100%;
   }
   .rp-card {
     width: 70%; 
@@ -416,8 +438,12 @@
   .carousel-control-next{
     right:5px !important;
   }
-  
+  .rp-item-card {
+  width:48%;
+  }
 }
+
+
 
 
 
