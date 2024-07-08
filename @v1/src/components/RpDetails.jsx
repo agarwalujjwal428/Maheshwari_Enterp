@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import { useParams,useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import recentData from "../RecentProject.json";
 import Carousel from "react-bootstrap/Carousel";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const RpDetails = () => {
-  const navigate=useNavigate();
+  const navigate = useNavigate();
   const handlePrevious = () => {
     navigate(-1);
   };
@@ -17,8 +17,8 @@ const RpDetails = () => {
   );
 
   useEffect(() => {
-    window.scrollTo(0, 80); 
-  }, []); 
+    window.scrollTo(0, 80);
+  }, []);
 
   console.log("***recent project", rpItem);
 
@@ -26,10 +26,13 @@ const RpDetails = () => {
     <>
       <div className="rp-details">
         <div className="rp-card">
-        <div className="navigation-buttons" style={{marginTop:"-10px",marginBottom:"10px"}}>
-          <button onClick={handlePrevious}>
-            <FontAwesomeIcon icon={faArrowLeft} />
-          </button>
+          <div
+            className="navigation-buttons"
+            style={{ marginTop: "-10px", marginBottom: "10px" }}
+          >
+            <button onClick={handlePrevious}>
+              <FontAwesomeIcon icon={faArrowLeft} />
+            </button>
           </div>
           <div className="rp-title">{title}</div>
           <div className="rp-desc">{rpItem.readMore?.read_description}</div>

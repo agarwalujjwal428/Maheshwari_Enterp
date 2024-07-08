@@ -81,11 +81,15 @@ const BlogDetails = () => {
               <span className="like-count">{likes}</span>
             </div>
             <div className="navigation-buttons">
-            <button onClick={handlePrevious} style={{border:"none", marginTop:"15px", fontSize:"1em"}}><FontAwesomeIcon icon={faArrowLeft} onClick={handlePrevious} />Prev</button>
+              <button
+                onClick={handlePrevious}
+                style={{ border: "none", marginTop: "15px", fontSize: "1em" }}
+              >
+                <FontAwesomeIcon icon={faArrowLeft} onClick={handlePrevious} />
+                Prev
+              </button>
+            </div>
           </div>
-          </div>
-
-          
         </div>
         <div className="blog-details-rightSide">
           <h2>Recent Blogs</h2>
