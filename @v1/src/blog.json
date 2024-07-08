@@ -209,11 +209,69 @@
       "title": "Steps to make your home completely waterproof",
       "likes":10,
       "author":"Vaibhav Gupta",
-      "publish_date":"16/07/2022",
-      "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
-      "blogItems": [
+      "publish_date":"04/07/2024",
+      "description": "Water can be one of the most dangerous enemies of your house. Water seeps into the small micro-cracks in your house and starts deteriorating the wood, concrete, and metal of your structure. Damp areas in a building promote the growth of fungi and algae, which in turn results in health issues for the members of the house. Water dampness damages the interior of the building, like paint, posters, etc., which causes heavy financial losses to the owner of the building. Last but not least, water leakage can cause electrical short circuits, which can even cause loss of life.",
+      "content": [
         {
-          "fullDescription": "The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+          "type":"paragraph",
+          "text":"Now, we have seen how water can damage your house let's see how can we make your house completely waterproof so that there is no way water can damage it. We will start by seeing what damage water can cause your house, where is waterproofing required in it and which treatment is best suited for it."
+        },
+        {
+          "type":"paragraph",
+          "text":"Water mainly causes problems like seepage and leakage in your home. Seepage refers to the slow escape of a liquid through porous material or small holes. It can result in paint peel-off, rebar corrosion and fungal growth. Whereas leakage refers to the escape of liquid through a hole or crack which can range from nanometer to milimeter."
+        },
+        {
+          "type":"paragraph",
+          "text":"We, at Maheshwari Enterprises, provide two types of waterproofing treatment namely -penetrative waterproofing and coating-based waterproofing. Combined use of both of them provide comprehensive solution to all your waterproofing needs. Waterproofing chemicals are from Zydex Industries Pvt. Ltd(A specialty chemicals company with the purpose of innovating diverse set of chemical technologies for the Textile, Agriculture, Pavement and Construction Industries). "
+        },
+        {
+          "type":"paragraph",
+          "text":"Seepage can be prevented using penetrative waterproofing treatment (Zycosil+ and Zycoprime+), but leakage has to be treated using coating-based waterproofing (Elastobar/Elastostretch/Elastomax). It is best to avoid these problems beforehand and thus waterproofing treatments give best results when applied during new construction."
+        },
+        {
+          "type":"subheading",
+          "text":"We will start by discussing stages of your house where waterproofing is required and which treatment should be applied."
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+             "listHead": "Foundation - ",
+             "listData":"Penetrative waterproofing in the foundation helps to stop the dampness from beneath the building. We apply penetrative waterproofing through spray machine so that maximum area is covered in an even way. The horizontal surface and the walls of the foundation must be covered and chemical must be sprayed till the saturation is reached."
+            },
+            {
+             "listHead": "Damp Proof Course (DPC) - ",
+             "listData":"Penetrative waterproofing at DPC level is highly effective in preventing rising dampness. Rising dampness is often the main reason for paint and plaster peel off at ground level. The application method is same as described in the previous step."
+            },
+            {
+             "listHead": "Partition Walls - ",
+             "listData":"To prevent the paint to be damaged partition walls must also be treated with penetrative waterproofing. Our penetrative waterproofing is breathable, which is why it lets the moisture in wall escape without damaging the paint and plaster."
+            },
+            {
+             "listHead": "Reinforced Cement Concrete (RCC) - ",
+             "listData":"Waterproofing additives when added to the concrete enhances its waterproofing properties, improves durability & longevity and also prevents corrosion of TMT bars. Therefore, with our waterproofing additives you not only make your RCC waterproof but also enhances its strength."
+            },
+            {
+             "listHead": "Bathroom – ",
+             "listData":"In an area which is more prone to water for a long time both penetrative waterproofing and coating-based waterproofing must be applied, for there is more chance of leakage along with seepage. Our coating-based waterproofing is water resistant, highly stretchable (up to 250%), has high bonding strength and also has crack bridging properties. Penetrative waterproofing and coating-based waterproofing when applied with fiber mesh gives full proof protection from seepage and leakage in your bathrooms."
+            },
+            {
+             "listHead": "Terrace - ",
+             "listData":"Since water can be retained on terrace in rainy season it is best preferred to apply both penetrative and coating-based waterproofing on it. We at Maheshwari Enterprises provide with white membrane coating (Zydex Elastomax) with a service life of up to 10 years. Not only does it waterproof your terrace but also reduces the room temperature by 5-10%. Also, after applying it you need not put any paint, tiles or china-mozek (tukdi), which in turn reduces your overall cost of waterproofing."
+            }
+          ]
+        },
+        {
+          "type":"paragraph",
+          "text":"With waterproofing treatment at above stages, you can get your home completely waterproof and safe from water for an average life of 20-30 years."
+        },
+        {
+          "type":"paragraph",
+          "text":"It is often said that “prevention is better than cure” and it applies very much on waterproofing your home too. Water seepage and leakage can cause damages much larger than the initial cost of waterproofing your home. So why wait, contact us at Maheshwari Enterprises here<link to contact page> and get waterproofing consultancy and solutions that are best for your house."
+        },
+        {
+          "type":"paragraph",
+          "text":"In penetrative waterproofing the we use silane-based nanoparticle sized chemical that goes down up to 2mm within the nano-cracks and make the surface water repellent from within."
         }
       ]
     },

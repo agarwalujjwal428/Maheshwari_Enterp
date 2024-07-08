@@ -71,7 +71,7 @@ const BlogDetails = () => {
             <div className="bd-bI-map">
               {blogItem.content.map((contentItem, index) => {
                 if (contentItem.type === "paragraph") {
-                  return <div key={index}>{contentItem.text}</div>;
+                  return <div style={{marginTop:"10px"}} key={index}>{contentItem.text}</div>;
                 } else if (contentItem.type === "subheading") {
                   return <div className="bd-content-subhead" key={index}>{contentItem.text}</div>;
                 } else if (contentItem.type === "list") {
