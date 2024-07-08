@@ -67,7 +67,7 @@ const AllBlog = () => {
           </ul>
         </div>
       </div>
-      
+
       <ul className="pagination">
         {pageNumbers.map((number) => (
           <li key={number} className={currentPage === number ? "active" : ""}>

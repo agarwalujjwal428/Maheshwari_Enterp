@@ -2966,13 +2966,13 @@
       "img": "/assets/images/company_logo/Lapox.png",
       "id": "10",
       "category": "products",
-      "title": " LAPOX.",
-      "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
+      "title": " ATUL",
+      "description": "Atul is a pioneer in manufacturing epoxy resins in India. The Company is one of the largest manufacturers of epoxy resins and hardeners in the country. The epoxy products are marketed and sold under the brand name of Lapox and that of synthetic rubber and PU based adhesives under the brand name of Polygrip. A new range of maintenance products are being marketed under the brand name of Lacare.",
       "companyItems": [
         {
           "itemTitle": " Lapox Ultra",
           "itemImage": "/assets/images/Lapox/Lapox-Ultra.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "Ultimate strength epoxy adhesive ideal for fixing marble and granite in kitchens and window frames, sand broadcasting, assembly of marble temples, woodwork and grouting steel railings.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3027,7 +3027,7 @@
         {
           "itemTitle": " Lapox Rapid and Clear",
           "itemImage": "/assets/images/Lapox/Rapid_Clear.jpg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "Rapid setting clear epoxy adhesive ideal for bonding marble to marble, glass to glass, wood to wood and wood to glass.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3076,7 +3076,7 @@
         {
           "itemTitle": " Lapox Ultrafast",
           "itemImage": "/assets/images/Lapox/Lapox-Ultrafast.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "Cyanoacrylate adhesive ideal for gap filling in PVC doors, furniture and pasting flex banners on MS frames.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3095,7 +3095,7 @@
         {
           "itemTitle": "Lapox Ultraseal",
           "itemImage": "/assets/images/Lapox/Lapox-Ultraseal.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "Ultimate strength epoxy putty ideal for sealing leakages in plumbing, filling dents and cracks, insulating electrical connections.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3124,7 +3124,7 @@
         {
           "itemTitle": "Lapox Powergrip",
           "itemImage": "/assets/images/Lapox/Powergrip.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "Two-component, modified epoxy system ideal for wooden handicraft, fixing stones, marble, grouting steel railings, stone mosaic and fixing gem stones.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3177,7 +3177,7 @@
         {
           "itemTitle": " Lapox Epogrout",
           "itemImage": "/assets/images/Lapox/Lapox-Epogrout.jpg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "Stain-free, waterproof epoxy tile grout for walls and floors ideal for tile joints in kitchens, bathrooms, swimming pools and high footfall areas in homes, institutions, industries and food processing units.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3196,7 +3196,7 @@
         {
           "itemTitle": " Lapox  Granito  JR150 | JH350",
           "itemImage": "/assets/images/Lapox/granito.jpg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "Two-component, solvent-free, modified epoxy system ideal for coating and crack filling in natural marble, granite, italian marble and stone casting.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3248,7 +3248,7 @@
         {
           "itemTitle": "Lapox Ultraseal White",
           "itemImage": "/assets/images/Lapox/Ultraseal-White.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "Multi-purpose white coloured epoxy putty ideal for sealing and filling gaps in  bathrooms, kitchens and handicrafts.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3262,7 +3262,7 @@
         {
           "itemTitle": " Lapox Ultrabond CPVC",
           "itemImage": "/assets/images/Lapox/Ultrabond-CPVC.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "Solvent cement for CPVC pipes and fittings ideal for pipes and fittings used for cold and hot water up to a maximum of 180oF (82oC) installed in residential complexes, commercial spaces, mobile homes and industrial premises.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3319,8 +3319,8 @@
         },
         {
           "itemTitle": " Lapox Ultrabond PVC",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemImage": "/assets/images/Lapox/Utrabond-PVC.png",
+          "itemDesc": "Solvent cement for heavy duty PVC pipes and fittings ideal for pipes and fittings used for potable water, sewers and irrigation.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3358,8 +3358,8 @@
         },
         {
           "itemTitle": " Lacare AM 70",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemImage": "/assets/images/Lapox/Lacare-AM70.jpg",
+          "itemDesc": "Multi-purpose maintenance spray ideal for automobiles, industrial use and common household applications.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3435,8 +3435,8 @@
         
         {
           "itemTitle": " Lapox Ultrafix",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemImage": "/assets/images/Lapox/Lapox-ultrafix.jpg",
+          "itemDesc": "Epoxy adhesive for vertical cladding ideal for vertical cladding of marble, granite and stone on concrete, plywood, cement fiber boards, metal and underwater tile fixing.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3639,8 +3639,8 @@
         },
         {
           "itemTitle": "Polygrip Hotbond",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemImage": "/assets/images/Lapox/Polygrip-Hotbond.png",
+          "itemDesc": "Advanced, heat resistant and quick bonding adhesive ideal for bonding ply to laminate, laminate to laminate and metal to laminate.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4015,12 +4015,12 @@
       "id": "11",
       "category": "products",
       "title": "ZYDEX",
-      "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
+      "description": "Traditional waterproofing methods rely on chemicals and membranes that create a surface barrier like an umbrella or band-aid to prevent water from entering civil structures. However, they are limited in their ability to penetrate micro cracks and pore channels. Over time, these products tend to peel and crack due to thermal and UV degradation, resulting in a failed waterproofing system.Zydex has developed a revolutionary nanotechnology-based waterproofing solution that creates a chemical bond with the surface. This advanced penetrative nanotechnology can penetrate the structure, altering its basic nature from hydrophilic to hydrophobic, thereby making it water-resistant. This effectively prevents water from entering and slows down the aging process of the structure, leading to a significant increase in its lifespan and optimal use of resources.",
       "companyItems": [
         {
           "itemTitle": " Zycosil Plus",
           "itemImage": "/assets/images/Zydex/Zycosill.jpeg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "Organosilane technology offers a reactive, penetrative, and permanent solution that is easy to apply, breathable, and UV resistant. It effectively waterproofs vertical and horizontal surfaces while protecting against algae, fungal growth, and weathering-related substrate deterioration. ",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4056,8 +4056,8 @@
         },
         {
           "itemTitle": " Zycosil Max",
-          "itemImage": "/assets/images/Zydex/ZycosilMax.Png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemImage": "/assets/images/Zydex/ZycosilMax.png",
+          "itemDesc": "Organosilane technology is a reactive, penetrative, and permanent solution that penetrates up to 4 mm and requires no membrane. Easy to apply and suitable for both vertical and horizontal surfaces, it is breathable and UV resistant. It protects against algae and fungal growth while preventing substrate deterioration due to weathering.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4077,7 +4077,7 @@
         {
           "itemTitle": " Zycoprime Plus",
           "itemImage": "/assets/images/Zydex/ZycoPrime.jpeg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "This multipurpose and economical sealing and bonding agent offers excellent wet adhesion and universal compatibility. It ensures superior bonding to cementitious concrete and plaster surfaces and serves as a high-performance cement admixture.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4114,7 +4114,7 @@
         {
           "itemTitle": " Seal-It",
           "itemImage": "/assets/images/Zydex/Seal-it.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "This product offers extremely strong adhesion on cementitious surfaces, making it a reliable choice for various applications. It is also easy to apply, ensuring a hassle-free experience. Additionally, it boasts high water resistance, providing long-lasting durability.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4134,7 +4134,7 @@
         {
           "itemTitle": " Elastobar",
           "itemImage": "/assets/images/Zydex/Elastobar.jpg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "This high-elongation elastomeric waterproofing membrane features crosslinking and UV durability with an impressive 250% elongation. It can also be used as a mortar mix with sand and cement, providing versatile and robust waterproofing solutions.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4165,7 +4165,7 @@
         {
           "itemTitle": " Cold Bond",
           "itemImage": "/assets/images/Zydex/Cold_Bond.jpg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "This product forms a reactive bond with concrete and plaster surfaces, creating a strong and flexible joint that's virtually monolithic. With a high pull-off strength of 17 N/mm2, it ensures a durable and long-lasting bond. Additionally, its high water resistance makes it an ideal choice for applications where moisture is present.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4191,7 +4191,7 @@
         {
           "itemTitle": "ElastoStretch",
           "itemImage": "/assets/images/Zydex/Elastostrech.jpeg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "This white stretchable membrane offers excellent durability and crack-bridging properties, with a service life of up to 5 years. It can accommodate cracks up to 1.5 mm and is resistant to UV degradation, ensuring long-lasting performance. For optimal results, it is recommended to use this membrane in combination with Zycosil+.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4212,7 +4212,7 @@
         {
           "itemTitle": " ElastoMax",
           "itemImage": "/assets/images/Zydex/ElastoMax.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "This white stretchable membrane is a ready-to-use solution that offers excellent durability and crack-bridging properties, stretching up to 1.5 mm. It is also UV resistant and crosslinking, ensuring a long-lasting performance with a 5-year service life.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4262,8 +4262,8 @@
         },
         {
           "itemTitle": " Zycrete 2X",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemImage": "/assets/images/Zydex/Zycrete_2X.png",
+          "itemDesc": "This product improves workability, enhances concrete quality, and minimizes porosity and honeycombing. It also increases setting time, leading to higher strength and overall better concrete performance. By using this product, you can achieve a more durable and long-lasting concrete structure.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4345,7 +4345,7 @@
         {
           "itemTitle": "Zycobond Max",
           "itemImage": "/assets/images/Zydex/Zycobond-Max.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "This solution reduces porosity and provides excellent water resistance and wet adhesion. It offers strong bonding (17 N/mm) to cementitious concrete and plaster surfaces, ensuring durable and reliable performance.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4364,8 +4364,8 @@
         },
         {
           "itemTitle": "ElastoSil",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemImage": "/assets/images/Zydex/Elastosil.png",
+          "itemDesc": "This elastomeric waterproofing membrane boasts high elongation properties, stretching up to 175% depending on the amount of grey cement added. It forms an excellent bond with various surfaces, including cement, metal, and stone, and offers superior durability with crosslinking and UV resistance for up to 5 years",
           "itemDetails": {
             "itemSizes": [
               {
