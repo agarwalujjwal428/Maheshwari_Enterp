@@ -10,11 +10,53 @@
         "publish_date": "04/07/2024",
         "description": "Imagine you come home after a long day to find a leaky roof dripping on your favorite rug, or worse, mold creeping up the walls in your basement. Not exactly the picture of a relaxing haven, is it? This is where waterproofing comes in - a crucial step, often overlooked, that protects your house from the damaging effects of water. Waterproofing isn't just about preventing leaks; it's a comprehensive shield that safeguards your entire home, from the foundation to the roof. It's like putting on a raincoat for your house! This is why we consider waterproofing an investment and not an expense.",
       
-      "blogItems": [
-        {
-          "fullDescription": ""
-        }
-      ]
+        "content": [
+          {
+            "type": "subheading",
+            "text": "Now, let’s dive into why this investment is worth making for your house:"
+          },
+          {
+            "type": "list",
+            "items": [
+              {
+               "listHead": "Protects the Foundation - ",
+               "listData":"The foundation is the backbone of your house. Water seepage can weaken it over time, leading to cracks and structural instability."
+              },
+              {
+               "listHead": "Protection Against Structural Damage - ",
+               "listData":"Water intrusion is one of the leading causes of structural damage to homes. Water seeping into the walls, roof, or foundation can cause the building components' structural integrity to deteriorate. Over time, this can lead to cracks, shifts, and even collapse in severe cases. Waterproofing acts as a barrier, preventing water from penetrating these critical areas and ensuring the longevity of your home’s structure."
+              },
+              {
+               "listHead": "Saves You Money on Repairs - ",
+               "listData":"A stitch in time saves nine!  Waterproofing can prevent minor leaks from turning into major problems.  Think of it as preventative maintenance for your house.  You'll save money in the long run by avoiding costly repairs caused by water damage."
+              },
+              {
+               "listHead": "Keeps Your Home Healthy - ",
+               "listData":"Damp and moldy environments are breeding grounds for allergens and irritants. Proper waterproofing helps control moisture levels, creating a healthier living space for you and your family. The allergens can trigger respiratory problems and allergies. Waterproofing helps control moisture levels, promoting a healthier indoor environment for you and your family."
+              },
+              {
+                "listHead": "Increases the Lifespan of Your House - ",
+                "listData":"Consistent exposure to water weakens building materials. Waterproofing slows down this process, extending the lifespan of your house and protecting your investment."
+              }, 
+              {
+                "listHead": "Improves Aesthetics - ",
+                "listData":"Leaking walls and peeling paint don't exactly add to your home's beauty.  Waterproofing helps prevent these issues, keeping your house looking its best."
+              },
+              {
+                "listHead": "Peace of Mind - ",
+                "listData":"Knowing your house is protected from water damage gives you peace of mind. You can relax and enjoy your home without worrying about leaks or structural issues."
+              },
+              {
+                "listHead": "Peace of Mind - ",
+                "listData":"Knowing your house is protected from water damage gives you peace of mind. You can relax and enjoy your home without worrying about leaks or structural issues."
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+             "text": "Waterproofing your house isn't just about keeping the rain out; it's about protecting your investment, creating a healthy living space, and ensuring your home stays comfortable and beautiful for years to come. So, don't wait for water damage to strike - take action today and make waterproofing a priority!!"
+           }
+        ]
     },
     {
       "id": 2,
