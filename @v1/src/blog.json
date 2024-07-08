@@ -1,8 +1,184 @@
 {
   "blogs": [
     {
-      "img": "/assets/images/F_4.jpg",
-      "id": 1,
+        "img1": "/assets/images/Blogs/1.1.webp",
+        "img2": "",
+        "id": 1,
+        "title": "Why is waterproofing necessary for your house?",
+        "likes":10,
+        "author": "Vaibhav Gupta",
+        "publish_date": "04/07/2024",
+        "description": "Imagine you come home after a long day to find a leaky roof dripping on your favorite rug, or worse, mold creeping up the walls in your basement. Not exactly the picture of a relaxing haven, is it? This is where waterproofing comes in - a crucial step, often overlooked, that protects your house from the damaging effects of water. Waterproofing isn't just about preventing leaks; it's a comprehensive shield that safeguards your entire home, from the foundation to the roof. It's like putting on a raincoat for your house! This is why we consider waterproofing an investment and not an expense.",
+      
+      "blogItems": [
+        {
+          "fullDescription": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Penetrative Vs Coating-Based Waterproofing: Which Is Right For Your Home?",
+      "author": "Vaibhav Gupta",
+      "publish_date": "04/07/2024",
+      "likes":10,
+      "img1": "/assets/images/Blogs/2.1.jpg",
+      "img2":"/assets/images/Blogs/2.2.jpg",
+      "description": "Waterproofing is an essential aspect of protecting your home from water damage, ensuring its longevity, and maintaining a healthy living environment. There are two main types of waterproofing techniques: penetrative waterproofing and coating-based waterproofing. Let's understand both types of waterproofing and which one is best for your home.",
+      "content": [
+        {
+          "type": "subheading",
+          "text": "Penetrative Waterproofing: The Invisible Guardian"
+        },
+        {
+          "type": "paragraph",
+          "text": "Penetrative waterproofing acts like an invisible bodyguard for your walls and structure. It soaks deep into the cracks of surfaces like concrete and masonry and makes the surface water-repellent."
+        },
+        {
+          "type": "subheading",
+          "text": "Coating Waterproofing: A Visible Shield"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coating waterproofing forms a visible layer on the surface, acting like a raincoat for your structure. These waterproof barriers are applied as a liquid or sheet material, forming a physical barrier against water intrusion."
+        },
+        {
+          "type": "subheading",
+          "text": "Choosing The Right Waterproofing For Your Home"
+        },
+        {
+          "type": "paragraph",
+          "text": "Both penetrative and coating-based waterproofing have their own pros and cons, so before starting the waterproofing, one should comprehensively study them."
+        },
+        {
+          "type": "list",
+          "subheading": "Advantages of penetrative waterproofing are:",
+          "items": [
+            {
+              "listHead": "Deep Protection - ",
+              "listData":"Seeps deep into the substrate and becomes part of it, creating a long-lasting barrier."
+            },
+            {
+              "listHead": "Invisible - ",
+              "listData":"Applied chemical doesn't change the physical appearance or beauty of the surface."
+            },
+            {
+              "listHead": "Breathable - ",
+              "listData":"Allows the moisture within the surface to escape and prevents paint and plaster peel off due to trapped moisture."
+            },
+            {
+              "listHead": "Durability and no maintenance - ",
+              "listData":"Since it works from within the material, it is less susceptible to wear and tear compared to surface coatings. The internal barrier remains effective over time, reducing the need for reapplication."
+            }
+            
+          ]
+        },
+        {
+          "type": "list",
+          "subheading": "Disadvantages of penetrative waterproofing are:",
+          "items": [
+            {
+              "listHead": "",
+              "listData":"Limited effectiveness on highly cracked surfaces."
+            },
+            {
+              "listHead": "",
+              "listData":"Not suitable for all surfaces (i.e., wood, metal, etc.)"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "subheading": "Advantages of coating-based waterproofing are:",
+          "items": [
+            {
+              "listHead": "",
+              "listData":"Creates a robust physical barrier for water and moisture."
+            },
+            {
+              "listHead": "",
+              "listData":"The coating is flexible and allows slight movement and expansion without any damage."
+            },
+            {
+              "listHead": "",
+              "listData":"White coatings can also enhance the aesthetic look of the structure."
+            },
+            {
+              "listHead": "",
+              "listData":"Coatings can bridge small cracks, offering additional protection."
+            }
+            
+          ]
+        },
+        {
+          "type": "list",
+          "subheading": "Disadvantages of coating-based waterproofing are:",
+          "items": [
+            {
+              "listHead": "Less breathable - ",
+              "listData":"If an area is prone to water or harsh environmental conditions then coating-based waterproofing is preferable. For structures with internal cracks, we can go for penetrative waterproofing."
+             },
+             {
+              "listHead": "",
+              "listData":"There is a visible layer and that can affect the appearance of the building."
+             },
+             {
+              "listHead": "Maintenance required - ",
+              "listData":"May need periodic inspection and repairs, especially on exposed areas."
+             }
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "Now, to decide which waterproofing is best for your house one has to consider some factors such as:"
+        },
+        {
+          "type": "list",
+          "items": [
+            {
+             "listHead": "Location and Exposure - ",
+             "listData":"If an area is prone to water or harsh environmental conditions then coating-based waterproofing is preferable. For structures with internal cracks, we can go for penetrative waterproofing."
+            },
+            {
+             "listHead": "Durability and Maintenance - ",
+             "listData":"Penetrative waterproofing is preferred where there is less requirement for maintenance, whereas coating-based waterproofing requires comparatively more maintenance."
+            },
+            {
+             "listHead": "Cost and Budget - ",
+             "listData":"Cost plays a major role in deciding which waterproofing is suitable for one's house."
+            },
+            {
+             "listHead": "Combined Approach - ",
+             "listData":"In most of the cases, it is best to use both types of waterproofing for comprehensive protection and to ensure maximum effectiveness."
+            }
+            
+          ]
+        },
+        {
+          "type": "subheading",
+          "text": "To know more about how can you make your home completely waterproof read - Steps to make your home completely waterproof."
+        }
+      ]
+    },
+    {
+      "img1": "/assets/images/Blogs/3.1.png",
+      "img2":"",
+      "id": 3,
+      "title": "Steps to make your home completely waterproof",
+      "likes":10,
+      "author":"Vaibhav Gupta",
+      "publish_date":"16/07/2022",
+      "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
+      "blogItems": [
+        {
+          "fullDescription": "The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+        }
+      ]
+    },
+    {
+      "img1": "/assets/images/Blogs/F_4.jpg",
+      "img2":"",
+      "id": 4,
       "title": "KiTEC Industries (INDIA) Pvt. Ltd.",
       "likes":10,
       "author":"Vaibhav Gupta",
@@ -15,8 +191,9 @@
       ]
     },
     {
-      "img": "/assets/images/F_3.jpg",
-      "id": 2,
+      "img1": "/assets/images/Blogs/F_3.jpg",
+      "img2":"",
+      "id": 5,
       "title": "NCL Buildtek",
       "likes":10,
       "author":"Vaibhav Gupta",
@@ -29,8 +206,9 @@
       ]
     },
     {
-      "img": "/assets/images/F_1.jpg",
-      "id": 3,
+      "img1": "/assets/images/Blogs/F_1.jpg",
+      "img2":"",
+      "id": 6,
       "title": "Zydex Industries",
       "likes":10,
       "author":"Vaibhav Gupta",
@@ -43,8 +221,9 @@
       ]
     },
     {
-      "img": "/assets/images/F_4.jpg",
-      "id": 4,
+      "img1": "/assets/images/Blogs/F_4.jpg",
+      "img2":"",
+      "id": 7,
       "title": "ABRO Pvt. Ltd.",
       "likes":10,
       "author":"Vaibhav Gupta",
@@ -57,8 +236,9 @@
       ]
     },
     {
-      "img": "/assets/images/F_4.jpg",
-      "id": 5,
+      "img1": "/assets/images/Blogs/F_4.jpg",
+      "img2":"",
+      "id": 8,
       "title": "Akar Valves",
       "likes":10,
       "author":"Vaibhav Gupta",
@@ -71,8 +251,9 @@
       ]
     },
     {
-      "img": "/assets/images/F_1.jpg",
-      "id": 6,
+      "img1": "/assets/images/Blogs/F_1.jpg",
+      "img2":"",
+      "id": 9,
       "title": "Heti Entrepreneur",
       "likes":10,
       "author":"Vaibhav Gupta",
@@ -85,8 +266,9 @@
       ]
     },
     {
-      "img": "/assets/images/F_2.jpg",
-      "id": 7,
+      "img1": "/assets/images/Blogs/F_2.jpg",
+      "img2":"",
+      "id":10,
       "title": "Advance Agrisearch Ltd.",
       "likes":10,
       "author":"Vaibhav Gupta",
@@ -99,8 +281,9 @@
       ]
     },
     {
-      "img": "/assets/images/F_4.jpg",
-      "id": 8,
+      "img1": "/assets/images/Blogs/F_4.jpg",
+      "img2":"",
+      "id": 11,
       "title": "KiTEC Industries (INDIA) Pvt. Ltd.",
       "likes":10,
       "author":"Vaibhav Gupta",
@@ -113,8 +296,9 @@
       ]
     },
     {
-      "img": "/assets/images/F_3.jpg",
-      "id": 9,
+      "img1": "/assets/images/Blogs/F_3.jpg",
+      "img2":"",
+      "id": 12,
       "title": "KiTEC Industries (INDIA) Pvt. Ltd.",
       "likes":10,
       "author":"Vaibhav Gupta",

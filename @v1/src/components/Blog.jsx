@@ -1,26 +1,34 @@
-import React, { useState, useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+  import React, { useState, useEffect } from "react";
+  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+  import { faHeart } from "@fortawesome/free-solid-svg-icons"; 
+  import { Link } from "react-router-dom";
 
-const Blog = ({ blogId, data }) => {
-  const like = parseInt(data.likes);
-  const [likes, setLikes] = useState(like);
-  const [liked, setLiked] = useState(false);
+  const Blog = ({ blogId, data }) => {
+    const like = parseInt(data.likes);
+    const [likes, setLikes] = useState(like); 
+    const [liked, setLiked] = useState(false); 
 
-  const handleLike = () => {
-    if (!liked) {
-      setLikes(likes + 1);
-    } else {
-      setLikes(likes - 1);
-    }
-    setLiked(!liked);
-  };
+    const handleLike = () => {
+      if (!liked) {
+        setLikes(likes + 1); 
+      } else {
+        setLikes(likes - 1); 
+      }
+      setLiked(!liked); 
+    };
+    console.log("blog-tile",data.title,data.id);
 
-  return (
-    <Link to={`/blog/${data.title}/${blogId}`}>
+    return (
+      <Link to={`/blog/${encodeURIComponent(data.title)}/${blogId}`}>
       <div className="blog" id={blogId}>
-        <img src={data.img} alt="Blog" />
+      {data.img2 === "" ? (
+            <img src={data.img1} alt="Blog" />
+          ) : (
+            <div className="blog_img_collage">
+              <img src={data.img1} alt="Blog" />
+              <img src={data.img2} alt="Blog" />
+            </div>
+          )}
         <h3>{data.title}</h3>
         <div className="blog-owner-details">
           <div className="owner-name">{`By ${data.author}`}</div>
@@ -36,7 +44,7 @@ const Blog = ({ blogId, data }) => {
           </button>
           <span className="like-count">{likes}</span>
         </div>
-        <Link to={`/blog/${data.title}/${blogId}`}>
+        <Link to={`/blog/${encodeURIComponent(data.title)}/${blogId}`}>
           <button className="blog-read-more">
             <span className="circle" aria-hidden="true">
               <span className="icon arrow"></span>
@@ -45,8 +53,8 @@ const Blog = ({ blogId, data }) => {
           </button>
         </Link>
       </div>
-    </Link>
-  );
-};
+      </Link>
+    );
+  };
 
-export default Blog;
+  export default Blog;
