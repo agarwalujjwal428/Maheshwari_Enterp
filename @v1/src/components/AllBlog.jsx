@@ -54,7 +54,7 @@ const AllBlog = () => {
           <h2>Recent Blogs</h2>
           <ul>
             {latestBlogs.map((blog) => (
-              <Link to={`/blog/${blog.title}/${blog.id}`}>
+              <Link to={`/blog/${encodeURIComponent(blog.title)}/${blog.id}`}>
                 <li key={blog.id}>
                   <span>{blog.title}</span>
                   <div className="latestBlog_author">

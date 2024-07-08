@@ -12,7 +12,6 @@ const BlogDetails = () => {
     navigate(-1);
   };
   const { title, blogId } = useParams();
-
   const numericBlogId = parseInt(blogId);
 
   const blogItem = blogData.blogs.find((blog) => blog.id === numericBlogId);
@@ -36,6 +35,7 @@ const BlogDetails = () => {
     }
     setLiked(!liked);
   };
+
   useEffect(() => {
     window.scrollTo(0, 500);
   }, []);
@@ -48,9 +48,16 @@ const BlogDetails = () => {
       </div>
       <div className="blog-details-container">
         <div className="blog-details-leftSide">
-          <div className="blog-details-data">
+          <div className="blog-details-blogItem">
             <div className="bd-img">
-              <img src={blogItem.img} alt="Blog" />
+            {blogItem.img2 === "" ? (
+          <img src={blogItem.img1} alt="Blog" />
+        ) : (
+          <div className="blogdetails_img_collage">
+            <img src={blogItem.img1} alt="Blog" />
+            <img src={blogItem.img2} alt="Blog" />
+          </div>
+        )}
             </div>
 
             <div className="bd-head">{title}</div>
@@ -62,12 +69,30 @@ const BlogDetails = () => {
             <div className="bd-desc">{blogItem.description}</div>
 
             <div className="bd-bI-map">
-              {blogItem.blogItems.map((blog_item) => (
-                <div className="bd-full-desc" key={blog_item.id}>
-                  {blog_item.fullDescription}
-                </div>
-              ))}
+              {blogItem.content.map((contentItem, index) => {
+                if (contentItem.type === "paragraph") {
+                  return <div key={index}>{contentItem.text}</div>;
+                } else if (contentItem.type === "subheading") {
+                  return <div className="bd-content-subhead" key={index}>{contentItem.text}</div>;
+                } else if (contentItem.type === "list") {
+                  return (
+                    <div className="bd-content-list" key={index}>
+                      {contentItem.subheading && <div className="bd-content-subhead">{contentItem.subheading}</div>}
+                      <ul>
+                        {contentItem.items.map((item, itemIndex) => (
+                          <li key={itemIndex}>
+                            {item.listHead &&<span id="bd-content-list-head">{item.listHead}</span>}
+                            <span>{item.listData}</span></li>
+                        ))}
+                      </ul>
+                    </div>
+                  );
+                } else {
+                  return null;
+                }
+              })}
             </div>
+
             <div className="bd-likes">
               <button
                 className={`like-btn ${liked ? "liked" : ""}`}
@@ -81,11 +106,15 @@ const BlogDetails = () => {
               <span className="like-count">{likes}</span>
             </div>
             <div className="navigation-buttons">
-            <button onClick={handlePrevious} style={{border:"none", marginTop:"15px", fontSize:"1em"}}><FontAwesomeIcon icon={faArrowLeft} onClick={handlePrevious} />Prev</button>
+              <button
+                onClick={handlePrevious}
+                style={{ border: "none", marginTop: "35px", fontSize: "1em" }}
+              >
+                <FontAwesomeIcon icon={faArrowLeft} onClick={handlePrevious} />
+                Prev
+              </button>
+            </div>
           </div>
-          </div>
-
-          
         </div>
         <div className="blog-details-rightSide">
           <h2>Recent Blogs</h2>

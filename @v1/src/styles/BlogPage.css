@@ -123,6 +123,15 @@
   border: 5px solid transparent;
   padding: 25px;
   background-color: rgb(225, 225, 225, 0.27);
+  width: 100%;
+}
+.blog_img_collage{
+  display:flex;
+  flex-direction:row ;
+  width:100%;
+}
+.blog_img_collage img{
+  width:50% !important;
 }
 .blog-leftSide {
   width: 70%;
