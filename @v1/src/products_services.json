@@ -1571,12 +1571,426 @@
       "id": "3",
       "category": "products",
       "title": " HP ADHESIVES",
-      "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
+      "description": "HP Adhesives is a leading provider of adhesives and sealants. Our commitment to delivering world-class products and services to our customers drives us forward. We have strongly emphasized the quality, standard and price of our diverse range of products. Our dedicated research & development team is a mix of Indian and International capabilities that is constantly striving at improving our product range and building newer capabilities. With our constant drive for innovation, we have grown aggressively in various businesses and products, matching them with international standards. This has helped us launch over 25 unique products under the HP Adhesives Limited banner.",
       "companyItems": [
         {
-          "itemTitle": " HP ADHESIVES",
+          "itemTitle": "Silicone Sealant General Purpose (Silver - 3400)",
           "itemImage": "/assets/images/HP/GP_Bronze.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "Glazing application, general sealing and assembling, plumbing and sanitary applications, drought proofing, sealing doors & windows frames, port lights, backlights, etc. Sealing air conditioning system, for sanitary use.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "260ml",
+                "suitableFor": " 3200 GP Bronze",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "260ml",
+                "suitableFor": " 3400 GP Silver",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": " 3700 GP Fast",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": "7400 Neutral(Clear)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": "7400 Neutral(White & Black)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "300ml",
+                "suitableFor": "7890 Weather(Clear)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "300ml",
+                "suitableFor": "7890 Weather(White & Black)",
+                "extra1": "Inner Carton(24 pcs)/ Master Carton(48 pcs)"
+              },
+              {
+                "size": "600ml",
+                "suitableFor": "7890 Weather Sausage(Clear)",
+                "extra1": "Inner Carton(12 pcs) / Master Carton(24 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor":"Acrylic Sealant(White & Black)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor":"Masking Tape(24mm X 20m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor":"Masking Tape(24mm X 25m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor": "Masking Tape(24mm X 30m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Silicone Sealant General Purpose (Bronze - 3200)",
+          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemDesc": "Joints in the building industry between wood, metal window frames, UPVC doors & windows, concrete brickwork, joints between concrete and ceiling elements, between wall and ceiling skirting boards, window sills, sealing around pipe joints, sealing ductwork, sealing duct seams, wall Cracks filling, aerated concrete for inside and outside applications.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "260ml",
+                "suitableFor": " 3200 GP Bronze",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "260ml",
+                "suitableFor": " 3400 GP Silver",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": " 3700 GP Fast",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": "7400 Neutral(Clear)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": "7400 Neutral(White & Black)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "300ml",
+                "suitableFor": "7890 Weather(Clear)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "300ml",
+                "suitableFor": "7890 Weather(White & Black)",
+                "extra1": "Inner Carton(24 pcs)/ Master Carton(48 pcs)"
+              },
+              {
+                "size": "600ml",
+                "suitableFor": "7890 Weather Sausage(Clear)",
+                "extra1": "Inner Carton(12 pcs) / Master Carton(24 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor":"Acrylic Sealant(White & Black)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor":"Masking Tape(24mm X 20m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor":"Masking Tape(24mm X 25m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor": "Masking Tape(24mm X 30m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Silicone Sealant Neutral (7400)",
+          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemDesc": "For interior and exterior applications like perimeter joints, building and another type of construction. Durable adhesion in the range including concrete, masonry, brick, UPVC, wood glass and glazed surfaces and some metals used in construction. Suitable for general applications.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "260ml",
+                "suitableFor": " 3200 GP Bronze",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "260ml",
+                "suitableFor": " 3400 GP Silver",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": " 3700 GP Fast",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": "7400 Neutral(Clear)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": "7400 Neutral(White & Black)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "300ml",
+                "suitableFor": "7890 Weather(Clear)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "300ml",
+                "suitableFor": "7890 Weather(White & Black)",
+                "extra1": "Inner Carton(24 pcs)/ Master Carton(48 pcs)"
+              },
+              {
+                "size": "600ml",
+                "suitableFor": "7890 Weather Sausage(Clear)",
+                "extra1": "Inner Carton(12 pcs) / Master Carton(24 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor":"Acrylic Sealant(White & Black)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor":"Masking Tape(24mm X 20m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor":"Masking Tape(24mm X 25m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor": "Masking Tape(24mm X 30m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Silicone Sealant Weather (7890)",
+          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemDesc": "Ultimate strength epoxy putty ideal for sealing leakages in plumbing, filling dents and cracks, insulating electrical connections.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "260ml",
+                "suitableFor": " 3200 GP Bronze",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "260ml",
+                "suitableFor": " 3400 GP Silver",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": " 3700 GP Fast",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": "7400 Neutral(Clear)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": "7400 Neutral(White & Black)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "300ml",
+                "suitableFor": "7890 Weather(Clear)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "300ml",
+                "suitableFor": "7890 Weather(White & Black)",
+                "extra1": "Inner Carton(24 pcs)/ Master Carton(48 pcs)"
+              },
+              {
+                "size": "600ml",
+                "suitableFor": "7890 Weather Sausage(Clear)",
+                "extra1": "Inner Carton(12 pcs) / Master Carton(24 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor":"Acrylic Sealant(White & Black)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor":"Masking Tape(24mm X 20m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor":"Masking Tape(24mm X 25m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor": "Masking Tape(24mm X 30m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Acrylic Sealant",
+          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemDesc": "Joints in the building industry between wood, metal window frames, UPVC doors & windows, concrete brickwork, joints between concrete and ceiling elements, between wall and ceiling skirting boards, window sills, sealing around pipe joints, sealing ductwork, sealing duct seams, wall Cracks filling, aerated concrete for inside and outside applications.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "260ml",
+                "suitableFor": " 3200 GP Bronze",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "260ml",
+                "suitableFor": " 3400 GP Silver",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": " 3700 GP Fast",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": "7400 Neutral(Clear)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": "7400 Neutral(White & Black)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "300ml",
+                "suitableFor": "7890 Weather(Clear)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "300ml",
+                "suitableFor": "7890 Weather(White & Black)",
+                "extra1": "Inner Carton(24 pcs)/ Master Carton(48 pcs)"
+              },
+              {
+                "size": "600ml",
+                "suitableFor": "7890 Weather Sausage(Clear)",
+                "extra1": "Inner Carton(12 pcs) / Master Carton(24 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor":"Acrylic Sealant(White & Black)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor":"Masking Tape(24mm X 20m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor":"Masking Tape(24mm X 25m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor": "Masking Tape(24mm X 30m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Spray Paint - Standard Grade",
+          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemDesc": "Quick drying;Easy to use;Prevents rust & corrosion;Versatility;Excellent coverage;Even finish;Low odour;Quick touch-ups and fast application",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "260ml",
+                "suitableFor": " 3200 GP Bronze",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "260ml",
+                "suitableFor": " 3400 GP Silver",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": " 3700 GP Fast",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": "7400 Neutral(Clear)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor": "7400 Neutral(White & Black)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "300ml",
+                "suitableFor": "7890 Weather(Clear)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "300ml",
+                "suitableFor": "7890 Weather(White & Black)",
+                "extra1": "Inner Carton(24 pcs)/ Master Carton(48 pcs)"
+              },
+              {
+                "size": "600ml",
+                "suitableFor": "7890 Weather Sausage(Clear)",
+                "extra1": "Inner Carton(12 pcs) / Master Carton(24 pcs)"
+              },
+              {
+                "size": "280ml",
+                "suitableFor":"Acrylic Sealant(White & Black)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor":"Masking Tape(24mm X 20m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor":"Masking Tape(24mm X 25m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              },
+              {
+                "size": "6",
+                "suitableFor": "Masking Tape(24mm X 30m)",
+                "extra1": "Inner Carton(24 pcs) / Master Carton(48 pcs)"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Spray Paint - Special Grade",
+          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemDesc": "Bright metallic colors;Prevent rust & corrosion;Can be used for galvanizing application;Quick drying;Easy to use;Versatility;Excellent coverage;Even finish;Low odour;Quick touch-ups and fast application",
           "itemDetails": {
             "itemSizes": [
               {
