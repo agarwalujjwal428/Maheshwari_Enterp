@@ -1575,7 +1575,7 @@
       "companyItems": [
         {
           "itemTitle": "Silicone Sealant General Purpose (Silver - 3400)",
-          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/GP_Silver.png",
           "itemDesc": "Glazing application, general sealing and assembling, plumbing and sanitary applications, drought proofing, sealing doors & windows frames, port lights, backlights, etc. Sealing air conditioning system, for sanitary use.",
           "itemDetails": {
             "itemSizes": [
@@ -1615,7 +1615,7 @@
         },
         {
           "itemTitle": "Silicone Sealant Neutral (7400)",
-          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/Neutral.png",
           "itemDesc": "For interior and exterior applications like perimeter joints, building and another type of construction. Durable adhesion in the range including concrete, masonry, brick, UPVC, wood glass and glazed surfaces and some metals used in construction. Suitable for general applications.",
           "itemDetails": {
             "itemSizes": [
@@ -1644,7 +1644,7 @@
         },
         {
           "itemTitle": "Silicone Sealant Weather (7890)",
-          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/Weather.png",
           "itemDesc": "Ultimate strength epoxy putty ideal for sealing leakages in plumbing, filling dents and cracks, insulating electrical connections.",
           "itemDetails": {
             "itemSizes": [
@@ -1683,7 +1683,7 @@
         },
         {
           "itemTitle": "Acrylic Sealant",
-          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/Acrylic.png",
           "itemDesc": "Joints in the building industry between wood, metal window frames, UPVC doors & windows, concrete brickwork, joints between concrete and ceiling elements, between wall and ceiling skirting boards, window sills, sealing around pipe joints, sealing ductwork, sealing duct seams, wall Cracks filling, aerated concrete for inside and outside applications.",
           "itemDetails": {
             "itemSizes": [
@@ -1704,7 +1704,7 @@
         },
         {
           "itemTitle": "Spray Paint - Standard Grade",
-          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/Spray_Standard_Grade.png",
           "itemDesc": "Quick drying;Easy to use;Prevents rust & corrosion;Versatility;Excellent coverage;Even finish;Low odour;Quick touch-ups and fast application",
           "itemDetails": {
             "itemSizes": [
@@ -1723,7 +1723,7 @@
         },
         {
           "itemTitle": "Spray Paint - Special Grade",
-          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/Spray_Special_Grade.png",
           "itemDesc": "Bright metallic colors;Prevent rust & corrosion;Can be used for galvanizing application;Quick drying;Easy to use;Versatility;Excellent coverage;Even finish;Low odour;Quick touch-ups and fast application",
           "itemDetails": {
             "itemSizes": [
@@ -1855,28 +1855,28 @@
       "id": "5",
       "category": "products",
       "title": "AZUD",
-      "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
+      "description": "At AZUD we have been working since 1989 in agricultural applications that optimise water, energy and nutrient consumption in irrigation and filtering systems. We are a benchmark in the manufacture of technologies for the efficient use of water. We help our customers increase the profitability and sustainability of their agricultural and industrial activity.We are a global company with headquarters in Spain and subsidiaries in India, Mexico, Brazil, China and Singapore, backed by more than 30 years of experience. We are present in more than 100 countries with an expert team of over 450 people worldwide.",
       "companyItems": [
         {
-          "itemTitle": "AZUD Filter",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemTitle": "AZUD Modular 100",
+          "itemImage": "/assets/images/AZUD/Filter.jpg",
+          "itemDesc": "AZUD MODULAR 100 is the range of manual filters for exclusive use in water filtration for irrigation, made of plastic material that ensures easy handling, high resistance and durability for flow rates up to 25 m3/h (110 gpm).",
           "itemDetails": {
             "itemSizes": [
               {
                 "size": "1 inch",
-                "suitableFor": " AZUD Filter",
-                "extra1": "20kg X 1"
+                "suitableFor": " Modular 100",
+                "extra1": "NA"
               },
               {
                 "size": "1.5 inch",
-                "suitableFor": " AZUD Filter",
-                "extra1": "20kg X 1"
+                "suitableFor": " Modular 100",
+                "extra1": "NA"
               },
               {
                 "size": "2 inch",
-                "suitableFor": " AZUD Filter",
-                "extra1": "20kg X 1"
+                "suitableFor": " Modular 100",
+                "extra1": "NA"
               }
             ]
            
@@ -1885,7 +1885,7 @@
        
       ]
     },
-    {
+{
       "img": "/assets/images/company_logo/aipl-logo.jpg",
       "id": "6",
       "category": "products",
@@ -1894,7 +1894,7 @@
       "companyItems": [
         {
           "itemTitle": "Dry Open Coat Sheet",
-          "itemImage": "/assets/images/ABRO/sandpaper.jpg",
+          "itemImage": "/assets/images/ABRO/OCN.jpg",
           "itemDesc": "AIPL ABRO SANDPAPER (OC) is a super quality, extremely durable special coated sandpaper available in different grits. Perfect for commercial and industrial purposes. Used for dry surfaces in sanding of walls, plastic filler, wood and fiber glass.",
           "itemDetails": {
             "itemSizes": [
@@ -1938,7 +1938,7 @@
         },
         {
           "itemTitle": "Silicone Carbide Water Proof",
-          "itemImage": "/assets/images/ABRO/sandpaper.jpg",
+          "itemImage": "/assets/images/ABRO/CPG.jpg",
           "itemDesc": "AIPL ABRO SANDPAPER (CPG) is a silicon based waterproof sanding paper used for both wet and dry surfaces. Mostly used in automotive industries. Used in both commercial and industrial purposes for sanding of various metals, furniture and other products.",
           "itemDetails": {
             "itemSizes": [
@@ -2012,7 +2012,7 @@
         },
         {
           "itemTitle": "Premium Latex Waterproof Paper",
-          "itemImage": "/assets/images/ABRO/Latex_sandpaper.jpg",
+          "itemImage": "/assets/images/ABRO/Latex.jpg",
           "itemDesc": "AIPL ABRO SANDPAPER (LPN) is a premium waterproof abrasive paper. A super quality product extremely durable for commercial and industrial purposes mainly used in sanding of automotive products, metal fabrication and also in furniture and decorative products.",
           "itemDetails": {
             "itemSizes": [
@@ -2086,7 +2086,7 @@
         },
         {
           "itemTitle": "Gold Abrasive Cloth Rolls",
-          "itemImage": "/assets/images/ABRO/telescopic.jpeg",
+          "itemImage": "/assets/images/ABRO/Clothroll.jpg",
           "itemDesc": "AIPL ABRO ABRASIVE CLOTH ROLL is used for general purpose hand and machine sanding needs, offers a wide selection of cloth rolls. These rolls provide consistent finish and durability. It is mainly used for grinding work ranging from heavy-duty grinding to precision abrasion of wood, metal, as well as glass, ceramics and other highly brittle materials.",
           "itemDetails": {
             "itemSizes": [
@@ -2137,7 +2137,7 @@
         },
         {
           "itemTitle": "Premium Flexible DCD Grinding Wheel",
-          "itemImage": "/assets/images/ABRO/telescopic.jpeg",
+          "itemImage": "/assets/images/ABRO/Cutting_Wheel.jpg",
           "itemDesc": "AIPL ABRO PREMIUM FLEXIBLE DCD GRINDING WHEEL with best-in-class performance is a high-quality product which allows quick grinding solution and has great power. The unique structure of this wheel generates fresh cutting edges on the surfaces of various forms of metals ensuring great results. The fast and reliable grinding action increases productivity and saves time.These wheels are designed to work under high pressure production environments hence provides long working cycle to the abrasives. These wheels can be dangerous to use without safety and taking proper precautions.",
           "itemDetails": {
             "itemSizes": [
@@ -2157,7 +2157,7 @@
         },
         {
           "itemTitle": "ABRO Masking Tape - 6123 & 3123",
-          "itemImage": "/assets/images/ABRO/PVC_tape.jpg",
+          "itemImage": "/assets/images/ABRO/Masking_Tape.png",
           "itemDesc": "Ideal for carpenters and painters, ABRO masking tape is a high-performance tape. Used in a variety of applications like painting, carpentry, manufacturing and so, ABRO tape uses are vast.ABRO multipurpose tape is thick because of which it gives a tear free & residue free result. This helps the contractors, painters and carpenters to save cost and also give results that add to their reputation and finishing. Engineered for performance, this tape is designed to have the perfect balance between paper and adhesive.",
           "itemDetails": {
             "itemSizes": [
@@ -2211,7 +2211,7 @@
         },
         {
           "itemTitle": "PVC Insulation Tape",
-          "itemImage": "/assets/images/ABRO/PVC_tape.jpg",
+          "itemImage": "/assets/images/ABRO/PVC_Tape.jpg",
           "itemDesc": "AIPL ABRO SELF ADHESIVE PVC INSULATION TAPES are self-extinguishing, stretchable molding tape which grips firmly to any surface and provides protection to wires of all electrical appliances and machines.AIPL ABRO ELECTRICAL INSULATION TAPES are the most flexible tapes in its class.",
           "itemDetails": {
             "itemSizes": [
@@ -2230,7 +2230,7 @@
         },
         {
           "itemTitle": "Spray Paint",
-          "itemImage": "/assets/images/ABRO/masking.png",
+          "itemImage": "/assets/images/ABRO/Spray_Paint.jpg",
           "itemDesc": "With over 40+ spray paint colours to choose from, ABRO spray paint is the right choice for you. If you are looking for car spray paint in India, our range has the most comprehensive shades to meet your requirements. ABRO Spray Paint is a multi-purpose, fast-drying spray paint that is useful for exterior and/or interior applications on different types of surfaces for a quick premium finish.ABRO Spray Paint helps you to renew, refresh, and restore a wide variety of objects like furniture, toys, lamps, cabinets, bicycles, doors, and many more. Meeting the demands of the renovation segment, our spray paintwork can be used on wood, metal, acrylic, and other large variety of surfaces.",
           "itemDetails": {
             "itemSizes": [
@@ -2454,7 +2454,7 @@
         },
         {
           "itemTitle": "PTFE Thread Sealing Tape",
-          "itemImage": "/assets/images/ABRO/masking.png",
+          "itemImage": "/assets/images/ABRO/PTFE_Tape.jpg",
           "itemDesc": "AIPL Abro PTFE Thread Sealing Tape, Also known as AIPL Abro Plumber’s Tape is a premium quality sealing tape made with highly versatile thread sealant and lubricating material. It is primarily used in piping and ductwork applications. PTFE stands for polytetrafluoroethylene, which is hydrophobic (meaning it repels water). Our PTFE Thread Sealing Tapes are made from 100% virgin PTFE and are used for all applications in water, oil, chemical, medical, and food processing industries where non-contamination standards are high.",
           "itemDetails": {
             "itemSizes": [
@@ -2474,7 +2474,7 @@
         },
         {
           "itemTitle": "ZORROGUARD Protection Tape",
-          "itemImage": "/assets/images/ABRO/PTFE_tape.jpg",
+          "itemImage": "/assets/images/ABRO/Zorroguard.jpg",
           "itemDesc": "ZORROGUARD PROTECTION TAPE is designed to prevent surfaces from scratches, marks during handling, transit, post installation, etc. This tape gives excellent scratch resistance and masking properties and thereby coated with non-transfer type especially adhesive, to withstand abrasions and scratches on smooth and sensitive surface.",
           "itemDetails": {
             "itemSizes": [
@@ -2488,7 +2488,7 @@
         },
         {
           "itemTitle": "Roller Masker",
-          "itemImage": "/assets/images/ABRO/cloth-roll.jpg",
+          "itemImage": "/assets/images/ABRO/Roller_Masker.jpg",
           "itemDesc": "AIPL Roller Masker is an effortless solution to mask/cover electronic appliances and large objects to protect them against any paint job or wood work activity. It is a high density, non-porous film that holds for longer time, leaving minimum residue. It is a multi-purpose masker tape with its application in painting, industrial, automotive & packaging Industry.",
           "itemDetails": {
             "itemSizes": [
@@ -2507,7 +2507,7 @@
         },
         {
           "itemTitle": "Bopp Packing Tape",
-          "itemImage": "/assets/images/ABRO/cloth-roll.jpg",
+          "itemImage": "/assets/images/ABRO/BOPP_Tape.jpg",
           "itemDesc": "AIPL ABRO BOPP Packaging Tapes are made of Biaxial Oriented Polypropylene (BOPP) film which gives it excellent Mechanical and Optical properties. The raw material used, is a thermoplastic polymer, which helps the tape stay effective in both higher and lower temperatures. With its superior quality adhesive and tensile strength, it is an ideal product for packaging and labeling applications.",
           "itemDetails": {
             "itemSizes": [
@@ -2521,7 +2521,7 @@
         },
         {
           "itemTitle": "Anti Slip Tape",
-          "itemImage": "/assets/images/ABRO/pu-foam.png",
+          "itemImage": "/assets/images/ABRO/Anti-Slip_Tape.jpg",
           "itemDesc": "AIPL ABRO Anti Slip Tape is widely used in slipping places where objects cause humidity.",
           "itemDetails": {
             "itemSizes": [
