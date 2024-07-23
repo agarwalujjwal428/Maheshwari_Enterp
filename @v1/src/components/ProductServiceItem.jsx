@@ -49,10 +49,15 @@ const ProductServiceItem = () => {
     setShowDialog(!showDialog);
   };
 
+  const bulletPoints = companyItem.itemDesc.split(";");
+
   return (
     <div className="pro-serv-item-details">
       <div className="pro-serv-card">
-        <div className="navigation-buttons" style={{marginTop:"-10px",marginBottom:"10px"}}>
+        <div
+          className="navigation-buttons"
+          style={{ marginTop: "-10px", marginBottom: "10px" }}
+        >
           <button onClick={handlePrevious}>
             <FontAwesomeIcon icon={faArrowLeft} />
           </button>
@@ -67,17 +72,29 @@ const ProductServiceItem = () => {
         <div className="product-detail">
           <div className="product-header">
             {companyItem.itemImage !== "" && (
-              <div className="pro-serv-item-image">
+              <div className="pro-serv-item-image" style={{"width":"50%", "height":"260px"}}>
                 <LazyLoad height={180} once>
                   <img
                     src={companyItem.itemImage}
                     alt={companyItem.itemTitle}
-                    style={{ height: "180px", width: "260px" }}
+                   
                   />
                 </LazyLoad>
               </div>
             )}
-            <div className="product-description">{companyItem.itemDesc}</div>
+            <div className="product-description"  style={{ width: companyItem.itemImage !== "" ? "50%" : "100%" }} >
+            {bulletPoints.length > 1 ? (
+                <div className="bullet-pd-desc">
+                  <ul>
+                    {bulletPoints.map((point, index) => (
+                      <li key={index}>{point}</li>
+                    ))}
+                  </ul>
+                </div>
+              ) : (
+                <div className="normal-pd-desc">{companyItem.itemDesc}</div>
+              )}
+            </div>
           </div>
           <div>
             <h4 id="ps-item-size-head">Sizes</h4>
