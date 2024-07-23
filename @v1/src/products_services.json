@@ -1575,7 +1575,7 @@
       "companyItems": [
         {
           "itemTitle": "Silicone Sealant General Purpose (Silver - 3400)",
-          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/GP_Silver.png",
           "itemDesc": "Glazing application, general sealing and assembling, plumbing and sanitary applications, drought proofing, sealing doors & windows frames, port lights, backlights, etc. Sealing air conditioning system, for sanitary use.",
           "itemDetails": {
             "itemSizes": [
@@ -1713,7 +1713,7 @@
         },
         {
           "itemTitle": "Silicone Sealant Neutral (7400)",
-          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/Neutral.png",
           "itemDesc": "For interior and exterior applications like perimeter joints, building and another type of construction. Durable adhesion in the range including concrete, masonry, brick, UPVC, wood glass and glazed surfaces and some metals used in construction. Suitable for general applications.",
           "itemDetails": {
             "itemSizes": [
@@ -1782,7 +1782,7 @@
         },
         {
           "itemTitle": "Silicone Sealant Weather (7890)",
-          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/Weather.png",
           "itemDesc": "Ultimate strength epoxy putty ideal for sealing leakages in plumbing, filling dents and cracks, insulating electrical connections.",
           "itemDetails": {
             "itemSizes": [
@@ -1851,7 +1851,7 @@
         },
         {
           "itemTitle": "Acrylic Sealant",
-          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/Acrylic.png",
           "itemDesc": "Joints in the building industry between wood, metal window frames, UPVC doors & windows, concrete brickwork, joints between concrete and ceiling elements, between wall and ceiling skirting boards, window sills, sealing around pipe joints, sealing ductwork, sealing duct seams, wall Cracks filling, aerated concrete for inside and outside applications.",
           "itemDetails": {
             "itemSizes": [
@@ -1920,7 +1920,7 @@
         },
         {
           "itemTitle": "Spray Paint - Standard Grade",
-          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/Spray_Standard_Grade.png",
           "itemDesc": "Quick drying;Easy to use;Prevents rust & corrosion;Versatility;Excellent coverage;Even finish;Low odour;Quick touch-ups and fast application",
           "itemDetails": {
             "itemSizes": [
@@ -1989,7 +1989,7 @@
         },
         {
           "itemTitle": "Spray Paint - Special Grade",
-          "itemImage": "/assets/images/HP/GP_Bronze.png",
+          "itemImage": "/assets/images/HP/Spray_Special_Grade.png",
           "itemDesc": "Bright metallic colors;Prevent rust & corrosion;Can be used for galvanizing application;Quick drying;Easy to use;Versatility;Excellent coverage;Even finish;Low odour;Quick touch-ups and fast application",
           "itemDetails": {
             "itemSizes": [
@@ -2170,28 +2170,28 @@
       "id": "5",
       "category": "products",
       "title": "AZUD",
-      "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
+      "description": "At AZUD we have been working since 1989 in agricultural applications that optimise water, energy and nutrient consumption in irrigation and filtering systems. We are a benchmark in the manufacture of technologies for the efficient use of water. We help our customers increase the profitability and sustainability of their agricultural and industrial activity.We are a global company with headquarters in Spain and subsidiaries in India, Mexico, Brazil, China and Singapore, backed by more than 30 years of experience. We are present in more than 100 countries with an expert team of over 450 people worldwide.",
       "companyItems": [
         {
-          "itemTitle": "AZUD Filter",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemTitle": "AZUD Modular 100",
+          "itemImage": "/assets/images/AZUD/Filter.jpg",
+          "itemDesc": "AZUD MODULAR 100 is the range of manual filters for exclusive use in water filtration for irrigation, made of plastic material that ensures easy handling, high resistance and durability for flow rates up to 25 m3/h (110 gpm).",
           "itemDetails": {
             "itemSizes": [
               {
                 "size": "1 inch",
-                "suitableFor": " AZUD Filter",
-                "extra1": "20kg X 1"
+                "suitableFor": " Modular 100",
+                "extra1": "NA"
               },
               {
                 "size": "1.5 inch",
-                "suitableFor": " AZUD Filter",
-                "extra1": "20kg X 1"
+                "suitableFor": " Modular 100",
+                "extra1": "NA"
               },
               {
                 "size": "2 inch",
-                "suitableFor": " AZUD Filter",
-                "extra1": "20kg X 1"
+                "suitableFor": " Modular 100",
+                "extra1": "NA"
               }
             ]
            
@@ -2209,7 +2209,7 @@
       "companyItems": [
         {
           "itemTitle": " Open Coat Paper",
-          "itemImage": "/assets/images/ABRO/sandpaper.jpg",
+          "itemImage": "/assets/images/ABRO/OCN.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2223,7 +2223,7 @@
         },
         {
           "itemTitle": " CPG Paper",
-          "itemImage": "/assets/images/ABRO/sandpaper.jpg",
+          "itemImage": "/assets/images/ABRO/CPG.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2297,7 +2297,7 @@
         },
         {
           "itemTitle": " Latex Paper",
-          "itemImage": "/assets/images/ABRO/Latex_sandpaper.jpg",
+          "itemImage": "/assets/images/ABRO/Latex.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2371,7 +2371,7 @@
         },
         {
           "itemTitle": " Telescopic Slider - 45 kg (Zinc)",
-          "itemImage": "/assets/images/ABRO/telescopic.jpeg",
+          "itemImage": "/assets/images/ABRO/Clothroll.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2410,7 +2410,7 @@
         },
         {
           "itemTitle": " Telescopic Slider - 35 kg (Zinc)",
-          "itemImage": "/assets/images/ABRO/telescopic.jpeg",
+          "itemImage": "/assets/images/ABRO/Cutting_Wheel.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2449,7 +2449,7 @@
         },
         {
           "itemTitle": " PVC insulation Tape (17mmX6m)",
-          "itemImage": "/assets/images/ABRO/PVC_tape.jpg",
+          "itemImage": "/assets/images/ABRO/Masking_Tape.png",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2463,7 +2463,7 @@
         },
         {
           "itemTitle": " PVC insulation Tape (17mmX7m)",
-          "itemImage": "/assets/images/ABRO/PVC_tape.jpg",
+          "itemImage": "/assets/images/ABRO/PVC_Tape.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2477,7 +2477,7 @@
         },
         {
           "itemTitle": " Masking Tape - 6123 Grade",
-          "itemImage": "/assets/images/ABRO/masking.png",
+          "itemImage": "/assets/images/ABRO/Spray_Paint.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2511,7 +2511,7 @@
         },
         {
           "itemTitle": " Masking Tape - 3123 Grade",
-          "itemImage": "/assets/images/ABRO/masking.png",
+          "itemImage": "/assets/images/ABRO/PTFE_Tape.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2540,7 +2540,7 @@
         },
         {
           "itemTitle": "PTFE Thread Seal Tape",
-          "itemImage": "/assets/images/ABRO/PTFE_tape.jpg",
+          "itemImage": "/assets/images/ABRO/Zorroguard.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2559,7 +2559,7 @@
         },
         {
           "itemTitle": "Abrasive Cloth Roll (Goodsun)",
-          "itemImage": "/assets/images/ABRO/cloth-roll.jpg",
+          "itemImage": "/assets/images/ABRO/Roller_Masker.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2588,7 +2588,7 @@
         },
         {
           "itemTitle": "Abrasive Cloth Roll (Zorro)",
-          "itemImage": "/assets/images/ABRO/cloth-roll.jpg",
+          "itemImage": "/assets/images/ABRO/BOPP_Tape.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
@@ -2617,7 +2617,7 @@
         },
         {
           "itemTitle": " PU Foam",
-          "itemImage": "/assets/images/ABRO/pu-foam.png",
+          "itemImage": "/assets/images/ABRO/Anti-Slip_Tape.jpg",
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
