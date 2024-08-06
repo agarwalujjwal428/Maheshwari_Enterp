@@ -6,20 +6,22 @@
 }
 .product-head {
   position: absolute;
+  text-align: center;
   top: 140px;
-  left: 470px;
+  left:50%;
+  transform: translateX(-44%);
 
 }
 #ph-first,#ph-second,#ph-third{
   font-size: 5.0rem;
   font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
-  color: #04182e;
+  /* font-family: 'Courier New', Courier, monospace; */
+  color: #112137;
   text-transform:uppercase;
   margin:-10px;
 }
 #ph-second{
-  margin-left:140px;
+  margin-left:-13px;
 }
 .product-bg img {
   position: absolute;
@@ -244,7 +246,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width:1020px) {
+@media screen and (min-width: 768px) and (max-width:1024px) {
   /* Adjustments for tablets and larger screens */
   .prod-serv-container {
     padding: 0 1em; /* Reset horizontal padding for tablets and larger screens */
