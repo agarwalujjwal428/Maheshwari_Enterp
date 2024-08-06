@@ -1,4 +1,3 @@
-
 {
   "products": [
     {
@@ -328,7 +327,6 @@
                 "suitableFor": "Internal Bending Spring"
               }
             ]
-
           }
         },
         {
@@ -375,7 +373,6 @@
                 "suitableFor": "SR For Composite Fitting"
               }
             ]
-
           }
         },
         {
@@ -405,7 +402,6 @@
                 "suitableFor": "SR For Brass Fitting"
               }
             ]
-
           }
         },
         {
@@ -459,7 +455,6 @@
                 "suitableFor": "O Rings"
               }
             ]
-
           }
         },
         {
@@ -470,60 +465,59 @@
             "itemSizes": [
               {
                 "size": "1014",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1216",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1620",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
-                            },
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
+              },
               {
                 "size": "2025",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "4050",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✓"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✓"
               },
               {
                 "size": "5063",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "6375",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               }
             ]
-
           }
         },
         {
@@ -534,270 +528,269 @@
             "itemSizes": [
               {
                 "size": "1620 X 1216 X 1216",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1620 X 1216 X 1620",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "1620 X 1620 X 1216",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
-                            },
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
+              },
               {
                 "size": "2025 X 1216 X 2025",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 1620 X 1620",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 1620 X 2025",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 2025 X 1216",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 2025 X 1620",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 1216 X 2532",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 1620 X 1620",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 2025 X 1216",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 2025 X 2025",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 2532 X 1216",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 2532 X 1620",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 2532 X 2025",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1216 X 3240",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1620 X 1620",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1620 X 2025",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1620 X 2532",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1620 X 3240",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 2025 X 1216",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 2025 X 2025",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 2532 X 1216",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 2532 X 1620",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 2532 X 2532",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 2532 X 3240",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 3240 X 1216",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 3240 X 1620",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 3240 X 2025",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 3240 X 2532",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 4050 X 1620",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 4050 X 2025",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 4050 X 2532",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✓"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✓"
               },
               {
                 "size": "4050 X 4050 X 3240",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "5063 X 5063 X 1620",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "5063 X 5063 X 2025",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "5063 X 5063 X 2532",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "5063 X 5063 X 3240",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "5063 X 5063 X 4050",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "6375 X 6375 X 2025",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "6375 X 6375 X 2532",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "6375 X 6375 X 3240",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "6375 X 6375 X 4050",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "6375 X 6375 X 5063",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               }
             ]
-
           }
         },
         {
@@ -808,66 +801,65 @@
             "itemSizes": [
               {
                 "size": "1014 X 1014 X 1/2 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1216 X 1216 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1620 X 1620 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
-                            },
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
+              },
               {
                 "size": "2025 X 2025 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 2025 X 1 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 2532 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 2532 X 1 inch",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 3240 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 3240 X 1.25 inch",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 4050 X 1.5 inch",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               }
             ]
-
           }
         },
         {
@@ -878,54 +870,53 @@
             "itemSizes": [
               {
                 "size": "1216",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1620",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
-                            },
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
+              },
               {
                 "size": "2025",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "4050",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "5063",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "6375",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               }
             ]
-
           }
         },
         {
@@ -936,49 +927,48 @@
             "itemSizes": [
               {
                 "size": "2025 X 1216",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 1620",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
-                            },
-              
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
+              },
+
               {
                 "size": "2532 X 1620",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1620",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 2025",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 2532",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 2532",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               }
             ]
-
           }
         },
         {
@@ -989,66 +979,65 @@
             "itemSizes": [
               {
                 "size": "1014 X 1/2 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1216 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
-                            },
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
+              },
               {
                 "size": "1620 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1620 X 3/4 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 1 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 1 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1.25 inch",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1.5 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 2 inch",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               }
             ]
-
           }
         },
         {
@@ -1059,90 +1048,89 @@
             "itemSizes": [
               {
                 "size": "1014 X 1/2 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1216 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
-                            },
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
+              },
               {
                 "size": "1620 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1620 X 3/4 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 1/2 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 3/4 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 1 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 1 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 1.25 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 1.5 inch",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1.25 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1.5 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 1.5 inch (Clamp)",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✓"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✓"
               }
             ]
-
           }
         },
         {
@@ -1153,90 +1141,89 @@
             "itemSizes": [
               {
                 "size": "1014 X 1/2 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1216 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
-                            },
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
+              },
               {
                 "size": "1620 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1620 X 3/4 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 1 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 1 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 1.25 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 1.5 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1.25 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1.5 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 1.5 inch",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "5063 X 2 inch",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "5063 X 2.5 inch",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               }
             ]
-
           }
         },
         {
@@ -1247,90 +1234,89 @@
             "itemSizes": [
               {
                 "size": "1620 X 1216",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 1216",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2025 X 1620",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 1216",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 1620",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532 X 2025",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1216",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 1620",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 2025",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240 X 2532",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 1620",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 2025",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 2532",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "4050 X 3240",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               }
             ]
-
           }
         },
         {
@@ -1341,48 +1327,47 @@
             "itemSizes": [
               {
                 "size": "1014",
-                "composite":"✗",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✗",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1216",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "1620",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2025",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "2532",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "3240",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               },
               {
                 "size": "4050",
-                "composite":"✓",
-                "brass":"✓",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✓",
+                "SS304": "✗"
               }
             ]
-
           }
         },
         {
@@ -1393,12 +1378,11 @@
             "itemSizes": [
               {
                 "size": "6375 X 1 inch",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               }
             ]
-
           }
         },
         {
@@ -1409,24 +1393,23 @@
             "itemSizes": [
               {
                 "size": "1216",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "1620",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "2025",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               }
             ]
-
           }
         },
         {
@@ -1437,18 +1420,17 @@
             "itemSizes": [
               {
                 "size": "Mixer Tee 1216 X 1216 X 1216 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               },
               {
                 "size": "Mixer Tee 1620 X 1620 X 1620 X 1/2 inch",
-                "composite":"✓",
-                "brass":"✗",
-                "SS304":"✗"
+                "composite": "✓",
+                "brass": "✗",
+                "SS304": "✗"
               }
             ]
-
           }
         }
       ]
@@ -1470,7 +1452,6 @@
                 "size": "20kg",
                 "suitableFor": "FF ETA",
                 "extra1": " 20kg X 1"
-                
               },
               {
                 "size": "20kg",
@@ -1491,10 +1472,8 @@
                 "size": "20kg",
                 "suitableFor": " FF HT - 444 Grey",
                 "extra1": " 20kg X 1"
-                
               }
             ]
-          
           }
         },
         {
@@ -1526,9 +1505,7 @@
                 "size": "1kg",
                 "suitableFor": "Black, C.Brown ,D.Grey, Ivory, T.Cotta,  Signal Red, White",
                 "extra1": " 1kg X 20"
-                
               }
-              
             ]
           }
         },
@@ -1542,7 +1519,6 @@
                 "size": "1kg",
                 "suitableFor": " Part (A+B)",
                 "extra1": " 1kg X 1"
-                
               },
               {
                 "size": "5kg",
@@ -1560,10 +1536,8 @@
                 "extra1": "1L X 10"
               }
             ]
-           
           }
         }
-       
       ]
     },
     {
@@ -1579,7 +1553,6 @@
           "itemDesc": "Glazing application, general sealing and assembling, plumbing and sanitary applications, drought proofing, sealing doors & windows frames, port lights, backlights, etc. Sealing air conditioning system, for sanitary use.",
           "itemDetails": {
             "itemSizes": [
-              
               {
                 "size": "260ml",
                 "suitableFor": " 3400 GP Silver",
@@ -1609,7 +1582,6 @@
                 "suitableFor": " 3200 GP Bronze",
                 "extra1": "Master Carton(48 pcs)"
               }
-              
             ]
           }
         },
@@ -1689,16 +1661,15 @@
             "itemSizes": [
               {
                 "size": "280ml",
-                "suitableFor":"Acrylic Sealant(White & Black)",
+                "suitableFor": "Acrylic Sealant(White & Black)",
                 "extra1": "Inner Carton(24 pcs)"
               },
-              
+
               {
                 "size": "280ml",
-                "suitableFor":"Acrylic Sealant(White & Black)",
+                "suitableFor": "Acrylic Sealant(White & Black)",
                 "extra1": "Master Carton(48 pcs)"
               }
-              
             ]
           }
         },
@@ -1737,11 +1708,9 @@
                 "suitableFor": "Special Grade",
                 "extra1": "Master Carton(NA)"
               }
-
             ]
           }
         }
-       
       ]
     },
     {
@@ -1773,10 +1742,9 @@
                 "extra1": "50 pcs"
               }
             ]
-           
           }
         },
-        
+
         {
           "itemTitle": "Latex Waterproof Paper",
           "itemImage": "",
@@ -1879,13 +1847,11 @@
                 "extra1": "NA"
               }
             ]
-           
           }
         }
-       
       ]
     },
-{
+    {
       "img": "/assets/images/company_logo/aipl-logo.jpg",
       "id": "6",
       "category": "products",
@@ -2100,7 +2066,7 @@
                 "suitableFor": "Abrasive Cloth Roll (Goodsun)",
                 "extra1": "3 pcs"
               },
-               {
+              {
                 "size": "100 grit",
                 "suitableFor": "Abrasive Cloth Roll (Goodsun)",
                 "extra1": "3 pcs"
@@ -2109,7 +2075,6 @@
                 "size": "120 grit",
                 "suitableFor": "Abrasive Cloth Roll (Goodsun)",
                 "extra1": "3 pcs"
-            
               },
               {
                 "size": "60 grit",
@@ -2121,7 +2086,7 @@
                 "suitableFor": "Abrasive Cloth Roll (Zorro)",
                 "extra1": "3 pcs"
               },
-               {
+              {
                 "size": "100 grit",
                 "suitableFor": "Abrasive Cloth Roll (Zorro)",
                 "extra1": "3 pcs"
@@ -2131,7 +2096,6 @@
                 "suitableFor": "Abrasive Cloth Roll (Zorro)",
                 "extra1": "3 pcs"
               }
-
             ]
           }
         },
@@ -2151,7 +2115,6 @@
                 "suitableFor": "Cut-Off Wheel",
                 "extra1": "25"
               }
-              
             ]
           }
         },
@@ -2171,7 +2134,7 @@
                 "suitableFor": " Masking Tape - 6123 Grade",
                 "extra1": "6 pcs"
               },
-               {
+              {
                 "size": " 24 X 30 mts",
                 "suitableFor": " Masking Tape - 6123 Grade",
                 "extra1": "6 pcs"
@@ -2196,7 +2159,7 @@
                 "suitableFor": " Masking Tape - 3123 Grade",
                 "extra1": "6 pcs"
               },
-               {
+              {
                 "size": " 24 X 30 mts",
                 "suitableFor": " Masking Tape - 3123 Grade",
                 "extra1": "6 pcs"
@@ -2468,7 +2431,6 @@
                 "suitableFor": "PTFE Thread Seal Tape",
                 "extra1": "250"
               }
-             
             ]
           }
         },
@@ -2532,6 +2494,20 @@
               }
             ]
           }
+        },
+        {
+          "itemTitle": "PU Insulation Foam",
+          "itemImage": "/assets/images/ABRO/pu-foam.png",
+          "itemDesc": "ABRO® PU Foam Insulation Sealant is a one-component, CFC free, ready to use, multipurpose Polyurethane foam adhesive and mounting foam with non-flammable propellant. It is fitted with a plastic adapter head for use with a foam application gun or a straw. ABRO® PU Foam Insulation Sealant is very good for filling and sealing with excellent mounting capacities, high thermal and acoustical insulation. The cured foam is self-extinguishable, rigid and has a fine structure with partly closed cells.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "700 ml",
+                "suitableFor": "PU Insulation Foam",
+                "extra1": "12"
+              }
+            ]
+          }
         }
       ]
     },
@@ -2540,12 +2516,13 @@
       "id": "8",
       "category": "products",
       "title": " MYMIX",
-      "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
+      "description": "Established in Mumbai in 1963 by the Mumbai-based Sanghavi family 'Sanghavi Group' is known for innovative concepts, integrity of design and quality workmanship in the field of manufacturing high quality engineering equipments and products, with factories in Mumbai, Hyderabad and Nagpur. It is our strength to have practical knowledge and advantage of combined expertise that encourages us to invent and introduce new products gives us a competitive edge.",
       "companyItems": [
         {
           "itemTitle": " Tile Adhesive & Jointing Mortar",
-          "itemImage": "/assets/images/My_Mix/CCF.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemImage": "/assets/images/My_Mix/Tile_Adhesives.jpg",
+          "itemDesc": "MyMix Tile Adhesive is formulated polymer modified, flexible glue that can be used to fix different types of tiles including mosaic tiles, ceramic tiles, clay & ceramic (non-vitrified) tiles of small and large dimensions, engineered and all natural stone tiles amongst others. Different range of tile adhesives are used for different sizes of tiles and stones and different area of application.",
+
           "itemDetails": {
             "itemSizes": [
               {
@@ -2567,7 +2544,8 @@
                 "size": "20kg",
                 "suitableFor": "  Ritebuild STA (GR)",
                 "extra1": " 20kg X 1"
-              },{
+              },
+              {
                 "size": "40kg",
                 "suitableFor": "  Ritebuild STA (GR",
                 "extra1": " 40kg X 1"
@@ -2576,7 +2554,8 @@
                 "size": "20kg",
                 "suitableFor": " Ritebuild STA (WH)",
                 "extra1": " 20kg X 1"
-              },{
+              },
+              {
                 "size": "40kg",
                 "suitableFor": " Ritebuild STA (WH)",
                 "extra1": " 40kg X 1"
@@ -2585,7 +2564,8 @@
                 "size": "20kg",
                 "suitableFor": "  Ritebuild GTA (GR)",
                 "extra1": " 20kg X 1"
-              },{
+              },
+              {
                 "size": "20kg",
                 "suitableFor": "  Ritebuild GTA (WH)",
                 "extra1": " 20kg X 1"
@@ -2594,7 +2574,8 @@
                 "size": "20kg",
                 "suitableFor": "  Ritebuild UTA (GR)",
                 "extra1": " 20kg X 1"
-              },{
+              },
+              {
                 "size": "40kg",
                 "suitableFor": "  Ritebuild UTA (GR)",
                 "extra1": " 40kg X 1"
@@ -2603,7 +2584,8 @@
                 "size": "20kg",
                 "suitableFor": "  Ritebuild UTA (WH)",
                 "extra1": " 20kg X 1"
-              },{
+              },
+              {
                 "size": "40kg",
                 "suitableFor": "  Ritebuild UTA (WH)",
                 "extra1": " 40kg X 1"
@@ -2612,7 +2594,8 @@
                 "size": "20kg",
                 "suitableFor": "  Ritebuild FTA (GR)",
                 "extra1": " 20kg X 1"
-              },{
+              },
+              {
                 "size": "40kg",
                 "suitableFor": "  Ritebuild FTA (GR)",
                 "extra1": " 40kg X 1"
@@ -2621,7 +2604,8 @@
                 "size": "20kg",
                 "suitableFor": "  Ritebuild FTA (GR)",
                 "extra1": " 20kg X 1"
-              },{
+              },
+              {
                 "size": "40kg",
                 "suitableFor": "  Ritebuild FTA (GR)",
                 "extra1": " 40kg X 1"
@@ -2630,7 +2614,8 @@
                 "size": "20kg",
                 "suitableFor": "  Ritebuild CTA (GR)",
                 "extra1": " 20kg X 1"
-              },{
+              },
+              {
                 "size": "40kg",
                 "suitableFor": "  Ritebuild CTA (GR)",
                 "extra1": " 40kg X 1"
@@ -2639,7 +2624,8 @@
                 "size": "20kg",
                 "suitableFor": "  Ritebuild ETA (GR)",
                 "extra1": " 20kg X 1"
-              },{
+              },
+              {
                 "size": "40kg",
                 "suitableFor": "  Ritebuild ETA (GR)",
                 "extra1": " 40kg X 1"
@@ -2648,9 +2634,37 @@
           }
         },
         {
-          "itemTitle": " Epoxy & Cementitious Grouts",
+          "itemTitle": "Three Component Epoxy Grout",
           "itemImage": "/assets/images/My_Mix/Epoxy.jpg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemDesc": "MyMix Ritepoxy ESG 1200 (Epoxy Stain-free Grout) is a three-component epoxy grout designed especially for use in filling up joints of ceramic tiles, vitrified tiles and joints, where hygiene is of utmost importance. It is easy to apply, chemical resistant and available in more than 28 shades.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "NA",
+                "suitableFor": "Epoxy Grout",
+                "extra1": "NA"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Three Component Glitter Epoxy Grout",
+          "itemImage": "/assets/images/My_Mix/Epoxy_Glitter_Star.jpg",
+          "itemDesc": "MyMix Ritepoxy Glitter Star (Epoxy Stain-free Grout) is three component epoxy base tile grouts designed especially for floor & wall areas where sparkling effect, metallic finish of aesthetics is of utmost importance such as hotels, restaurants, kitchens, showrooms, living room, swimming pool & shopping malls. Ritepoxy glitter star grout is easy to apply, easy to mix joints filler and available in more than 28 shades in Gold, Silver and Copper finish. It is particularly recommended for glass mosaic & metallic tiles.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "NA",
+                "suitableFor": "Glitter Epoxy Grout",
+                "extra1": "NA"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Cementitious Colour Grout",
+          "itemImage": "/assets/images/My_Mix/Cementitious_Grout.jpg",
+          "itemDesc": "MyMix CGU (Cementitious colour grout) is white cement based, polymer modified colour grout. It is right bonding materials to fill tile joints to fix ceramic & vitrified tiles on walls and floors. They are resistant to shrinkage and cracking and can be used to fill tile joints (walls and floors) with a minimum width of 1 to 5 mm for both interior and exterior applications. Made with colour fast pigments and fine graded aggregates. It is available in more than 28 colours to match your joints with tiles.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -2662,7 +2676,16 @@
                 "size": "10kg",
                 "suitableFor": " CGU (All colours)",
                 "extra1": "10kg X 1"
-              },
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Grout Admixture 990",
+          "itemImage": "/assets/images/My_Mix/Grout_Admixture.jpg",
+          "itemDesc": "MyMix Grout Admixture 990 is liquid polymer admixture for used to improve the quality of cement grouts. It is ideal for interior and exterior tile grout application and enhances flexibility & durability to have better performance. Specially designed for use with CGU Grout.",
+          "itemDetails": {
+            "itemSizes": [
               {
                 "size": " 200ml",
                 "suitableFor": " Grout Admix. 990",
@@ -2672,11 +2695,13 @@
                 "size": " 500ml",
                 "suitableFor": " Grout Admix. 990",
                 "extra1": " 500ml X 20"
-              },{
+              },
+              {
                 "size": " 1L",
                 "suitableFor": " Grout Admix. 990",
                 "extra1": " 1L X 10"
-              },{
+              },
+              {
                 "size": " 5L",
                 "suitableFor": " Grout Admix. 990",
                 "extra1": " 5L X 4"
@@ -2685,68 +2710,9 @@
           }
         },
         {
-          "itemTitle": "Integral Waterproofing & Bonding Agent",
-          "itemImage": "/assets/images/My_Mix/SBR_Latex.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": " 1L",
-                "suitableFor": " SBR Latex",
-                "extra1": " 1L X 10"
-              },
-              {
-                "size": " 5L",
-                "suitableFor": " SBR Latex",
-                "extra1": " 5L X 4"
-              },
-              {
-                "size": " 20L",
-                "suitableFor": " SBR Latex",
-                "extra1": " 20L X 1"
-              },
-              {
-                "size": "500ml",
-                "suitableFor": " SBR 330",
-                "extra1": "500ml X 20"
-              },
-              {
-                "size": "1L",
-                "suitableFor": " SBR 330",
-                "extra1": " 1L X 10"
-              },
-              {
-                "size": "5L",
-                "suitableFor": " SBR 330",
-                "extra1": " 5L X 4"
-              },
-              {
-                "size": "20L",
-                "suitableFor": " SBR 330",
-                "extra1": " 20L X 1"
-              },
-              {
-                "size": "1L",
-                "suitableFor": "Super Latex 770",
-                "extra1": " 1L X 10"
-              },
-              {
-                "size": "5L",
-                "suitableFor": "Super Latex 770",
-                "extra1": " 5L X 4"
-              },
-              {
-                "size": "20L",
-                "suitableFor": "Super Latex 770",
-                "extra1": " 20L X 1"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Multicleaner",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemTitle": "Multiple Cleaner",
+          "itemImage": "/assets/images/My_Mix/Multiple_Cleaner.jpg",
+          "itemDesc": "MyMix Multiple Cleaner is acid-based cleaner for multiple cleaning activities. It is specially formulated to remove stubborn stains and grime from a variety of surfaces. It is an eco-friendly & cost-effective cleaner that can easily dissolve and remove dirt, grease, and other contaminants, make surfaces clean and aesthetically superior.",
           "itemDetails": {
             "itemSizes": [
               {
@@ -2768,72 +2734,100 @@
           }
         },
         {
-          "itemTitle": "Accessories",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemTitle": "IWP (Integral Waterproofing Compound)",
+          "itemImage": "/assets/images/My_Mix/IWP.png",
+          "itemDesc": "IWP (Integral Waterproofing Compound) is an advanced additive specifically formulated to enhance the waterproofing properties of concrete. It is designed to be incorporated directly into concrete mixtures, offering exceptional integral waterproofing capabilities. Adding WP to concrete, significantly improves the durability and longevity of structures by providing superior protection against water penetration.",
           "itemDetails": {
-            "itemSizes": [
-              {
-                "size": " 1 pkt (100nos)",
-                "suitableFor": " Spacer (2mm)",
-                "extra1": " 1pkt X 30"
-              },
-              {
-                "size": " 1 pkt (100nos)",
-                "suitableFor": " Spacer (3mm)",
-                "extra1": " 1pkt X 30"
-              },
-              {
-                "size": " 1 pkt (100nos)",
-                "suitableFor": " Spacer (4mm)",
-                "extra1": " 1pkt X 30"
-              },
-              {
-                "size": " 1 pkt (100nos)",
-                "suitableFor": " Spacer (5mm)",
-                "extra1": " 1pkt X 30"
-              },
-              {
-                "size": " 1 pkt (100nos)",
-                "suitableFor": " Spacer (6mm)",
-                "extra1": " 1pkt X 30"
-              },
-              {
-                "size": " 1 pkt (100nos)",
-                "suitableFor": " Spacer (8mm)",
-                "extra1": " 1pkt X 30"
-              },
-              {
-                "size": " 1 pkt (100nos)",
-                "suitableFor": " Spacer (10mm)",
-                "extra1": " 1pkt X 30"
-              },
-              {
-                "size": " 1 pkt (25nos)",
-                "suitableFor": " Tile Leveler Clip (1.5mm)",
-                "extra1": " 1pkt X 10"
-              },
-              {
-                "size": " 1 pkt (25nos)",
-                "suitableFor": " Tile Leveler Clip (2mm)",
-                "extra1": " 1pkt X 10"
-              },
-              {
-                "size": " 1 pkt (25nos)",
-                "suitableFor": " Tile Leveler Clip (3mm)",
-                "extra1": " 1pkt X 10"
-              },
-              {
-                "size": " 1 pkt (25nos)",
-                "suitableFor": " Tile Leveler Clip (4mm)",
-                "extra1": " 1pkt X 10"
-              },
-              {
-                "size": " 1 pkt (25nos)",
-                "suitableFor": " Tile Leveler  Wedge",
-                "extra1": " 1pkt X 10"
-              }
-            ]
+            "itemSizes": [ {
+              "size": "NA",
+              "suitableFor": "IWP",
+              "extra1": "NA"
+            }]
+          }
+        },
+        {
+          "itemTitle": "SBR 330",
+          "itemImage": "/assets/images/My_Mix/SBR_330.png",
+          "itemDesc": "SBR 330 is modified Styrene Butadiene Rubber based Multipurpose and high-quality Latex. It is in liquid consistency and can be utilized as a Bonding Agent, as Quality Enhancer in Repair Mortar, as a good waterproofing agent and as Primer coating in Cementitious applications. It is ideal to apply internal and external applications to intermix with cement.",
+          "itemDetails": {
+            "itemSizes": [{
+              "size": "500ml",
+              "suitableFor": " SBR 330",
+              "extra1": "500ml X 20"
+            },
+            {
+              "size": "1L",
+              "suitableFor": " SBR 330",
+              "extra1": " 1L X 10"
+            },
+            {
+              "size": "5L",
+              "suitableFor": " SBR 330",
+              "extra1": " 5L X 4"
+            },
+            {
+              "size": "20L",
+              "suitableFor": " SBR 330",
+              "extra1": " 20L X 1"
+            }]
+          }
+        },
+        {
+          "itemTitle": "Super Latex 770",
+          "itemImage": "/assets/images/My_Mix/Super_Latex_770.png",
+          "itemDesc": "SUPER LATEX 770 is high quality super latex additive to be mixed with premium Adhesive and cement mixes. Super latex 770 added with Ritebuild UTA to provide strong bonding with high flexibility to various substrates. It is suitable for all size tiles & stone fixing, fixing granite, marble and all other natural stones on wall. It is also suitable for plaster work as bond coat. It should be used for interior application only.",
+          "itemDetails": {
+            "itemSizes": [{
+              "size": "1L",
+              "suitableFor": "Super Latex 770",
+              "extra1": " 1L X 10"
+            },
+            {
+              "size": "5L",
+              "suitableFor": "Super Latex 770",
+              "extra1": " 5L X 4"
+            },
+            {
+              "size": "20L",
+              "suitableFor": "Super Latex 770",
+              "extra1": " 20L X 1"
+            }]
+          }
+        },
+        {
+          "itemTitle": "MCR (Microconcrete)",
+          "itemImage": "/assets/images/My_Mix/MCR.jpg",
+          "itemDesc": "MCR (Microconcrete) is cementitious, non-shrink, pourable, high strength for structure repair with high precision concrete. It is specially designed for restoring horizontal concrete surfaces damaged through concrete spalling and mechanical causes. It is recommended for thickness from 20 to 100 mm. It is suitable for various structural strengthening measures such as encasement build-ups, jacketing etc.",
+          "itemDetails": {
+            "itemSizes": [{
+              "size": "NA",
+              "suitableFor": "MCR",
+              "extra1": "NA"
+            }]
+          }
+        },
+        {
+          "itemTitle": "Repair Mortar HS",
+          "itemImage": "/assets/images/My_Mix/Repair_Mortar_HS.png",
+          "itemDesc": "Repair Mortar HS is high strength build up structural repair mortar formulated with graded fillers, additive, cement and fibers. It can be applied by trowel and wet spraying, suitable for overhead and vertical application with excellent bonding characteristics to steel reinforcement and concrete. It is specifically designed with double action shrinkage resistant, low permeability with thixotropic nature, ready to use product.",
+          "itemDetails": {
+            "itemSizes": [{
+              "size": "NA",
+              "suitableFor": "Repair Mortar HS",
+              "extra1": "NA"
+            }]
+          }
+        },
+        {
+          "itemTitle": "CCF(Cementitious Crack Filler)",
+          "itemImage": "/assets/images/My_Mix/CCF.png",
+          "itemDesc": "CCF (Cementitious Crack Filler) is single component cement-based crack filling compound, it is formulated & modified for non-shrink cementitious compositions for filling cracks in concrete, masonry & plaster surfaces and it is easy to apply and can be finished or smoothened with a putty blade/damp sponge. It sets quickly on application and can be over coated with common paints/ coatings.",
+          "itemDetails": {
+            "itemSizes": [{
+              "size": "NA",
+              "suitableFor": "CCF",
+              "extra1": "NA"
+            }]
           }
         }
       ]
@@ -2843,96 +2837,44 @@
       "id": "9",
       "category": "products",
       "title": "TERMIGUARD",
-      "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
+      "description": "Advance Agrisearch Limited is a well know ISO 9001-2008 Certified Company dedicated to manufacturing superior and economically priced Adhesive, Wood Preservatives, House Hold Insect Control and Speciality Building use products.The Company is a leading supplier of its products to a large number of small industries, Indian Defence establishments, Railways, shipping industries, forest departments, wood treatment plants and Govt. Institutions.",
       "companyItems": [
         {
-          "itemTitle": "Termiguard",
-          "itemImage": "/assets/images/Termi_Gaurd/Super_Power.jpg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemTitle": "Wood Preservatives",
+          "itemImage": "/assets/images/Termi_Gaurd/wood_preservative.jpeg",
+          "itemDesc": "A ready-to-use Colourless oil-borne Bio-wood preservative for prevention and control of termite infestation, fungus & borers for effective protection of plywood, wood and furniture. Termiguard is eco-friendly and harmless to human beings and pets as proven over use during the last more than 15 years. This does not affect the color of furniture and ply wood. Its application increases the life span of wood by 10 to 15 years.",
+
           "itemDetails": {
             "itemSizes": [
               {
-                "size": "100ml",
-                "suitableFor": "Termiguard 20%",
-                "extra1": "50 pcs"
-              },
-              {
-                "size": " 250ml",
-                "suitableFor": "Termiguard 20%",
-                "extra1": "40 pcs"
-              },
-              {
-                "size": " 500ml",
-                "suitableFor": "Termiguard 20%",
-                "extra1": "20 pcs"
-              },
-              {
-                "size": "1L",
-                "suitableFor": "Termiguard 20%",
-                "extra1": "12 pcs"
-              },
-              {
-                "size": "5L",
-                "suitableFor": "Termiguard 20%",
-                "extra1": "2 pcs"
-              },
-              {
-                "size": "20L",
-                "suitableFor": "Termiguard 20%",
-                "extra1": "1 pcs"
+                "size": "NA",
+                "suitableFor": "Wood Preservatives",
+                "extra1": "NA"
               }
             ]
           }
         },
         {
-          "itemTitle": "Termiguard",
-          "itemImage": "/assets/images/Termi_Gaurd/termiguard.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemTitle": "Building Materials",
+          "itemImage": "/assets/images/Termi_Gaurd/Super_Power.jpg",
+          "itemDesc": "An emulsifiable concentrate made from azeotropic extract of Anacardium Pericarp for protection of building foundations and soil to prevent termites and wood eating pests to prolong life of wood & building structures. This is also used in glue-mix for manufacturing of termite resistant plywood and hard board. It is also used for mixing in exterior paints to prevent weather resultant dark spots due to fungus to prolong the life of paints. It is widely used for household pest control and is ideal for treatment of soil and structures for prevention of Termites infestation for more than 20 years effectively.",
           "itemDetails": {
-            "itemSizes": [
-              {
-                "size": " 100ml",
-                "suitableFor": "Termiguard 30%",
-                "extra1": "50 pcs"
-              },
-              {
-                "size": " 250ml",
-                "suitableFor": "Termiguard 30%",
-                "extra1": "40 pcs"
-              },
-              {
-                "size": " 500ml",
-                "suitableFor": "Termiguard 30%",
-                "extra1": "20 pcs"
-              },
-              {
-                "size": "1L",
-                "suitableFor": "Termiguard 30%",
-                "extra1": "12 pcs"
-              },
-              {
-                "size": "5L",
-                "suitableFor": "Termiguard 30%",
-                "extra1": "2 pcs"
-              },
-              {
-                "size": "20L",
-                "suitableFor": "Termiguard 30%",
-                "extra1": "1 pcs"
-}
-
-            ]
+            "itemSizes": [{
+              "size": "NA",
+              "suitableFor": "Building Materials",
+              "extra1": "NA"
+            }]
           }
         },
         {
-          "itemTitle": " Trigger Spray Tin Can",
-          "itemImage": "/assets/images/Termi_Gaurd/Super_Power.jpg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemTitle": "Trigger Spray",
+          "itemImage": "/assets/images/Termi_Gaurd/Trigger_Spray.jpg",
+          "itemDesc": "A ready-to-use Colourless oil-borne Bio-wood preservative for prevention and control of termite infestation, fungus & borers for effective protection of plywood, wood and furniture. It comes in the form of trigger spray which is easy to use and can cover places which are difficult to reach.",
           "itemDetails": {
             "itemSizes": [
               {
                 "size": " 500ml",
-                "suitableFor": "Trigger Spray Tin Can",
+                "suitableFor": "Trigger Spray",
                 "extra1": " 20 pcs"
               }
             ]
@@ -2998,7 +2940,6 @@
                 "suitableFor": " Lapox Ultra",
                 "extra1": "Inner pack  (NA) / Outer Pack (4)"
               }
-
             ]
           }
         },
@@ -3410,7 +3351,7 @@
             ]
           }
         },
-        
+
         {
           "itemTitle": " Lapox Ultrafix",
           "itemImage": "/assets/images/Lapox/Lapox-ultrafix.jpg",
@@ -3444,7 +3385,7 @@
             ]
           }
         },
-       
+
         {
           "itemTitle": " Lapox Marbobond HP",
           "itemImage": "",
@@ -3745,11 +3686,13 @@
                 "size": "100ml",
                 "suitableFor": "      Polygrip S 709",
                 "extra1": "Inner pack  (NA) / Outer Pack (48)"
-              },{
+              },
+              {
                 "size": "500ml",
                 "suitableFor": "      Polygrip S 709",
                 "extra1": "Inner pack  (NA) / Outer Pack (24)"
-              },{
+              },
+              {
                 "size": "500ml",
                 "suitableFor": "      Polygrip S 709",
                 "extra1": "Inner pack  (NA) / Outer Pack (24)"
@@ -4005,7 +3948,6 @@
                 "size": "100ml",
                 "suitableFor": "Zycosil Plus",
                 "extra1": " 100ml X 10 Bottles"
-                
               },
               {
                 "size": "250ml",
@@ -4026,10 +3968,8 @@
                 "size": "20L",
                 "suitableFor": " Zycosil Plus",
                 "extra1": " 20L Carboy"
-                
               }
             ]
-          
           }
         },
         {
@@ -4049,7 +3989,6 @@
                 "extra1": " 5L X 2 Carboy"
               }
             ]
-          
           }
         },
         {
@@ -4077,16 +4016,13 @@
                 "size": "20L",
                 "suitableFor": " Zycoprime Plus",
                 "extra1": " 20L Carboy"
-                
               },
               {
                 "size": "35L",
                 "suitableFor": " Zycoprime Plus",
                 "extra1": " 35L X 5 Carboy"
-                
               }
             ]
-          
           }
         },
         {
@@ -4106,7 +4042,6 @@
                 "extra1": " 600 g X 16 pails"
               }
             ]
-          
           }
         },
         {
@@ -4134,10 +4069,8 @@
                 "size": "20kg",
                 "suitableFor": "Elastobar",
                 "extra1": " 20kg Carboy"
-                
               }
             ]
-          
           }
         },
         {
@@ -4160,10 +4093,8 @@
                 "size": "20L",
                 "suitableFor": " Cold Bond",
                 "extra1": " 20L Carboy"
-                
               }
             ]
-          
           }
         },
         {
@@ -4181,10 +4112,8 @@
                 "size": "20L",
                 "suitableFor": "ElastoStretch",
                 "extra1": "20L X 1 Drum"
-                
               }
             ]
-          
           }
         },
         {
@@ -4202,10 +4131,8 @@
                 "size": "20L",
                 "suitableFor": " ElastoMax",
                 "extra1": "20L X 1 Carboy"
-                
               }
             ]
-          
           }
         },
         {
@@ -4235,7 +4162,6 @@
                 "extra1": " 5kg X 4 Carboy"
               }
             ]
-          
           }
         },
         {
@@ -4248,7 +4174,6 @@
                 "size": "500ml",
                 "suitableFor": "Zycrete 2X",
                 "extra1": " 500ml X 8 Bottles"
-                
               },
               {
                 "size": "1L",
@@ -4264,22 +4189,18 @@
                 "size": "10L",
                 "suitableFor": "Zycrete 2X",
                 "extra1": "10L X 1 Carboys"
-                
               },
               {
                 "size": "20L",
                 "suitableFor": "Zycrete 2X",
                 "extra1": "20L X 2 Carboys"
-                
               },
               {
                 "size": "210L",
                 "suitableFor": "Zycrete 2X",
                 "extra1": "210L X 1 Carboy"
-                
               }
             ]
-          
           }
         },
         {
@@ -4302,22 +4223,18 @@
                 "size": "10L",
                 "suitableFor": "Wall Primer",
                 "extra1": "10L X 1 Drum"
-                
               },
               {
                 "size": "20L",
                 "suitableFor": "Wall Primer",
                 "extra1": "20L X 1 Drum"
-                
               },
               {
                 "size": "20L",
                 "suitableFor": "Wall Primer Pro",
                 "extra1": "20L X 1 Drum"
-                
               }
             ]
-          
           }
         },
         {
@@ -4337,7 +4254,6 @@
                 "extra1": " 5L X 2 Carboy"
               }
             ]
-          
           }
         },
         {
@@ -4355,14 +4271,10 @@
                 "size": "20L",
                 "suitableFor": "ElastoSil",
                 "extra1": "20L X 1 Drum"
-                
               }
             ]
-          
           }
         }
-        
-       
       ]
     },
     {
@@ -4461,7 +4373,6 @@
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
-              
               {
                 "size": "20L",
                 "suitableFor": " Optima Exterior",
@@ -4491,7 +4402,6 @@
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
-              
               {
                 "size": "20L",
                 "suitableFor": " Flora Interior",
@@ -4512,7 +4422,6 @@
                 "suitableFor": " Flora Interior",
                 "extra1": "1L X 6"
               }
-              
             ]
           }
         },
@@ -4522,7 +4431,6 @@
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
-              
               {
                 "size": "20L",
                 "suitableFor": " Cement Primer",
@@ -4552,7 +4460,6 @@
           "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
           "itemDetails": {
             "itemSizes": [
-              
               {
                 "size": "20L",
                 "suitableFor": " Cement Primer Exterior",
@@ -4801,7 +4708,6 @@
                 "suitableFor": " Trendy White & Colour",
                 "extra1": "5kg X 4"
               }
-              
             ]
           }
         },
@@ -4826,7 +4732,6 @@
                 "suitableFor": "Skimcoat Wall Putty",
                 "extra1": " 20 kg X 1"
               }
-              
             ]
           }
         }
@@ -4840,34 +4745,33 @@
       "category": "services",
       "title": "WaterProofing",
       "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
-      "readMore":{
-        "read_description":"Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable.",
-        "servItems":[
+      "readMore": {
+        "read_description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable.",
+        "servItems": [
           {
-            "item-img" : "/assets/images/p_s.webp",
-             "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+            "item-img": "/assets/images/p_s.webp",
+            "item-desc": "This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/assets/images/p_s.webp",
-             "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+            "item-img": "/assets/images/p_s.webp",
+            "item-desc": "This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/assets/images/p_s.webp",
-             "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+            "item-img": "/assets/images/p_s.webp",
+            "item-desc": "This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/assets/images/p_s.webp",
-             "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+            "item-img": "/assets/images/p_s.webp",
+            "item-desc": "This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/assets/images/p_s.webp",
-             "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+            "item-img": "/assets/images/p_s.webp",
+            "item-desc": "This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/assets/images/p_s.webp",
-             "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+            "item-img": "/assets/images/p_s.webp",
+            "item-desc": "This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           }
-          
         ]
       }
     },
@@ -4877,34 +4781,33 @@
       "category": "services",
       "title": "Termite Treatment",
       "description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable. This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials.",
-      "readMore":{
-        "read_description":"Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable.",
-        "servItems":[
+      "readMore": {
+        "read_description": "Being the Pioneer of multilayer pipes (PE-AL-PE) in India since 1996, KiTEC is now been recognised for its excellence in quality KiTEC pipe uses special polyethylene grade which is hygienic, non-toxic and smooth. The middle aluminum layer is impermeable.",
+        "servItems": [
           {
-            "item-img" : "/assets/images/p_s.webp",
-             "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+            "item-img": "/assets/images/p_s.webp",
+            "item-desc": "This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/assets/images/p_s.webp",
-             "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+            "item-img": "/assets/images/p_s.webp",
+            "item-desc": "This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/assets/images/p_s.webp",
-             "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+            "item-img": "/assets/images/p_s.webp",
+            "item-desc": "This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/assets/images/p_s.webp",
-             "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+            "item-img": "/assets/images/p_s.webp",
+            "item-desc": "This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/assets/images/p_s.webp",
-             "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+            "item-img": "/assets/images/p_s.webp",
+            "item-desc": "This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           },
           {
-            "item-img" : "/assets/images/p_s.webp",
-             "item-desc":"This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
+            "item-img": "/assets/images/p_s.webp",
+            "item-desc": "This structure provides KiTEC pipe the advantages of both metal and plastic while avoiding all the weaknesses associated with these materials."
           }
-          
         ]
       }
     }
