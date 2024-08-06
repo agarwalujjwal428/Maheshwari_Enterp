@@ -2890,7 +2890,7 @@
       "description": "Atul is a pioneer in manufacturing epoxy resins in India. The Company is one of the largest manufacturers of epoxy resins and hardeners in the country. The epoxy products are marketed and sold under the brand name of Lapox and that of synthetic rubber and PU based adhesives under the brand name of Polygrip. A new range of maintenance products are being marketed under the brand name of Lacare.",
       "companyItems": [
         {
-          "itemTitle": " Lapox Ultra",
+          "itemTitle": " Lapox Ultra Tube & Jar",
           "itemImage": "/assets/images/Lapox/Lapox-Ultra.png",
           "itemDesc": "Ultimate strength epoxy adhesive ideal for fixing marble and granite in kitchens and window frames, sand broadcasting, assembly of marble temples, woodwork and grouting steel railings.",
           "itemDetails": {
@@ -2944,7 +2944,7 @@
           }
         },
         {
-          "itemTitle": " Lapox Rapid and Clear",
+          "itemTitle": " Lapox Rapid and Clear Tube & Jar",
           "itemImage": "/assets/images/Lapox/Rapid_Clear.jpg",
           "itemDesc": "Rapid setting clear epoxy adhesive ideal for bonding marble to marble, glass to glass, wood to wood and wood to glass.",
           "itemDetails": {
@@ -3041,6 +3041,112 @@
           }
         },
         {
+          "itemTitle": "Lapox Ultraseal White",
+          "itemImage": "/assets/images/Lapox/Ultraseal-White.png",
+          "itemDesc": "Multi-purpose white coloured epoxy putty ideal for sealing and filling gaps in  bathrooms, kitchens and handicrafts.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "50g",
+                "suitableFor": "Lapox Ultraseal White",
+                "extra1": "Inner pack  (32) / Outer Pack (192)"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": " Lapox Ultrabond PVC",
+          "itemImage": "/assets/images/Lapox/Utrabond-PVC.png",
+          "itemDesc": "Solvent cement for heavy duty PVC pipes and fittings ideal for pipes and fittings used for potable water, sewers and irrigation.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "20ml",
+                "suitableFor": "Lapox Ultrabond PVC",
+                "extra1": "Inner pack  (25) / Outer Pack (200)"
+              },
+              {
+                "size": "50ml",
+                "suitableFor": "Lapox Ultrabond PVC",
+                "extra1": "Inner pack  (20) / Outer Pack (200)"
+              },
+              {
+                "size": "100ml",
+                "suitableFor": "Lapox Ultrabond PVC",
+                "extra1": "Inner pack  (NA) / Outer Pack (24)"
+              },
+              {
+                "size": "200ml",
+                "suitableFor": "Lapox Ultrabond PVC",
+                "extra1": "Inner pack  (NA) / Outer Pack (24)"
+              },
+              {
+                "size": "500ml",
+                "suitableFor": "Lapox Ultrabond PVC",
+                "extra1": "Inner pack  (NA) / Outer Pack (20)"
+              },
+              {
+                "size": "1L",
+                "suitableFor": "Lapox Ultrabond PVC",
+                "extra1": "Inner pack  (NA) / Outer Pack (12)"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": " Lapox Ultrabond CPVC",
+          "itemImage": "/assets/images/Lapox/Ultrabond-CPVC.png",
+          "itemDesc": "Solvent cement for CPVC pipes and fittings ideal for pipes and fittings used for cold and hot water up to a maximum of 180oF (82oC) installed in residential complexes, commercial spaces, mobile homes and industrial premises.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "20ml",
+                "suitableFor": "Lapox Ultrabond CPVC",
+                "extra1": "Inner pack  (25) / Outer Pack (200)"
+              },
+              {
+                "size": "50ml",
+                "suitableFor": "Lapox Ultrabond CPVC",
+                "extra1": "Inner pack  (NA) / Outer Pack (48)"
+              },
+              {
+                "size": "100ml",
+                "suitableFor": "Lapox Ultrabond CPVC",
+                "extra1": "Inner pack  (NA) / Outer Pack (24)"
+              },
+              {
+                "size": "200ml",
+                "suitableFor": "Lapox Ultrabond CPVC",
+                "extra1": "Inner pack  (NA) / Outer Pack (12)"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": " Lacare AM 70",
+          "itemImage": "/assets/images/Lapox/Lacare-AM70.jpg",
+          "itemDesc": "Multi-purpose maintenance spray ideal for automobiles, industrial use and common household applications.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "45g",
+                "suitableFor": "Lacare AM 70",
+                "extra1": "Inner pack  (12) / Outer Pack (48)"
+              },
+              {
+                "size": "85g",
+                "suitableFor": "Lacare AM 70",
+                "extra1": "Inner pack  (12) / Outer Pack (48)"
+              },
+              {
+                "size": "328g(400ml)",
+                "suitableFor": "Lacare AM 70",
+                "extra1": "Inner pack  (NA) / Outer Pack (12)"
+              }
+            ]
+          }
+        },
+        {
           "itemTitle": "Lapox Powergrip",
           "itemImage": "/assets/images/Lapox/Powergrip.png",
           "itemDesc": "Two-component, modified epoxy system ideal for wooden handicraft, fixing stones, marble, grouting steel railings, stone mosaic and fixing gem stones.",
@@ -3070,25 +3176,15 @@
           }
         },
         {
-          "itemTitle": "Lapox Lacrete",
-          "itemImage": "/assets/images/Lapox/Lacrete.png",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemTitle": " Lapox Ultrafix",
+          "itemImage": "/assets/images/Lapox/Lapox-ultrafix.jpg",
+          "itemDesc": "Epoxy adhesive for vertical cladding ideal for vertical cladding of marble, granite and stone on concrete, plywood, cement fiber boards, metal and underwater tile fixing.",
           "itemDetails": {
             "itemSizes": [
               {
                 "size": "1.5kg",
-                "suitableFor": "Lapox Lacrete",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              },
-              {
-                "size": "7.5kg",
-                "suitableFor": "Lapox Lacrete",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              },
-              {
-                "size": "45kg",
-                "suitableFor": "Lapox Lacrete",
-                "extra1": "Inner pack  (NA) / Outer Pack (1)"
+                "suitableFor": "  Lapox Ultrafix",
+                "extra1": "Inner pack  (NA) / Outer Pack (10)"
               }
             ]
           }
@@ -3135,427 +3231,7 @@
               }
             ]
           }
-        },
-        {
-          "itemTitle": " Lapox Granito Cast",
-          "itemImage": "/assets/images/Lapox/granito.jpg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "12kg",
-                "suitableFor": "     Lapox Granito Cast",
-                "extra1": "Inner pack  (NA) / Outer Pack (2)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Lapox Granito ASH 400|ASH200",
-          "itemImage": "/assets/images/Lapox/granito.jpg",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1kg",
-                "suitableFor": "     Lapox Granito ASH 400|ASH200",
-                "extra1": "Inner pack  (NA) / Outer Pack (2)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Lapox Ultraseal White",
-          "itemImage": "/assets/images/Lapox/Ultraseal-White.png",
-          "itemDesc": "Multi-purpose white coloured epoxy putty ideal for sealing and filling gaps in  bathrooms, kitchens and handicrafts.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "50g",
-                "suitableFor": "Lapox Ultraseal White",
-                "extra1": "Inner pack  (32) / Outer Pack (192)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Lapox Ultrabond CPVC",
-          "itemImage": "/assets/images/Lapox/Ultrabond-CPVC.png",
-          "itemDesc": "Solvent cement for CPVC pipes and fittings ideal for pipes and fittings used for cold and hot water up to a maximum of 180oF (82oC) installed in residential complexes, commercial spaces, mobile homes and industrial premises.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "20ml",
-                "suitableFor": "Lapox Ultrabond CPVC",
-                "extra1": "Inner pack  (25) / Outer Pack (200)"
-              },
-              {
-                "size": "50ml",
-                "suitableFor": "Lapox Ultrabond CPVC",
-                "extra1": "Inner pack  (NA) / Outer Pack (48)"
-              },
-              {
-                "size": "100ml",
-                "suitableFor": "Lapox Ultrabond CPVC",
-                "extra1": "Inner pack  (NA) / Outer Pack (24)"
-              },
-              {
-                "size": "200ml",
-                "suitableFor": "Lapox Ultrabond CPVC",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Lapox Ultrabond UPVC",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "20ml",
-                "suitableFor": "Lapox Ultrabond UPVC",
-                "extra1": "Inner pack  (25) / Outer Pack (200)"
-              },
-              {
-                "size": "50ml",
-                "suitableFor": "Lapox Ultrabond UPVC",
-                "extra1": "Inner pack  (NA) / Outer Pack (48)"
-              },
-              {
-                "size": "100ml",
-                "suitableFor": "Lapox Ultrabond UPVC",
-                "extra1": "Inner pack  (NA) / Outer Pack (24)"
-              },
-              {
-                "size": "200ml",
-                "suitableFor": "Lapox Ultrabond UPVC",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Lapox Ultrabond PVC",
-          "itemImage": "/assets/images/Lapox/Utrabond-PVC.png",
-          "itemDesc": "Solvent cement for heavy duty PVC pipes and fittings ideal for pipes and fittings used for potable water, sewers and irrigation.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "20ml",
-                "suitableFor": "Lapox Ultrabond PVC",
-                "extra1": "Inner pack  (25) / Outer Pack (200)"
-              },
-              {
-                "size": "50ml",
-                "suitableFor": "Lapox Ultrabond PVC",
-                "extra1": "Inner pack  (20) / Outer Pack (200)"
-              },
-              {
-                "size": "100ml",
-                "suitableFor": "Lapox Ultrabond PVC",
-                "extra1": "Inner pack  (NA) / Outer Pack (24)"
-              },
-              {
-                "size": "200ml",
-                "suitableFor": "Lapox Ultrabond PVC",
-                "extra1": "Inner pack  (NA) / Outer Pack (24)"
-              },
-              {
-                "size": "500ml",
-                "suitableFor": "Lapox Ultrabond PVC",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              },
-              {
-                "size": "1L",
-                "suitableFor": "Lapox Ultrabond PVC",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Lacare AM 70",
-          "itemImage": "/assets/images/Lapox/Lacare-AM70.jpg",
-          "itemDesc": "Multi-purpose maintenance spray ideal for automobiles, industrial use and common household applications.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "45g",
-                "suitableFor": "Lacare AM 70",
-                "extra1": "Inner pack  (12) / Outer Pack (48)"
-              },
-              {
-                "size": "85g",
-                "suitableFor": "Lacare AM 70",
-                "extra1": "Inner pack  (12) / Outer Pack (48)"
-              },
-              {
-                "size": "328g(400ml)",
-                "suitableFor": "Lacare AM 70",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Lacare Chain Lube",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "70g",
-                "suitableFor": " Lacare Chain Lube",
-                "extra1": "Inner pack  (NA) / Outer Pack (50)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Lapox Duratite+",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "450g",
-                "suitableFor": "Lapox Duratite+",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              },
-              {
-                "size": "1.8kg",
-                "suitableFor": "Lapox Duratite+",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              },
-              {
-                "size": "9kg",
-                "suitableFor": "Lapox Duratite+",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Lapox Procoat",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "5L",
-                "suitableFor": " Lapox Procoat",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-
-        {
-          "itemTitle": " Lapox Ultrafix",
-          "itemImage": "/assets/images/Lapox/Lapox-ultrafix.jpg",
-          "itemDesc": "Epoxy adhesive for vertical cladding ideal for vertical cladding of marble, granite and stone on concrete, plywood, cement fiber boards, metal and underwater tile fixing.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1.5kg",
-                "suitableFor": "  Lapox Ultrafix",
-                "extra1": "Inner pack  (NA) / Outer Pack (10)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "  Lapox Multigrip",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1.8kg",
-                "suitableFor": "   Lapox Multigrip",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              },
-              {
-                "size": "9kg",
-                "suitableFor": "   Lapox Multigrip",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-
-        {
-          "itemTitle": " Lapox Marbobond HP",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1.5kg",
-                "suitableFor": "     Lapox Marbobond HP",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              },
-              {
-                "size": "7.5kg",
-                "suitableFor": "     Lapox Marbobond HP",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Lapox Marbobond Visco",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1.5kg",
-                "suitableFor": "     Lapox Marbobond Visco",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              },
-              {
-                "size": "7.5kg",
-                "suitableFor": "     Lapox Marbobond Visco",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "  Lapox banglegrip",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1.8kg",
-                "suitableFor": "   Lapox banglegrip",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              },
-              {
-                "size": "9kg",
-                "suitableFor": "   Lapox banglegrip",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "  Lapox banglegrip S",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1.8kg",
-                "suitableFor": "   Lapox banglegrip S",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              },
-              {
-                "size": "9kg",
-                "suitableFor": "   Lapox banglegrip S",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Lapox Fillo",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1.8kg",
-                "suitableFor": "    Lapox Fillo",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "  Lapox Gem",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1.8kg",
-                "suitableFor": "     Lapox Gem",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "  Lapox Indibond",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1.8kg",
-                "suitableFor": "     Lapox Indibond",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Lapox Bristlebond N",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1.8kg",
-                "suitableFor": "     Lapox Bristlebond N",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Lapox Metalam System B",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1.5kg",
-                "suitableFor": "     Lapox Metalam System B",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              },
-              {
-                "size": "7.5kg",
-                "suitableFor": "     Lapox Metalam System B",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Polygrip Tube",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "20ml",
-                "suitableFor": "     Polygrip Tube",
-                "extra1": "Inner pack  (25) / Outer Pack (400)"
-              },
-              {
-                "size": "40ml",
-                "suitableFor": "     Polygrip Tube",
-                "extra1": "Inner pack  (20) / Outer Pack (320)"
-              }
-            ]
-          }
-        },
+        },   
         {
           "itemTitle": "Polygrip Hotbond",
           "itemImage": "/assets/images/Lapox/Polygrip-Hotbond.png",
@@ -3589,345 +3265,6 @@
               }
             ]
           }
-        },
-        {
-          "itemTitle": " Polygrip Rapid",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "4.5L",
-                "suitableFor": "      Polygrip Rapid",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              },
-              {
-                "size": "15L",
-                "suitableFor": "      Polygrip Rapid",
-                "extra1": "Inner pack  (NA) / Outer Pack (1)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Polygrip Rapid NXT",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "15L",
-                "suitableFor": "      Polygrip Rapid NXT",
-                "extra1": "Inner pack  (NA) / Outer Pack (1)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Polygrip MP 609",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "500ml",
-                "suitableFor": "      Polygrip MP 609",
-                "extra1": "Inner pack  (NA) / Outer Pack (24)"
-              },
-              {
-                "size": "1L",
-                "suitableFor": "      Polygrip MP 609",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              },
-              {
-                "size": "5L",
-                "suitableFor": "      Polygrip MP 609",
-                "extra1": "Inner pack  (NA) / Outer Pack (6)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Polygrip SR 409",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "500ml",
-                "suitableFor": "      Polygrip SR 409",
-                "extra1": "Inner pack  (NA) / Outer Pack (24)"
-              },
-              {
-                "size": "1L",
-                "suitableFor": "      Polygrip SR 409",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              },
-              {
-                "size": "2L",
-                "suitableFor": "      Polygrip SR 409",
-                "extra1": "Inner pack  (NA) / Outer Pack (6)"
-              },
-              {
-                "size": "5L",
-                "suitableFor": "      Polygrip SR 409",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Polygrip S 709",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "100ml",
-                "suitableFor": "      Polygrip S 709",
-                "extra1": "Inner pack  (NA) / Outer Pack (48)"
-              },
-              {
-                "size": "500ml",
-                "suitableFor": "      Polygrip S 709",
-                "extra1": "Inner pack  (NA) / Outer Pack (24)"
-              },
-              {
-                "size": "500ml",
-                "suitableFor": "      Polygrip S 709",
-                "extra1": "Inner pack  (NA) / Outer Pack (24)"
-              },
-              {
-                "size": "1L",
-                "suitableFor": "      Polygrip S 709",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              },
-              {
-                "size": "2L",
-                "suitableFor": "      Polygrip S 709",
-                "extra1": "Inner pack  (NA) / Outer Pack (6)"
-              },
-              {
-                "size": "5L-round",
-                "suitableFor": "      Polygrip S 709",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              },
-              {
-                "size": "5L-square",
-                "suitableFor": "      Polygrip S 709",
-                "extra1": "Inner pack  (NA) / Outer Pack (6)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Polygrip SP 809",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "5L-square",
-                "suitableFor": "      Polygrip SP 809",
-                "extra1": "Inner pack  (NA) / Outer Pack (6)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Polygrip 909 Plus",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1L",
-                "suitableFor": "      Polygrip 909 Plus",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              },
-              {
-                "size": "5L",
-                "suitableFor": "      Polygrip 909 Plus",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Polygrip PU 1000",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1L",
-                "suitableFor": "      Polygrip PU 1000",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              },
-              {
-                "size": "5L",
-                "suitableFor": "      Polygrip PU 1000",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Polygrip PU 2000",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1L",
-                "suitableFor": "      Polygrip PU 2000",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              },
-              {
-                "size": "5L",
-                "suitableFor": "      Polygrip PU 2000",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Polygrip GPU",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "5L",
-                "suitableFor": "      Polygrip GPU",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Polygrip PU 3000",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "5L-round",
-                "suitableFor": "      Polygrip PU 3000",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              },
-              {
-                "size": "5L-square",
-                "suitableFor": "      Polygrip PU 3000",
-                "extra1": "Inner pack  (NA) / Outer Pack (6)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Polygrip PU 4000",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "5L",
-                "suitableFor": "      Polygrip PU 4000",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Polygrip HVAC Classic",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "5L",
-                "suitableFor": "      Polygrip HVAC Classic",
-                "extra1": "Inner pack  (NA) / Outer Pack (4)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Polygrip HR",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "100g",
-                "suitableFor": "      Polygrip HR",
-                "extra1": "Inner pack  (NA) / Outer Pack (96)"
-              },
-              {
-                "size": "250g",
-                "suitableFor": "      Polygrip HR",
-                "extra1": "Inner pack  (NA) / Outer Pack (48)"
-              },
-              {
-                "size": "500g",
-                "suitableFor": "      Polygrip HR",
-                "extra1": "Inner pack  (NA) / Outer Pack (20)"
-              },
-              {
-                "size": "1kg",
-                "suitableFor": "      Polygrip HR",
-                "extra1": "Inner pack  (NA) / Outer Pack (10)"
-              },
-              {
-                "size": "1kg",
-                "suitableFor": "      Polygrip HR Clear",
-                "extra1": "Inner pack  (NA) / Outer Pack (10)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": "Polygrip PG",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "25g(Powder)",
-                "suitableFor": "      Polygrip PG 30",
-                "extra1": "Inner pack  (NA) / Outer Pack (240)"
-              },
-              {
-                "size": "1L(Liquid)",
-                "suitableFor": "      Polygrip PG 30",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              },
-              {
-                "size": "1L",
-                "suitableFor": "      Polygrip PG 40",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              },
-              {
-                "size": "1L",
-                "suitableFor": "      Polygrip PG 60",
-                "extra1": "Inner pack  (NA) / Outer Pack (12)"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Polygrip Locktape",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": " 24mm X 20mtr",
-                "suitableFor": " Polygrip Locktape",
-                "extra1": "Inner pack  (NA) / Outer Pack (24)"
-              }
-            ]
-          }
         }
       ]
     },
@@ -3940,8 +3277,8 @@
       "companyItems": [
         {
           "itemTitle": " Zycosil Plus",
-          "itemImage": "/assets/images/Zydex/Zycosill.jpeg",
-          "itemDesc": "Organosilane technology offers a reactive, penetrative, and permanent solution that is easy to apply, breathable, and UV resistant. It effectively waterproofs vertical and horizontal surfaces while protecting against algae, fungal growth, and weathering-related substrate deterioration. ",
+          "itemImage": "/assets/images/Zydex/Zycosil.png",
+          "itemDesc": "Organosilane Technology;Reactive,Penetrative & Permanent;Easy to Apply;Breathable & UV Resistant;Protects against Algae and Fungal Growth;Waterproofs Vertical and Horizontal Surfaces;Protects Substrate from Deterioration due to Weathering",
           "itemDetails": {
             "itemSizes": [
               {
@@ -3973,28 +3310,9 @@
           }
         },
         {
-          "itemTitle": " Zycosil Max",
-          "itemImage": "/assets/images/Zydex/ZycosilMax.png",
-          "itemDesc": "Organosilane technology is a reactive, penetrative, and permanent solution that penetrates up to 4 mm and requires no membrane. Easy to apply and suitable for both vertical and horizontal surfaces, it is breathable and UV resistant. It protects against algae and fungal growth while preventing substrate deterioration due to weathering.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1L",
-                "suitableFor": "Zycosil Max",
-                "extra1": "  1L X 6 Bottles"
-              },
-              {
-                "size": "5L",
-                "suitableFor": " Zycosil Max",
-                "extra1": " 5L X 2 Carboy"
-              }
-            ]
-          }
-        },
-        {
           "itemTitle": " Zycoprime Plus",
-          "itemImage": "/assets/images/Zydex/ZycoPrime.jpeg",
-          "itemDesc": "This multipurpose and economical sealing and bonding agent offers excellent wet adhesion and universal compatibility. It ensures superior bonding to cementitious concrete and plaster surfaces and serves as a high-performance cement admixture.",
+          "itemImage": "/assets/images/Zydex/ZycoPrime.png",
+          "itemDesc": "Sealing & Bonding Agent;Multipurpose & Economical;Excellent Wet Adhesion;Universal Compatibility;Excellent Bonding to Cementitious Concrete & Plaster Surfaces;High-performance Cement Admixture",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4026,28 +3344,47 @@
           }
         },
         {
-          "itemTitle": " Seal-It",
-          "itemImage": "/assets/images/Zydex/Seal-it.png",
-          "itemDesc": "This product offers extremely strong adhesion on cementitious surfaces, making it a reliable choice for various applications. It is also easy to apply, ensuring a hassle-free experience. Additionally, it boasts high water resistance, providing long-lasting durability.",
+          "itemTitle": " Zycosil Max",
+          "itemImage": "/assets/images/Zydex/ZycosilMax.png",
+          "itemDesc": "Organosilane Technology;Reactive, Penetrative & Permanent;Easy to Apply;Breathable & UV Resistant;Protects against Algae and Fungal Growth;Suitable for Vertical and Horizontal Surfaces;Protects Substrate from Deterioration due to Weathering;Penetrates Deep upto 4 mm;No Membrane Required",
           "itemDetails": {
             "itemSizes": [
               {
-                "size": "1.2 kg",
-                "suitableFor": "Seal-It",
-                "extra1": " 1.2 kg X 12 pails"
+                "size": "1L",
+                "suitableFor": "Zycosil Max",
+                "extra1": "  1L X 6 Bottles"
               },
               {
-                "size": " 600 g",
-                "suitableFor": " Seal-It",
-                "extra1": " 600 g X 16 pails"
+                "size": "5L",
+                "suitableFor": " Zycosil Max",
+                "extra1": " 5L X 2 Carboy"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Zycobond Max",
+          "itemImage": "/assets/images/Zydex/Zycobond-Max.png",
+          "itemDesc": "Reduces Porosity;Excellent Water Resistance;Excellent Wet Adhesion;Strong Bonding (17 N/mm) to Cementitious Concrete & Plaster Surfaces",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1L",
+                "suitableFor": "Zycobond Max",
+                "extra1": "1L X 6 Bottles"
+              },
+              {
+                "size": "5L",
+                "suitableFor": "Zycobond Max",
+                "extra1": " 5L X 2 Carboy"
               }
             ]
           }
         },
         {
           "itemTitle": " Elastobar",
-          "itemImage": "/assets/images/Zydex/Elastobar.jpg",
-          "itemDesc": "This high-elongation elastomeric waterproofing membrane features crosslinking and UV durability with an impressive 250% elongation. It can also be used as a mortar mix with sand and cement, providing versatile and robust waterproofing solutions.",
+          "itemImage": "/assets/images/Zydex/Elastobar.png",
+          "itemDesc": "High Elongation Elastomeric Waterproofing Membrane;Crosslinking & UV Durable;250% Elongation;Can be Used as a Mortar Mix with Sand and Cement",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4074,9 +3411,85 @@
           }
         },
         {
+          "itemTitle": " ElastoMax",
+          "itemImage": "/assets/images/Zydex/ElastoMax.png",
+          "itemDesc": "White Stretchable Membrane;UV Durable & Crosslinking;Crack-Bridging up to 1.5 mm;5-year service life;Ready to use",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "5L",
+                "suitableFor": " ElastoMax",
+                "extra1": " 4L X 4 Carboy"
+              },
+              {
+                "size": "20L",
+                "suitableFor": " ElastoMax",
+                "extra1": "20L X 1 Carboy"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "ElastoStretch",
+          "itemImage": "/assets/images/Zydex/ElastoStretch.png",
+          "itemDesc": "White Stretchable Membrane;UV Durable & Crosslinking;Crack-Bridging up to 1.5 mm;5 years’ service life;To be used in combination with Zycosil+",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "4L",
+                "suitableFor": "ElastoStretch",
+                "extra1": "4L X 4 Pails"
+              },
+              {
+                "size": "20L",
+                "suitableFor": "ElastoStretch",
+                "extra1": "20L X 1 Drum"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "ElastoSil",
+          "itemImage": "/assets/images/Zydex/Elastosil.png",
+          "itemDesc": "High Elongation up to 175 % depending on grey cement addition quantity;Elastomeric Waterproofing Membrane has excellent bonding to cement, metal and stone surfaces;Crosslinking & UV Durable up to 5 years",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "4L",
+                "suitableFor": "ElastoSil",
+                "extra1": "4L X 4 Pails"
+              },
+              {
+                "size": "20L",
+                "suitableFor": "ElastoSil",
+                "extra1": "20L X 1 Drum"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": " Seal-It",
+          "itemImage": "/assets/images/Zydex/Seal-it.png",
+          "itemDesc": "Extremely Strong Adhesion on Cementitious Surfaces;Easy to Apply;Highly Water Resistant",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "1.2 kg",
+                "suitableFor": "Seal-It",
+                "extra1": " 1.2 kg X 12 pails"
+              },
+              {
+                "size": " 600 g",
+                "suitableFor": " Seal-It",
+                "extra1": " 600 g X 16 pails"
+              }
+            ]
+          }
+        }, 
+        {
           "itemTitle": " Cold Bond",
-          "itemImage": "/assets/images/Zydex/Cold_Bond.jpg",
-          "itemDesc": "This product forms a reactive bond with concrete and plaster surfaces, creating a strong and flexible joint that's virtually monolithic. With a high pull-off strength of 17 N/mm2, it ensures a durable and long-lasting bond. Additionally, its high water resistance makes it an ideal choice for applications where moisture is present.",
+          "itemImage": "/assets/images/Zydex/Cold-bond.jpg",
+          "itemDesc": "Reactive Bonding to Concrete & Plaster Surfaces;Strong and Flexible Bond resulting in Monolithic Joints;Highly Water Resistant;Pull-off Strength of 17 N/mm2",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4098,76 +3511,9 @@
           }
         },
         {
-          "itemTitle": "ElastoStretch",
-          "itemImage": "/assets/images/Zydex/Elastostrech.jpeg",
-          "itemDesc": "This white stretchable membrane offers excellent durability and crack-bridging properties, with a service life of up to 5 years. It can accommodate cracks up to 1.5 mm and is resistant to UV degradation, ensuring long-lasting performance. For optimal results, it is recommended to use this membrane in combination with Zycosil+.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "4L",
-                "suitableFor": "ElastoStretch",
-                "extra1": "4L X 4 Pails"
-              },
-              {
-                "size": "20L",
-                "suitableFor": "ElastoStretch",
-                "extra1": "20L X 1 Drum"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " ElastoMax",
-          "itemImage": "/assets/images/Zydex/ElastoMax.png",
-          "itemDesc": "This white stretchable membrane is a ready-to-use solution that offers excellent durability and crack-bridging properties, stretching up to 1.5 mm. It is also UV resistant and crosslinking, ensuring a long-lasting performance with a 5-year service life.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "5L",
-                "suitableFor": " ElastoMax",
-                "extra1": " 4L X 4 Carboy"
-              },
-              {
-                "size": "20L",
-                "suitableFor": " ElastoMax",
-                "extra1": "20L X 1 Carboy"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Zycofix",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
-          "itemDetails": {
-            "itemSizes": [
-              {
-                "size": "1 kg",
-                "suitableFor": " Zycofix Super",
-                "extra1": "  1kg X 12 Bottles"
-              },
-              {
-                "size": "5 kg",
-                "suitableFor": " Zycofix Super",
-                "extra1": " 5kg X 4 Carboy"
-              },
-              {
-                "size": "1 kg",
-                "suitableFor": "Zycofix Ultra",
-                "extra1": "  1kg X 12 Bottles"
-              },
-              {
-                "size": "5 kg",
-                "suitableFor": "Zycofix Ultra",
-                "extra1": " 5kg X 4 Carboy"
-              }
-            ]
-          }
-        },
-        {
-          "itemTitle": " Zycrete 2X",
-          "itemImage": "/assets/images/Zydex/Zycrete_2X.png",
-          "itemDesc": "This product improves workability, enhances concrete quality, and minimizes porosity and honeycombing. It also increases setting time, leading to higher strength and overall better concrete performance. By using this product, you can achieve a more durable and long-lasting concrete structure.",
+          "itemTitle": "Zycrete 2X",
+          "itemImage": "/assets/images/Zydex/Zycrete 2X.png",
+          "itemDesc": "Improves Workability;Enhances Concrete Quality;Minimises Porosity and;Honeycombing;Increases Setting Time;Higher Strength",
           "itemDetails": {
             "itemSizes": [
               {
@@ -4204,73 +3550,114 @@
           }
         },
         {
-          "itemTitle": "Wall Primer",
-          "itemImage": "",
-          "itemDesc": "Compression Type End Connection Quarter Turn Isolating Ball Valve for (PE-Al-PE) Composite Pressure Pipes.",
+          "itemTitle": "Matt Emulsion",
+          "itemImage": "/assets/images/Zydex/Matt Emulsion.png",
+          "itemDesc": "Matt Emulsion is a premium interior paint with a rich matt finish. It's inherent deep matt effect and carefully selected pigments provide unsurpassed color depth and brilliancy even in the most difficult lighting conditions. Matt Emulsion's ability to hide surface defects leads to an even and consistent finish even at sharp angles. The paint is extremely resistant to burnishing and mechanical abrasion making it suitable for even the most demanding high traffic interior spaces. Being highly breathable, it is extremely resistant to peel-off and blistering. Designed for excellent dirt release, it is easily washable and highly scrub resistant. Available in a white and pastel tones. It has density of 1.3-1.6 g/cm3.",
           "itemDetails": {
             "itemSizes": [
               {
-                "size": "1L",
-                "suitableFor": "Wall Primer",
-                "extra1": "1L X 6 Bucket"
-              },
-              {
-                "size": "4L",
-                "suitableFor": "Wall Primer",
-                "extra1": "4L X 4 Pails"
-              },
-              {
-                "size": "10L",
-                "suitableFor": "Wall Primer",
-                "extra1": "10L X 1 Drum"
-              },
-              {
-                "size": "20L",
-                "suitableFor": "Wall Primer",
-                "extra1": "20L X 1 Drum"
-              },
-              {
-                "size": "20L",
-                "suitableFor": "Wall Primer Pro",
-                "extra1": "20L X 1 Drum"
+                "size": "NA",
+                "suitableFor": "Matt Emulsion",
+                "extra1": "NA"
               }
             ]
           }
         },
         {
-          "itemTitle": "Zycobond Max",
-          "itemImage": "/assets/images/Zydex/Zycobond-Max.png",
-          "itemDesc": "This solution reduces porosity and provides excellent water resistance and wet adhesion. It offers strong bonding (17 N/mm) to cementitious concrete and plaster surfaces, ensuring durable and reliable performance.",
+          "itemTitle": "Xtend Pro",
+          "itemImage": "/assets/images/Zydex/Xtend Pro.png",
+          "itemDesc": "Xtend Pro is an organo-silicate paint for exterior application. Made using only lightfast pigments it offers a service life of 5+ years without fading or peeling. Its special organo-silicate binder and unique filler composition offers excellent dirt pickup resistance and its inherent breathability combined with water repellent nature inhibits algae and fungal growth. Xtend Pro has a brilliant matt appearance that enhances light reflectivity and effectively hides surface defects. Available in 49+ durable shades.",
           "itemDetails": {
             "itemSizes": [
               {
-                "size": "1L",
-                "suitableFor": "Zycobond Max",
-                "extra1": "1L X 6 Bottles"
-              },
+                "size": "NA",
+                "suitableFor": "Xtend Pro",
+                "extra1": "NA"
+              }
+             
+            ]
+          }
+        },
+        {
+          "itemTitle": "Xtend",
+          "itemImage": "/assets/images/Zydex/Xtend.png",
+          "itemDesc": "Xtend is a premium paint for exterior application. Made using only lightfast pigments it offers a service life of 7+ years without fading or peeling. Its special binder design and unique filler composition offers excellent dirt pickup resistance and its inherent breathability combined with water repellent nature inhibits algae and fungal growth. Xtend has a mineral matt appearance that enhances light reflectivity and effectively hides surface defects. Available in 49+ durable shades.",
+          "itemDetails": {
+            "itemSizes": [
               {
-                "size": "5L",
-                "suitableFor": "Zycobond Max",
-                "extra1": " 5L X 2 Carboy"
+                "size": "NA",
+                "suitableFor": "Xtend",
+                "extra1": "NA"
               }
             ]
           }
         },
         {
-          "itemTitle": "ElastoSil",
-          "itemImage": "/assets/images/Zydex/Elastosil.png",
-          "itemDesc": "This elastomeric waterproofing membrane boasts high elongation properties, stretching up to 175% depending on the amount of grey cement added. It forms an excellent bond with various surfaces, including cement, metal, and stone, and offers superior durability with crosslinking and UV resistance for up to 5 years",
+          "itemTitle": "Xtend Ultra",
+          "itemImage": "/assets/images/Zydex/Xtend Ultra.png",
+          "itemDesc": "Xtend Ultra is a high-performance paint for exterior application. Made using only lightfast inorganic pigments it offers a service life of 10+ years without fading or peeling. Its combination of a special binder design and unique fillers offer excellent dirt pickup resistance. Its inherent breathability and water impermeability naturally inhibits algae and fungal growth. Xtend Ultra has a mineral matt appearance that enhances light reflectivity and effectively hides surface defects. Available in 49+ durable shades.",
           "itemDetails": {
             "itemSizes": [
               {
-                "size": "4L",
-                "suitableFor": "ElastoSil",
-                "extra1": "4L X 4 Pails"
-              },
+                "size": "NA",
+                "suitableFor": "Xtend Ultra",
+                "extra1": "NA"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Stonix",
+          "itemImage": "/assets/images/Zydex/Stonix.png",
+          "itemDesc": "Stonix is an ultra-durable mineral paint with a binder system comprising potassium silicate for exterior application. Made using only lightfast inorganic pigments it offers a service-life of 15+ years without fading or peeling when applied on mineral surfaces. It’s purely mineral character offers extreme dirt pickup resistance and its inherent alkalinity inhibits algae and fungal growth. Stonix has an ultra-matt appearance that enhances light reflectivity and effectively hides surface defects. Its inherent crystallinity provides unsurpassed color depth. Available in 230-long lasting shades.",
+          "itemDetails": {
+            "itemSizes": [
               {
-                "size": "20L",
-                "suitableFor": "ElastoSil",
-                "extra1": "20L X 1 Drum"
+                "size": "NA",
+                "suitableFor": "Stonix",
+                "extra1": "NA"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Pro Emulsion",
+          "itemImage": "/assets/images/Zydex/Pro Emulsion.png",
+          "itemDesc": "Pro Emulsion is a premium interior paint with a rich matt finish. It's inherent deep matt effect and carefully selected pigments provide unsurpassed color depth and brilliancy even in the most difficult lighting conditions. Pro Emulsion's ability to hide surface defects leads to an even and consistent finish even at sharp angles. The paint is extremely resistant to burnishing and mechanical abrasion making it suitable for even the most demanding high traffic interior spaces. Being highly breathable, it is extremely resistant to peel-off and blistering. Designed for excellent dirt release, it is easily washable and highly scrub resistant. Available in a white and pastel tones. It has density of 1.3-1.4 g/cm3.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "NA",
+                "suitableFor": "Pro Emulsion",
+                "extra1": "NA"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Premium Matt",
+          "itemImage": "/assets/images/Zydex/Premium Matt.png",
+          "itemDesc": "Premium Matt is a premium interior paint with a rich matt finish. It's inherent deep matt effect and carefully selected pigments provide unsurpassed color depth and brilliancy even in the most difficult lighting conditions. Premium Matt's ability to hide surface defects leads to an even and consistent finish even at sharp angles. The paint is extremely resistant to burnishing and mechanical abrasion making it suitable for even the most demanding high traffic interior spaces. Being highly breathable, it is extremely resistant to peel-off and blistering. Designed for excellent dirt release, it is easily washable and highly scrub resistant. Available in a wide range of colours. It has density of 1.35-1.45 g/cm3.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "NA",
+                "suitableFor": "Premium Matt",
+                "extra1": "NA"
+              }
+            ]
+          }
+        },
+        {
+          "itemTitle": "Premium Wall Primer",
+          "itemImage": "/assets/images/Zydex/Premium Wall Primer.png",
+          "itemDesc": "Zydex Premium Wall Primer is an acrylic water-based wall primer with excellent bonding and hiding characteristics. It has excellent standability and provides a smooth base for over-painting. It is suitable for exterior and interior applications.",
+          "itemDetails": {
+            "itemSizes": [
+              {
+                "size": "NA",
+                "suitableFor": "Premium Wall Primer",
+                "extra1": "NA"
               }
             ]
           }
